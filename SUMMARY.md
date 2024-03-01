@@ -8,5 +8,8 @@
 * [VLM-Defense](vlm-defense/README.md)
   * [Removing NSFW Concepts from Vision-and-Language Models  for Text-to-Image Retrieval and Generation](vlm-defense/removing-nsfw-concepts-from-vision-and-language-models-for-text-to-image-retrieval-and-generation.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](vlm-defense/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
+  * [Towards Safe Self-Distillation of  Internet-Scale Text-to-Image Diffusion Models](vlm-defense/towards-safe-self-distillation-of-internet-scale-text-to-image-diffusion-models.md)
 * [VLM](vlm/README.md)
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
+* [VLM-Attack](vlm-attack/README.md)
+  * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
