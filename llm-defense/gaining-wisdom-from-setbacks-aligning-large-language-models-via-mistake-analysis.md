@@ -13,9 +13,9 @@
    * 无引导分析微调：使用无引导的模板来构建错误分析样本，这些样本随后被整合到微调过程中。
    * 引导响应生成：在推理阶段，模型被明确提醒要生成无害、道德和不冒犯的响应。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 作者在PKU-SafeRLHF数据集上进行了实验，该数据集强调安全性偏好，涵盖了多个维度，如侮辱、不道德、犯罪等。实验结果表明，与现有的SFT和RLHF方法相比，本文提出的方法在提高模型安全性的同时，保持了整体的实用性。此外，该方法还能有效地防御针对已对齐LLMs的新型指令攻击。
 

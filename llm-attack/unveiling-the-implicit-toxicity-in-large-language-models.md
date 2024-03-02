@@ -1,6 +1,6 @@
 # Unveiling the Implicit Toxicity in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的快速发展，它们在自然语言理解和生成方面展现出了令人印象深刻的能力。然而，LLMs的开放性特点和强大能力也带来了新的安全风险，尤其是在被恶意利用时。尽管最近的研究表明LLMs能够生成有害内容，但这些研究主要集中在现有的毒性分类器能够轻易检测到的显式有毒输出上。本文提出了一个新的研究问题：LLMs是否能够生成难以检测的隐式有毒输出，即使使用最先进的毒性分类器也难以发现。
 

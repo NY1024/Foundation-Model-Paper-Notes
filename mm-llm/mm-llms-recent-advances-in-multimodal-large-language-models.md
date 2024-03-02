@@ -10,7 +10,7 @@
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的多模态模型在训练时通常需要从头开始，这不仅计算成本高，而且在处理多模态数据时存在效率低下的问题。此外，这些模型在指令遵循、零样本学习、上下文学习（ICL）和交互能力方面存在不足。此外，传统的训练流程仅包括预训练（PT）阶段，而没有包含指令微调（IT）阶段，限制了模型的灵活性和适应性。
 2. 本文方案和步骤： 本文提出了一种全面的研究调查，旨在促进MM-LLMs的进一步研究。首先，文章概述了模型架构和训练流程的一般设计公式。然后，介绍了一个包含122个MM-LLMs的分类体系，每个模型都有特定的公式特征。此外，文章回顾了选定的MM-LLMs在主流基准测试上的性能，并总结了关键的训练配方以增强MM-LLMs的效能。最后，文章探讨了MM-LLMs的有前景的发展方向，并建立了一个实时跟踪网站以跟踪该领域最新进展。
