@@ -9,6 +9,7 @@
   * [EMULATED DISALIGNMENT: SAFETY ALIGNMENT  FOR LARGE LANGUAGE MODELS MAY BACKFIRE!](llm-attack/emulated-disalignment-safety-alignment-for-large-language-models-may-backfire.md)
   * [ON THE SAFETY OF OPEN-SOURCED LARGE LAN GUAGE MODELS: DOES ALIGNMENT REALLY PREVENT  THEM FROM BEING](llm-attack/on-the-safety-of-open-sourced-large-lan-guage-models-does-alignment-really-prevent-them-from-being.md)
   * [Unveiling the Implicit Toxicity in Large Language Models](llm-attack/unveiling-the-implicit-toxicity-in-large-language-models.md)
+  * [Forcing Generative Models to Degenerate Ones:  The Power of Data Poisoning Attacks](llm-attack/forcing-generative-models-to-degenerate-ones-the-power-of-data-poisoning-attacks.md)
 * [VLM-Defense](vlm-defense/README.md)
   * [Removing NSFW Concepts from Vision-and-Language Models  for Text-to-Image Retrieval and Generation](vlm-defense/removing-nsfw-concepts-from-vision-and-language-models-for-text-to-image-retrieval-and-generation.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](vlm-defense/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
@@ -23,4 +24,4 @@
   * [LANGUAGE MODELS ARE HOMER SIMPSON!](llm-defense/language-models-are-homer-simpson.md)
   * [THE POISON OF ALIGNMENT](llm-defense/the-poison-of-alignment.md)
   * [GAINING WISDOM FROM SETBACKS : ALIGNING  LARGE LANGUAGE MODELS VIA MISTAKE ANALYSIS](llm-defense/gaining-wisdom-from-setbacks-aligning-large-language-models-via-mistake-analysis.md)
-* [Forcing Generative Models to Degenerate Ones:  The Power of Data Poisoning Attacks](forcing-generative-models-to-degenerate-ones-the-power-of-data-poisoning-attacks.md)
+* [Make Them Spill the Beans!  Coercive Knowledge Extraction from (Production) LLMs](make-them-spill-the-beans-coercive-knowledge-extraction-from-production-llms.md)
