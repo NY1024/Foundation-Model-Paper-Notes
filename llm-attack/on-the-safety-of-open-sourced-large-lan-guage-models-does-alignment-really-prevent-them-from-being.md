@@ -1,6 +1,6 @@
 # ON THE SAFETY OF OPEN-SOURCED LARGE LAN GUAGE MODELS: DOES ALIGNMENT REALLY PREVENT  THEM FROM BEING
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）在自然语言生成（NLG）任务中取得前所未有的性能，人们开始关注这些模型可能被滥用来生成不期望的内容。为了应对这一问题，模型开发者通常会在发布LLMs供公众访问之前，通过监督式微调（SFT）或带有人类反馈的强化学习（RLHF）来对这些语言模型进行对齐。这样，经过对齐的大型语言模型在面对可能有害/不道德的请求时，会拒绝生成不期望的内容。然而，一个自然的问题是：“对齐真的能防止这些开源的大型语言模型被滥用来生成不期望的内容吗？”本文的研究旨在回答这个问题。
 2. 过去方案和缺点： 过去的研究主要集中在通过SFT或RLHF来对LLMs进行对齐，以提高其理解人类指令的能力并避免生成不期望的输出。例如，OpenAI开发了InstructGPT和ChatGPT等强大的LLMs，通过SFT和RLHF显著提高了其安全性。然而，尽管在增强LLMs安全性方面投入了大量努力，但这些对齐措施是否足以防止开源LLMs被滥用的问题仍未得到解答。

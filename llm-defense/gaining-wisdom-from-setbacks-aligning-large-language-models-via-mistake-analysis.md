@@ -13,7 +13,7 @@
    * 无引导分析微调：使用无引导的模板来构建错误分析样本，这些样本随后被整合到微调过程中。
    * 引导响应生成：在推理阶段，模型被明确提醒要生成无害、道德和不冒犯的响应。
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
