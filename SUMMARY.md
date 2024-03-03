@@ -36,3 +36,4 @@
   * [Fake Alignment: Are LLMs Really Aligned Well?](llm-defense/fake-alignment-are-llms-really-aligned-well.md)
   * [Red-Teaming Large Language Models using Chain of  Utterances for Safety-Alignment](llm-defense/red-teaming-large-language-models-using-chain-of-utterances-for-safety-alignment.md)
   * [Vaccine: Perturbation-aware Alignment for Large Language Model](llm-defense/vaccine-perturbation-aware-alignment-for-large-language-model.md)
+* [AWolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can  Fool Large Language Models Easi](awolf-in-sheeps-clothing-generalized-nested-jailbreak-prompts-can-fool-large-language-models-easi.md)
