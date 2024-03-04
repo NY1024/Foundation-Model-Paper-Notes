@@ -33,6 +33,7 @@
   * [Towards Safe Self-Distillation of  Internet-Scale Text-to-Image Diffusion Models](vlm-defense/towards-safe-self-distillation-of-internet-scale-text-to-image-diffusion-models.md)
   * [Typographic Attacks in Large Multimodal Models Can be Alleviated by More  Informative Prompts](typographic-attacks-in-large-multimodal-models-can-be-alleviated-by-more-informative-prompts.md)
   * [Onthe Robustness of Large Multimodal Models Against Image Adversarial  Attacks](vlm-defense/onthe-robustness-of-large-multimodal-models-against-image-adversarial-attacks.md)
+  * [Removing NSFW Concepts from Vision-and-Language Models  for Text-to-Image Retrieval and Generation](vlm-defense/removing-nsfw-concepts-from-vision-and-language-models-for-text-to-image-retrieval-and-generation-1.md)
 * [VLM](vlm/README.md)
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
@@ -67,3 +68,4 @@
   * [Adversarial Attacks on Foundational Vision Models](lvm-attack/adversarial-attacks-on-foundational-vision-models.md)
 * [For Good](for-good/README.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
+* [Page 1](page-1.md)
