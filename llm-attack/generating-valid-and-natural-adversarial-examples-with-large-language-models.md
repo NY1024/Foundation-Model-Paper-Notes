@@ -1,6 +1,6 @@
 # Generating Valid and Natural Adversarial Examples  with Large Language Models
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 深度学习在自然语言处理（NLP）领域取得了显著成就，尤其是预训练语言模型（PLMs）在多种下游任务中实现了最先进的性能。然而，这些模型被发现容易受到对抗性攻击，即在原始输入上施加微小的扰动可能导致模型做出错误的预测。这种脆弱性促使研究者评估和提高NLP模型的鲁棒性、安全性和可解释性。现有的文本对抗性攻击研究主要分为字符级、单词级、句子级和多级对抗性攻击，其中单词级对抗性攻击因其在保持对抗性示例的语义相似性和不可见性方面的能力而广受欢迎。
 2. 过去方案和缺点： 尽管单词级对抗性攻击模型在生成对抗性示例方面取得了一定的成功，但许多生成的对抗性示例既不有效也不自然。这些示例可能无法保持语义意义、语法正确性，且容易被人类察觉。例如，使用WordNet和BERT进行的同义词替换可能导致语义意义的丧失和语法错误。此外，现有方法在处理命名实体和代词时存在问题，可能导致语义变化、语法错误和人类可感知性。
