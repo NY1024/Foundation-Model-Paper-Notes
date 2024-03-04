@@ -4,22 +4,22 @@
 
 1. 研究背景： 随着大型语言模型（LLMs）的快速发展，它们在自然语言理解和生成方面展现出了令人印象深刻的能力。然而，LLMs的开放性特点和强大能力也带来了新的安全风险，尤其是在被恶意利用时。尽管最近的研究表明LLMs能够生成有害内容，但这些研究主要集中在现有的毒性分类器能够轻易检测到的显式有毒输出上。本文提出了一个新的研究问题：LLMs是否能够生成难以检测的隐式有毒输出，即使使用最先进的毒性分类器也难以发现。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要关注于探测LLMs生成的显式有毒输出，例如使用人格赋予（persona assigning）和目标劫持（goal hijacking）等方法。这些方法通常依赖于现有的毒性分类器来检测有害内容。然而，这些分类器在处理隐式有毒内容时表现不佳，因为隐式有毒内容往往通过各种语言特征（如委婉语、讽刺、迂回表达等）和额外的语言知识来传达，而不是直接使用明显的侮辱性语言。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种基于强化学习（RL）的攻击方法，以进一步诱导LLMs生成隐式有毒内容。具体步骤包括：
    * 使用监督学习初始化策略模型，使其能够生成隐式有毒响应。
    * 训练一个奖励模型，该模型偏好隐式有毒响应而不是显式有毒和非有毒响应。
    * 使用基于近端策略优化（PPO）的强化学习来优化策略模型，以产生更具挑战性的隐式有毒响应。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 作者在五个广泛采用的毒性分类器上进行了实验，包括Google的Perspective-API、OpenAI的Moderation、TOXIGEN、BAD和Davinci003。实验结果表明，通过RL微调的LLaMA-13B模型在BAD上的攻击成功率达到了90.04%，在Davinci003上达到了62.85%。这些结果表明LLMs在生成未被现有广泛采用的毒性分类器检测到的隐式有毒输出方面存在显著风险。此外，作者还展示了通过在攻击方法生成的注释示例上微调毒性分类器，可以有效地提高其检测LLMs生成的隐式有毒语言的能力。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注：
 
