@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）在各种应用中的广泛使用，确保它们的道德标准与人类价值观一致变得至关重要。然而，最近的“越狱”方法表明，通过精心构造的提示，这种一致性可能会受到破坏。研究者发现，当恶意行为者能够访问模型的输出逻辑（logits）时，即使LLM拒绝有害请求，有害的响应通常也隐藏在输出逻辑的深处。这构成了对LLM一致性的一种新威胁，尤其是在开源LLM和许多商业LLM API（例如某些GPT模型）中，这种信息是可访问的。
 

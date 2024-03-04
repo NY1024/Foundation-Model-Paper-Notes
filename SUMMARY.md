@@ -29,6 +29,8 @@
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
   * [Test-Time Backdoor Attacks on Multimodal Large Language Models](vlm-attack/test-time-backdoor-attacks-on-multimodal-large-language-models.md)
   * [JAILBREAK IN PIECES: COMPOSITIONAL ADVERSARIAL  ATTACKS ON MULTI-MODAL LANGUAGE MODELS](vlm-attack/jailbreak-in-pieces-compositional-adversarial-attacks-on-multi-modal-language-models.md)
+  * [Jailbreaking Attack against Multimodal Large Language Model](vlm-attack/jailbreaking-attack-against-multimodal-large-language-model.md)
+  * [Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts](vlm-attack/jailbreaking-gpt-4v-via-self-adversarial-attacks-with-system-prompts.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
 * [LLM-Defense](llm-defense/README.md)
