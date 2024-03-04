@@ -1,6 +1,6 @@
 # Jailbreaking Attack against Multimodal Large Language Model
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）如ChatGPT、Claude和Bard的广泛部署，它们展现出了先进的通用能力，但同时也带来了严重的安全风险，如真实性、有害性和偏见。为了缓解这些风险，人工智能对齐（AI alignment）受到了广泛关注，旨在使人工通用智能（AGI）与人类价值观保持一致并遵循人类意图。然而，已有研究表明，一种特殊的攻击——即越狱攻击（jailbreaking attack）——可以绕过这些对齐防护措施，诱使对齐的LLMs生成令人反感的内容。
 

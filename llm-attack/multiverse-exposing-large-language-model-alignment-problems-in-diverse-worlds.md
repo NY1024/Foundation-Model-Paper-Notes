@@ -1,11 +1,11 @@
 # MULTIVERSE: Exposing Large Language Model Alignment Problems in  Diverse Worlds
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究的背景是大型语言模型（LLMs）在与人类价值观对齐方面存在的问题。LLMs在理解和生成类似人类的文本方面取得了显著进展，但它们在与人类价值观对齐方面存在显著问题，这可能导致各种伦理和安全问题。研究人员已经展示了多种越狱技术，这些技术可以诱导LLMs在对话中产生恶意内容。发现相应的越狱提示通常需要大量的人类智能或计算资源。本文提出了一种新的方法，通过系统地构建多种上下文（称为“世界”），利用特定领域语言（DSL）描述可能的世界，并使用相应的编译器，以成本效益高的方式暴露潜在的对齐问题。
 2. 过去方案和缺点： 以往的研究依赖于人类反馈的强化学习（RLHF）来改进LLMs的对齐。然而，RLHF的手动性质意味着这些努力可能受到限制。此外，现有的对齐训练主要集中在现实世界，而忽视了LLMs可能被利用的各种（虚拟）世界。这导致了LLMs在面对特定上下文组合时的脆弱性。
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了MULTIVERSE技术，它使用DSL来自动构建越狱提示。首先，从互联网上的人类编写的越狱模板中提取可能的（虚拟）世界参数，并使用GPT-4生成多个世界配置。然后，编译器处理配置并将恶意问题嵌入到创建的多世界宇宙中。如果越狱失败，MULTIVERSE将更新WDL配置并重新生成。这个过程一直持续，直到满足停止条件。
 2. 本文实验和性能： 研究者们在不同的LLMs上进行了广泛的实验，包括开源和闭源模型。实验结果表明，MULTIVERSE在所有LLMs上都取得了超过85%的越狱成功率（JSR），并且与现有的越狱技术相比，MULTIVERSE在效率上也有所提高。此外，实验还表明，现有的LLMs在嵌套的多个幻想世界中特别脆弱，这表明现有的对齐训练在这些领域是不足的。

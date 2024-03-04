@@ -1,6 +1,6 @@
 # Making Harmful Behaviors Unlearnable for Large Language Models
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）在各种AI应用中展现出巨大潜力，但它们的学习能力强，容易学习到不期望的行为。例如，即使是安全对齐的LLMs，也可以通过包含隐含或明确有害内容的微调数据被轻易地转变为有害的助手。这引发了一个问题：我们能否在不学习有害行为的情况下训练LLMs？
 
