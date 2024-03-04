@@ -1,6 +1,6 @@
 # Weak-to-Strong Jailbreaking on Large Language Models
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于大型语言模型（LLMs）在安全性方面的脆弱性，特别是它们在面对“越狱”（jailbreak）攻击时的脆弱性。越狱攻击能够使模型生成有害、不道德或有偏见的文本。尽管LLMs的设计者实施了多种安全措施，如人类反馈和强化学习，以确保模型的有用性和安全性，但这些措施可能无法完全防止恶意滥用。现有的越狱攻击方法通常需要大量的计算资源，这限制了它们的实用性和普及性。
 2. 过去方案和缺点： 以往的越狱攻击方法包括利用另一个LLM生成对抗性提示、通过反向传播进行对抗性提示优化、直接修改模型权重（通过微调）以及对抗性解码。这些方法在计算上成本高昂，需要大量的模型查询或复杂的提示工程。此外，这些攻击可能需要对模型进行微调，这不仅资源密集，而且可能会永久性地改变模型的核心行为，从而影响其安全性。

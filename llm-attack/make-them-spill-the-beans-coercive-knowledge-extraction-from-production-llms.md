@@ -16,7 +16,7 @@
 
 <figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 研究者在7个开源LLM和3个商业LLM API上进行了实验，使用了50个有害问题。实验结果表明，本文提出的方法在一次审讯时的平均攻击成功率（ASR）为92%，在五次审讯时为98%，显著优于现有的越狱技术。此外，本文的方法还能够从专门设计用于编码任务的模型中提取有害知识，并且可以迫使LLM执行危害隐私的任务，如泄露电子邮件地址和猜测弱密码。
 
