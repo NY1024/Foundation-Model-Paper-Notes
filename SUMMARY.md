@@ -26,6 +26,7 @@
   * [Universal and Transferable Adversarial Attacks  on Aligned Language Models](llm-attack/universal-and-transferable-adversarial-attacks-on-aligned-language-models.md)
   * [COERCING LLMS TO DO AND REVEAL  (ALMOST) ANYTHING](llm-attack/coercing-llms-to-do-and-reveal-almost-anything.md)
   * [Generating Valid and Natural Adversarial Examples  with Large Language Models](llm-attack/generating-valid-and-natural-adversarial-examples-with-large-language-models.md)
+  * [Stealthy and Persistent Unalignment on Large Language Models via  Backdoor Injections](llm-attack/stealthy-and-persistent-unalignment-on-large-language-models-via-backdoor-injections-1.md)
 * [VLM-Defense](vlm-defense/README.md)
   * [Removing NSFW Concepts from Vision-and-Language Models  for Text-to-Image Retrieval and Generation](vlm-defense/removing-nsfw-concepts-from-vision-and-language-models-for-text-to-image-retrieval-and-generation.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](vlm-defense/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
@@ -55,4 +56,4 @@
   * [LLMSelf Defense: By Self Examination, LLMsKnowTheyAreBeing Tricked](llm-defense/llmself-defense-by-self-examination-llmsknowtheyarebeing-tricked.md)
   * [BASELINE DEFENSES FOR ADVERSARIAL ATTACKS  AGAINST ALIGNED LANGUAGE MODELS](llm-defense/baseline-defenses-for-adversarial-attacks-against-aligned-language-models.md)
   * [Mitigating Fine-tuning Jailbreak Attack with Backdoor Enhanced  Alignment](llm-defense/mitigating-fine-tuning-jailbreak-attack-with-backdoor-enhanced-alignment.md)
-* [Stealthy and Persistent Unalignment on Large Language Models via  Backdoor Injections](stealthy-and-persistent-unalignment-on-large-language-models-via-backdoor-injections.md)
+* [Page 1](page-1.md)
