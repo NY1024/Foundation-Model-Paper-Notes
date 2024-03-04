@@ -27,6 +27,8 @@
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
+  * [Test-Time Backdoor Attacks on Multimodal Large Language Models](vlm-attack/test-time-backdoor-attacks-on-multimodal-large-language-models.md)
+  * [JAILBREAK IN PIECES: COMPOSITIONAL ADVERSARIAL  ATTACKS ON MULTI-MODAL LANGUAGE MODELS](vlm-attack/jailbreak-in-pieces-compositional-adversarial-attacks-on-multi-modal-language-models.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
 * [LLM-Defense](llm-defense/README.md)
@@ -37,4 +39,3 @@
   * [Fake Alignment: Are LLMs Really Aligned Well?](llm-defense/fake-alignment-are-llms-really-aligned-well.md)
   * [Red-Teaming Large Language Models using Chain of  Utterances for Safety-Alignment](llm-defense/red-teaming-large-language-models-using-chain-of-utterances-for-safety-alignment.md)
   * [Vaccine: Perturbation-aware Alignment for Large Language Model](llm-defense/vaccine-perturbation-aware-alignment-for-large-language-model.md)
-* [Page 1](page-1.md)
