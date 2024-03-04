@@ -1,6 +1,6 @@
 # AWolf in Sheep’s Clothing: Generalized Nested Jailbreak Prompts can  Fool Large Language Models Easi
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs），如ChatGPT和GPT-4，旨在提供有用且安全的回答。然而，这些模型可能会受到恶意提示（称为"jailbreaks"）的影响，从而绕过内置的安全措施，生成可能有害的内容。探索这些jailbreak提示有助于揭示LLMs的弱点，并进一步指导我们如何保护它们。不幸的是，现有的jailbreak方法要么需要复杂的手动设计，要么需要在其他白盒模型上进行优化，这在泛化性或效率上存在妥协。
 
