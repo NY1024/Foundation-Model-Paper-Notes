@@ -92,3 +92,4 @@
   * [Red Teaming Visual Language Models](benchmark/red-teaming-visual-language-models.md)
   * [Unified Hallucination Detection for Multimodal Large Language Models](benchmark/unified-hallucination-detection-for-multimodal-large-language-models.md)
   * [MLLM-as-a-Judge:  Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark](benchmark/mllm-as-a-judge-assessing-multimodal-llm-as-a-judge-with-vision-language-benchmark.md)
+* [Agent Smith: A Single Image Can Jailbreak One Million  Multimodal LLM Agents Exponentially Fast](agent-smith-a-single-image-can-jailbreak-one-million-multimodal-llm-agents-exponentially-fast.md)
