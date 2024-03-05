@@ -39,6 +39,7 @@
   * [Adversarial Prompt Tuning for Vision-Language Models](vlm-defense/adversarial-prompt-tuning-for-vision-language-models.md)
   * [Defense-Prefix for Preventing Typographic Attacks on CLIP](vlm-defense/defense-prefix-for-preventing-typographic-attacks-on-clip.md)
   * [RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from  Fine-grained Correctional Human Feedb](vlm-defense/rlhf-v-towards-trustworthy-mllms-via-behavior-alignment-from-fine-grained-correctional-human-feedb.md)
+  * [AMutation-Based Method for Multi-Modal Jailbreaking Attack](vlm-defense/amutation-based-method-for-multi-modal-jailbreaking-attack.md)
 * [VLM](vlm/README.md)
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
