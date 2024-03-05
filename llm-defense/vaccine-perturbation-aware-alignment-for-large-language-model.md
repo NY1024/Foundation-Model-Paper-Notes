@@ -1,17 +1,17 @@
 # Vaccine: Perturbation-aware Alignment for Large Language Model
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）在各种任务中取得成功，确保这些模型在实际部署中保持无害和有益的输出成为一个重要挑战。为了解决这个问题，研究者们通常在LLMs部署前对其进行对齐，以确保它们的行为符合人类偏好。然而，用户微调服务（用户上传数据进行微调）为服务提供商带来了新的安全挑战，因为即使是少量的有害数据也可能破坏模型的对齐。这种攻击面使得微调后的模型可能产生有害的输出。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的对齐技术，如监督微调（SFT）和强化学习（RLHF），在保持模型对齐方面取得了一定的成效。但是，这些方法在面对用户微调时存在局限性，尤其是在处理有害数据时。例如，SFT在用户数据中混入有害数据时，可能会导致模型对齐的破坏。此外，这些方法通常需要额外的计算资源，并且在微调阶段可能无法有效地过滤或减轻有害数据的影响。
 2. 本文方案和步骤： 本文提出了一种名为“Vaccine”的对齐技术，旨在通过在对齐阶段引入扰动来增强模型对有害用户数据的鲁棒性。Vaccine的核心思想是在对齐阶段逐步添加精心设计的扰动，以产生不变的隐藏嵌入，从而使嵌入能够在微调阶段抵抗来自未过滤用户数据的有害扰动。具体步骤包括：首先在对齐数据上找到最优的有界扰动，然后在微调阶段添加这些扰动，以优化模型使其能够抵抗这些扰动。Vaccine通过不变的隐藏嵌入，使模型能够在保持对齐的同时，对良性提示保持推理能力。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 实验结果表明，Vaccine在保持对齐的同时，能够显著降低模型在面对有害提示时的有害得分（最高降低9.8%），同时在微调任务中保持了良好的性能（损失不超过1.8%）。此外，Vaccine在不同的模型（如Llama2、Opt、Vicuna）和微调任务中表现出了一致的性能提升。这些结果表明Vaccine是一种有效的对齐解决方案，能够在不牺牲模型性能的情况下，提高模型对有害数据的抵抗力。
 

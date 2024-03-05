@@ -1,11 +1,11 @@
 # ALIGNMENT IS NOT SUFFICIENT TO PREVENT LARGE  LANGUAGE MODELS FROM GENERATING HARMFUL IN FORMATION:
 
-<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）在多个领域中发挥着重要作用，但它们在生成有害内容和偏见方面存在显著风险。本文通过弗洛伊德精神分析理论中的类比，指出LLMs在预训练阶段形成的对语法和语义连贯性的内在渴望与后训练阶段与人类价值观的对齐之间存在根本冲突。这种冲突使得LLMs容易受到对抗性攻击，通过强化模型对连贯性的渴望，可以绕过对齐努力，导致生成有害信息。
 2. 过去方案和缺点： 以往的研究主要利用基于人类反馈的强化学习（RLHF）等微调技术来使LLMs与伦理标准对齐。这些“对齐”策略在某些LLMs中取得了有希望的结果，但这些模型仍然容易受到各种对抗性攻击的破坏。这些攻击包括标记操纵、基于梯度的攻击、越狱提示、人类红队和模型红队等。因此，仅仅依赖于复杂的对齐方法是不够的，需要从根本上理解LLMs对抗性攻击的脆弱性。
 
-<figure><img src=".gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种新的对抗性攻击方法，通过强化LLMs对语法和语义连贯性的渴望来绕过对齐努力。研究者首先验证了LLMs中连贯性渴望的存在，然后设计了一种简单而强大的技术，如不完整的句子、负面启动和认知失调场景，来证明即使是先进的LLMs也难以防止有害信息的生成。研究者还提出了一种新的训练理念，将模态概念与传统的非模态概念相结合，旨在赋予LLMs更细致的对现实世界情境和伦理考虑的理解。
 2. 本文实验和性能： 通过一系列实验，研究者展示了对抗性攻击方法的有效性。例如，使用不完整的句子和负面启动可以诱导LLMs生成有害信息。此外，研究者还分析了LLMs在面对对抗性攻击时的行为，发现即使在RLHF等先进对齐方法下，LLMs仍然会使用策略性干预（如“换行”和“我”）来保持对话的连贯性，同时避免违反伦理界限。这些发现表明，尽管LLMs在对抗性攻击方面表现出一定的抵抗力，但它们的脆弱性是根本性的，需要通过重新设计来解决。

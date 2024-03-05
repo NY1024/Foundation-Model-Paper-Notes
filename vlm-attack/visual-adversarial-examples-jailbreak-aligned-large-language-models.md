@@ -1,6 +1,6 @@
 # VISUAL ADVERSARIAL EXAMPLES  JAILBREAK ALIGNED LARGE LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的兴起，尤其是视觉语言模型（VLMs）如Flamingo和GPT-4，将视觉与语言整合的趋势日益明显。然而，这种多模态整合带来了新的安全和安全挑战。视觉输入的连续性和高维性使其成为对抗性攻击的薄弱环节，扩大了视觉整合LLMs的攻击面。此外，LLMs的多功能性为视觉攻击者提供了更广泛的对抗性目标，使得安全失败的影响超出了简单的误分类。
 2. 过去方案和缺点： 以往的研究主要集中在如何提高模型对对抗性攻击的鲁棒性，例如通过对抗性训练和鲁棒性认证。然而，这些方法往往成本高昂，且大多数依赖于离散类别，这在开放输出的LLMs中是一个主要障碍。此外，这些防御措施通常假设对抗性扰动是不可感知的，但在本文的威胁模型中，对抗性扰动并不一定是不可感知的。

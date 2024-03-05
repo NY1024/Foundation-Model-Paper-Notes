@@ -1,18 +1,18 @@
 # Towards Adversarial Attack on Vision-Language Pre-training Models
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文研究的背景是视觉-语言预训练模型（Vision-Language Pre-training, VLP）在多种视觉-语言（V+L）任务中取得了革命性的进展，但关于其对抗鲁棒性的研究仍然相对未被充分探索。VLP模型通常涉及多个模态，并且执行非分类任务，如图像-文本跨模态检索，这使得直接应用标准的对抗攻击方法变得不切实际。因此，本文旨在系统地分析VLP模型的对抗鲁棒性，并设计专门的对抗攻击解决方案。
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 过去的研究主要集中在单一模态的对抗攻击上，如图像或文本的对抗攻击。这些方法通常基于梯度信息，通过在连续空间中添加扰动来实现。然而，这些方法并不适用于VLP模型，因为它们需要处理图像和文本的复杂交互。此外，现有的研究没有系统地分析不同攻击设置对VLP模型鲁棒性的影响，也没有提出专门针对多模态模型的对抗攻击方法。
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种新的多模态对抗攻击方法，称为协作多模态对抗攻击（Collaborative Multimodal Adversarial Attack, Co-Attack）。该方法首先分析了不同设置下的对抗攻击性能，包括不同的扰动对象和攻击目标。然后，提出了Co-Attack方法，该方法在图像模态和文本模态上共同执行攻击，以提高攻击性能。Co-Attack适用于融合型和对齐型的VLP模型，并且考虑了不同模态之间的一致性，通过协作组合多模态扰动来实现更强的对抗攻击。
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文创新点与贡献： 本文的主要贡献包括：
 
