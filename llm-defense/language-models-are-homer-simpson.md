@@ -1,6 +1,6 @@
 # LANGUAGE MODELS ARE HOMER SIMPSON!
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文探讨了大型语言模型（LLMs）在经过微调（fine-tuning）后安全性降低的问题。微调是一种常见的做法，用于使预训练的LLMs在特定领域表现得更好，但这往往会损害模型的安全性。作者指出，即使是使用无害且常用的数据集进行微调，也可能导致模型安全性的显著下降。为了解决这个问题，作者提出了一种名为RESTA（REstoring Safety through Task Arithmetic）的方法，旨在通过简单的算术操作恢复模型的安全性。
 2. 过去方案和缺点： 以往的研究主要集中在如何通过微调提高LLMs在特定任务上的性能，但往往忽视了微调可能带来的安全性问题。例如，通过微调，模型可能会变得更加倾向于生成有害内容。此外，现有的安全性对齐方法（如RLHF和DPO）通常需要额外的训练和计算成本，而且在实践中可能难以获得理想的安全向量。

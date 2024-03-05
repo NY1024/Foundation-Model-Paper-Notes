@@ -80,3 +80,6 @@
   * [Adversarial Attacks on Foundational Vision Models](lvm-attack/adversarial-attacks-on-foundational-vision-models.md)
 * [For Good](for-good/README.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
+* [Benchmark](benchmark/README.md)
+  * [HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language  Hallucination and Visual Illusi](benchmark/hallusionbench-an-advanced-diagnostic-suite-for-entangled-language-hallucination-and-visual-illusi.md)
+* [Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts](jailbreaking-gpt-4v-via-self-adversarial-attacks-with-system-prompts.md)
