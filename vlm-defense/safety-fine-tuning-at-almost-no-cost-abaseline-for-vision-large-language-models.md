@@ -1,6 +1,6 @@
 # Safety Fine-Tuning at (Almost) No Cost:  ABaseline for Vision Large Language Models
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 当前的视觉大型语言模型（VLLMs）展现出了显著的多模态能力，但同时也容易生成有害内容，并且容易受到简单的越狱攻击。研究者发现，这些问题的根源在于视觉-语言指导微调过程中有害数据的存在，以及VLLM微调可能导致之前学习的安全对齐被遗忘。
 
