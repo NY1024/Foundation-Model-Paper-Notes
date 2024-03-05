@@ -87,3 +87,4 @@
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
 * [Benchmark](benchmark/README.md)
   * [HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language  Hallucination and Visual Illusi](benchmark/hallusionbench-an-advanced-diagnostic-suite-for-entangled-language-hallucination-and-visual-illusi.md)
+* [MLLM-Protector: Ensuring MLLM's Safety without Hurting Performance](mllm-protector-ensuring-mllms-safety-without-hurting-performance.md)
