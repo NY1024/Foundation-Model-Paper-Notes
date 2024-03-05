@@ -61,6 +61,7 @@
   * [Set-level Guidance Attack: Boosting Adversarial Transferability of  Vision-Language Pre-training Mod](vlm-attack/set-level-guidance-attack-boosting-adversarial-transferability-of-vision-language-pre-training-mod.md)
   * [Shadowcast: STEALTHY DATA POISONING ATTACKS AGAINST  VISION-LANGUAGE MODELS](vlm-attack/shadowcast-stealthy-data-poisoning-attacks-against-vision-language-models.md)
   * [FigStep: Jailbreaking Large Vision-language Models via Typographic Visual Prompts](vlm-attack/figstep-jailbreaking-large-vision-language-models-via-typographic-visual-prompts.md)
+  * [THE WOLF WITHIN: COVERT INJECTION OF MALICE  INTO MLLM SOCIETIES VIA AN MLLM OPERATIVE](vlm-attack/the-wolf-within-covert-injection-of-malice-into-mllm-societies-via-an-mllm-operative.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
   * [Survey of Vulnerabilities in Large Language Models  Revealed by Adversarial Attacks](survey/survey-of-vulnerabilities-in-large-language-models-revealed-by-adversarial-attacks.md)
@@ -84,3 +85,4 @@
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
 * [Benchmark](benchmark/README.md)
   * [HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language  Hallucination and Visual Illusi](benchmark/hallusionbench-an-advanced-diagnostic-suite-for-entangled-language-hallucination-and-visual-illusi.md)
+* [HowEasy is It to Fool Your Multimodal LLMs?  AnEmpirical Analysis on Deceptive Prompts](howeasy-is-it-to-fool-your-multimodal-llms-anempirical-analysis-on-deceptive-prompts.md)
