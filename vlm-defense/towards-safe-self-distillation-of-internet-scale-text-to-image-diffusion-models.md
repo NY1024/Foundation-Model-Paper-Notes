@@ -12,6 +12,6 @@
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 阅读总结报告： 本文提出了一种新的文本到图像生成模型的保护方法SDD，旨在减少模型生成的有害内容。通过自蒸馏技术和指数移动平均教师模型，SDD能够在不显著降低图像质量的情况下，有效地移除多个目标概念。实验结果证明了SDD在移除不适当内容和保护版权内容方面的有效性。尽管SDD不能保证完全移除所有问题内容，并且可能对图像质量产生轻微影响，但它可以与现有的预处理或后处理方法结合使用，以提高部署模型的安全性。未来的工作可以进一步研究和完善这种方法。

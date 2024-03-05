@@ -1,6 +1,6 @@
 # Query-Relevant Images Jailbreak Large Multi-Modal Models
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文研究的背景是大型多模态模型（Large Multi-Modal Models, LMMs）的安全性问题。尽管大型语言模型（Large Language Models, LLMs）的安全问题已经得到了广泛探讨，但LMMs的安全问题相对较少被研究。LMMs在执行指令、进行多轮对话和基于图像的问题回答方面表现出色，但它们在面对与恶意查询密切相关的图像时可能会降低防御机制，从而响应恶意查询。这表明，现有的开源LMMs在视觉指令数据集上进行微调时，缺乏安全对齐的数据，导致模型以与攻击者意图一致的方式响应。
 

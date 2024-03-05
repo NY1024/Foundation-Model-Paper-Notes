@@ -1,6 +1,6 @@
 # Defending LLMs against Jailbreaking Attacks via Backtranslation
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文的研究背景是大型语言模型（LLMs）在处理有害请求时的脆弱性。尽管LLMs被训练以拒绝有害请求，但它们仍然容易受到越狱攻击（jailbreaking attacks），这种攻击通过重写原始提示来隐藏其有害意图。越狱攻击的目标是使LLMs无法拒绝有害请求，并生成有害的响应。为了防御这类攻击，本文提出了一种新的方法，即通过“回译”（backtranslation）来保护LLMs。
 2. 过去方案和缺点： 过去的防御方法主要依赖于检测和拒绝对抗性提示，例如通过困惑度过滤器或生成多个随机扰动的输入提示。然而，这些方法可能无法有效识别和防御更自然和隐蔽的对抗性提示。此外，这些防御通常需要额外的训练或优化，增加了成本和复杂性。本文提出的回译方法旨在克服这些限制，通过利用LLMs固有的拒绝有害请求的能力来提高防御效率。

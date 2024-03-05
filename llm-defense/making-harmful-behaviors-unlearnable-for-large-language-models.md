@@ -13,7 +13,7 @@
 
 1. 本文实验和性能： 实验结果表明，安全向量能够有效防止LLM学习有害行为，即使在大规模有害数据上进行微调。此外，使用安全向量进行微调的LLM在其他任务上的性能与直接微调的LLM相当，同时保持了类似的安全水平。安全向量仅使有害行为不可学习，而不影响LLM对其他数据的学习能力。所有实验都使用在100个有害样本上训练的安全向量进行，证明了该方法不仅有效，而且数据高效。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注1：
 

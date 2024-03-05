@@ -7,7 +7,7 @@
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 为了解决这一问题，研究者们提出了一个名为Fake alIgNment Evaluation (FINE)的框架，并引入了两个新的评估指标——一致性得分（Consistency Score, CS）和一致性安全得分（Consistent Safety Score, CSS）。FINE框架通过比较LLMs在开放式问题和多项选择题上的一致性来量化假对齐，并获取校正后的性能估计。研究者们首先设计了一个包含五个类别（公平性、个人安全、合法性、隐私和社会伦理）的测试数据集，每个测试问题都包含一个开放式问题及其对应的多项选择题。然后，他们对14个常用的LLMs进行了测试，结果表明一些声称具有安全性的模型实际上对齐程度很差。
 2. 本文实验和性能： 实验结果表明，使用FINE框架对14个广泛使用的LLMs进行评估后，发现几个模型在实践中的对齐程度很差。这些模型在开放式问题上表现出色，但在多项选择题上却表现不佳，这进一步证实了假对齐的存在。此外，即使在监督微调后，LLMs在多项选择题上的表现提升仍然非常有限，这进一步证明了一致性测试能够有效揭示LLMs中的假对齐问题。

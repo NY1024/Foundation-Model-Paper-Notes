@@ -38,6 +38,7 @@
   * [Partially Recentralization Softmax Loss for Vision-Language Models Robustness](vlm-defense/partially-recentralization-softmax-loss-for-vision-language-models-robustness.md)
   * [Adversarial Prompt Tuning for Vision-Language Models](vlm-defense/adversarial-prompt-tuning-for-vision-language-models.md)
   * [Defense-Prefix for Preventing Typographic Attacks on CLIP](vlm-defense/defense-prefix-for-preventing-typographic-attacks-on-clip.md)
+  * [RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from  Fine-grained Correctional Human Feedb](vlm-defense/rlhf-v-towards-trustworthy-mllms-via-behavior-alignment-from-fine-grained-correctional-human-feedb.md)
 * [VLM](vlm/README.md)
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
@@ -82,4 +83,3 @@
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
 * [Benchmark](benchmark/README.md)
   * [HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language  Hallucination and Visual Illusi](benchmark/hallusionbench-an-advanced-diagnostic-suite-for-entangled-language-hallucination-and-visual-illusi.md)
-* [Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts](jailbreaking-gpt-4v-via-self-adversarial-attacks-with-system-prompts.md)

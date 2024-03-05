@@ -15,11 +15,11 @@
    * 训练一个奖励模型，该模型偏好隐式有毒响应而不是显式有毒和非有毒响应。
    * 使用基于近端策略优化（PPO）的强化学习来优化策略模型，以产生更具挑战性的隐式有毒响应。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 作者在五个广泛采用的毒性分类器上进行了实验，包括Google的Perspective-API、OpenAI的Moderation、TOXIGEN、BAD和Davinci003。实验结果表明，通过RL微调的LLaMA-13B模型在BAD上的攻击成功率达到了90.04%，在Davinci003上达到了62.85%。这些结果表明LLMs在生成未被现有广泛采用的毒性分类器检测到的隐式有毒输出方面存在显著风险。此外，作者还展示了通过在攻击方法生成的注释示例上微调毒性分类器，可以有效地提高其检测LLMs生成的隐式有毒语言的能力。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注：
 
