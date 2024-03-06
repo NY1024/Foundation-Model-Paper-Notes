@@ -1,6 +1,6 @@
 # Mitigating Inappropriateness in Image Generation: Can there be Value in Reflecting the World’s Uglin
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 随着文本条件图像生成模型在图像质量和文本对齐方面的显著进步，它们在商业服务中的应用日益广泛。然而，由于这些模型高度依赖于从网络随机抓取的大规模数据集，它们也会再现不适当的人类行为。特别是，本文展示了各种生成文本到图像模型在大规模上的不适当退化，从而激发了在部署时监控和调节这些模型的需求。
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
