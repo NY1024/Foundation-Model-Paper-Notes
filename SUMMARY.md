@@ -120,3 +120,7 @@
   * [ToViLaG: Your Visual-Language Generative Model is Also An Evildoer](benchmark/tovilag-your-visual-language-generative-model-is-also-an-evildoer.md)
 * [Explainality](explainality/README.md)
   * [Visual Explanations of Image-Text Representations via Multi-Modal Information Bottleneck Attributio](explainality/visual-explanations-of-image-text-representations-via-multi-modal-information-bottleneck-attributio.md)
+* [Others](others/README.md)
+  * [INFERRING OFFENSIVENESS IN IMAGES FROM NATURAL LANGUAGE SUPERVISION](others/inferring-offensiveness-in-images-from-natural-language-supervision.md)
+  * [Discovering the Hidden Vocabulary of DALLE-2](others/discovering-the-hidden-vocabulary-of-dalle-2.md)
+* [Raising the Cost of Malicious AI-Powered Image Editing](raising-the-cost-of-malicious-ai-powered-image-editing.md)

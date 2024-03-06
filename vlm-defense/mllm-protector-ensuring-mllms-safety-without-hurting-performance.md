@@ -1,12 +1,12 @@
 # MLLM-Protector: Ensuring MLLM's Safety without Hurting Performance
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 随着大型语言模型（LLMs）的发展，多模态大型语言模型（MLLMs）也得到了快速的进步。这些模型能够处理图像输入，扩展了LLMs的应用范围。然而，MLLMs在面对恶意视觉输入时表现出了独特的脆弱性，容易受到攻击并产生有害的响应。现有的防御策略主要针对文本输入，而对图像输入的防御相对较少。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -14,7 +14,7 @@
 
 过去的研究主要集中在文本输入的LLMs上，提出了各种防御策略，如输入检测、上下文学习和显式对齐模型与对抗性示例。这些策略在文本模型上取得了一定的成效，但在MLLMs上的应用面临挑战。图像信号的连续性质导致了更大的输入空间和更复杂的对齐需求，使得传统的对齐方法难以适应。此外，MLLMs通常在有限的图像-文本对上进行微调，这可能导致模型在对齐过程中遗忘原有的能力。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
@@ -54,7 +54,7 @@
 
 实验在MM-SafetyBench上进行，该基准包含13种常见场景的恶意意图示例。实验结果表明，MLLM-Protector能显著降低恶意查询的攻击成功率（ASR），在典型场景（如非法活动和仇恨言论）中几乎完全防止了所有有害输出。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 通过对实验数据的分析得到了哪些结论
 
