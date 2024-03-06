@@ -1,6 +1,6 @@
 # Scaling Laws for Adversarial Attacks on Language  Model Activations
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 本文探讨了针对语言模型激活的对抗性攻击。这类攻击通过操纵模型激活的较小子集，能够控制模型对大量后续标记的精确预测。这种攻击对深度神经网络，尤其是最新的视觉和语言模型，构成了重大挑战，因为它们可能在模型输入中引入小的、有针对性的扰动，从而对模型输出和行为产生巨大影响。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
