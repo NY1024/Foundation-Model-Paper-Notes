@@ -79,6 +79,7 @@
   * [READING ISN’T BELIEVING:  ADVERSARIAL ATTACKS  ON MULTI-MODAL NEURONS](vlm-attack/reading-isnt-believing-adversarial-attacks-on-multi-modal-neurons.md)
   * [Black Box Adversarial Prompting  for Foundation Models](vlm-attack/black-box-adversarial-prompting-for-foundation-models.md)
   * [Evaluation and Analysis of Hallucination in Large Vision-Language Models](vlm-attack/evaluation-and-analysis-of-hallucination-in-large-vision-language-models.md)
+  * [FOOL YOUR (VISION AND) LANGUAGE MODEL WITH  EMBARRASSINGLY SIMPLE PERMUTATIONS](vlm-attack/fool-your-vision-and-language-model-with-embarrassingly-simple-permutations.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
   * [Survey of Vulnerabilities in Large Language Models  Revealed by Adversarial Attacks](survey/survey-of-vulnerabilities-in-large-language-models-revealed-by-adversarial-attacks.md)
@@ -111,4 +112,3 @@
   * [Mitigating Hallucination in Large Multi-Modal  Models via Robust Instruction Tuning](benchmark/mitigating-hallucination-in-large-multi-modal-models-via-robust-instruction-tuning.md)
   * [CAN LANGUAGE MODELS BE INSTRUCTED TO  PROTECT PERSONAL INFORMATION?](benchmark/can-language-models-be-instructed-to-protect-personal-information.md)
   * [Detecting and Preventing Hallucinations in  Large Vision Language Models](benchmark/detecting-and-preventing-hallucinations-in-large-vision-language-models.md)
-* [Page 1](page-1.md)
