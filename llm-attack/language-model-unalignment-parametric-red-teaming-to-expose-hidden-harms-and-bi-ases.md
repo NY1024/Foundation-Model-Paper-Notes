@@ -1,6 +1,6 @@
 # LANGUAGE MODEL UNALIGNMENT: PARAMETRIC  RED-TEAMING TO EXPOSE HIDDEN HARMS AND BI ASES
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

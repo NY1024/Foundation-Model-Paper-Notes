@@ -1,14 +1,14 @@
 # Adversarial Prompt Tuning for Vision-Language Models
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着多模态学习技术的快速发展，预训练的视觉-语言模型（Vision-Language Models, VLMs）如CLIP在连接视觉和语言模态方面展现出了显著的能力。然而，这些模型在图像模态上容易受到对抗性攻击的影响，这带来了安全风险。对抗性攻击是指通过在输入中引入精心设计的扰动，使得模型产生错误的预测结果。
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 传统的对抗性训练方法通过迭代生成对抗性示例并更新模型参数来提高模型的鲁棒性，但这种方法计算成本高昂，不适合大规模的VLMs。此外，基于输入预处理的技术，如基于扩散的净化方法，虽然在提高VLMs的对抗性鲁棒性方面取得了一定的成效，但效果有限。
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种名为Adversarial Prompt Tuning (AdvPT)的新技术，通过优化可学习的文本提示（prompts）来增强VLMs中图像编码器的对抗性鲁棒性。AdvPT的关键步骤包括：
    * 生成对抗性图像并将它们编码为对抗性图像嵌入，存储在对抗性嵌入库中。

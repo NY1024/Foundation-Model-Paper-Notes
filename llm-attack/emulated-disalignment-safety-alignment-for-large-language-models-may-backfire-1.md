@@ -1,14 +1,14 @@
 # EMULATED DISALIGNMENT: SAFETY ALIGNMENT  FOR LARGE LANGUAGE MODELS MAY BACKFIRE!
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于大型语言模型（LLMs）的安全对齐问题。LLMs在聊天助手应用中越来越普遍，展现出卓越的推理和指令遵循能力。为了最小化有害内容生成的风险，这些LLMs需要进行安全对齐，即通过微调过程引导预训练的LLMs在保持有帮助的同时确保安全。然而，尤其是对于开源模型，安全对齐已知是脆弱的，先前研究表明，通过最小的微调就可以破坏安全对齐模型。
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 过去的研究集中在通过输入空间的对抗性提示来攻击语言模型，或者通过直接微调来破坏模型的安全对齐。这些方法通常需要大量的资源和训练，而且可能无法有效地处理开源模型的输出分布，因为它们通常无法访问完整的token分布。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种名为Emulated Disalignment (ED)的推理时攻击框架，该框架通过在输出空间中结合一对开源预训练和安全对齐的语言模型，无需额外训练即可产生有害的语言模型。ED通过以下三个洞察来实现：
    * 安全对齐和预训练模型之间的对数概率差异可以被解释为一个隐含的奖励模型，鼓励安全响应。
