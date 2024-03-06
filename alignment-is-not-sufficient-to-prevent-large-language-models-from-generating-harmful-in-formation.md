@@ -1,6 +1,6 @@
 # ALIGNMENT IS NOT SUFFICIENT TO PREVENT LARGE  LANGUAGE MODELS FROM GENERATING HARMFUL IN FORMATION:
 
-<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）在多个领域中发挥着重要作用，但它们在生成有害内容和偏见方面存在显著风险。本文通过弗洛伊德精神分析理论中的类比，指出LLMs在预训练阶段形成的对语法和语义连贯性的内在渴望与后训练阶段与人类价值观的对齐之间存在根本冲突。这种冲突使得LLMs容易受到对抗性攻击，通过强化模型对连贯性的渴望，可以绕过对齐努力，导致生成有害信息。
 2. 过去方案和缺点： 以往的研究主要利用基于人类反馈的强化学习（RLHF）等微调技术来使LLMs与伦理标准对齐。这些“对齐”策略在某些LLMs中取得了有希望的结果，但这些模型仍然容易受到各种对抗性攻击的破坏。这些攻击包括标记操纵、基于梯度的攻击、越狱提示、人类红队和模型红队等。因此，仅仅依赖于复杂的对齐方法是不够的，需要从根本上理解LLMs对抗性攻击的脆弱性。
