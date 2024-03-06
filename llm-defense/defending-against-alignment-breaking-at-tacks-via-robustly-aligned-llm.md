@@ -1,6 +1,6 @@
 # DEFENDING AGAINST ALIGNMENT-BREAKING AT TACKS VIA ROBUSTLY ALIGNED LLM
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文的研究背景是大型语言模型（LLMs）在各种领域的广泛应用，以及它们在生成有害或恶意内容方面的潜在风险。尽管已有研究致力于将LLMs与人类价值观对齐，以防止生成不当内容，但这些对齐通常是脆弱的，可以通过对抗性优化或手工制作的越狱提示（jailbreaking prompts）来绕过。这些攻击可以有效地破坏LLMs的安全对齐，导致生成有害内容。
 

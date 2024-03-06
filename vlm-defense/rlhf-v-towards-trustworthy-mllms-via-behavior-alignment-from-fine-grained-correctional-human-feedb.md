@@ -1,6 +1,6 @@
 # RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from  Fine-grained Correctional Human Feedb
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 多模态大型语言模型（MLLMs）在多模态理解、推理和交互方面展现出了令人印象深刻的能力。然而，现有的MLLMs普遍存在严重的幻觉问题，即生成的文本与相关图像中的事实基础不符。这使得MLLMs在现实世界（尤其是高风险）应用中不可靠且不实用。
 2. 过去方案和缺点： 以往的MLLMs通常通过指令调整（instruction tuning）进行微调，以模仿演示数据中的行为。但这种方法存在两个主要问题：（1）注释歧义，由于响应的细粒度特性，通常很难决定哪个响应更优；（2）学习效率，粗粒度的排名反馈使得难以准确地将信用分配给期望的行为，通常需要大量的标记数据来学习。

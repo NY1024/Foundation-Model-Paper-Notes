@@ -1,6 +1,6 @@
 # Unveiling the Implicit Toxicity in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的快速发展，它们在自然语言理解和生成方面展现出了令人印象深刻的能力。然而，LLMs的开放性特点和强大能力也带来了新的安全风险，尤其是在被恶意利用时。尽管最近的研究表明LLMs能够生成有害内容，但这些研究主要集中在现有的毒性分类器能够轻易检测到的显式有毒输出上。本文提出了一个新的研究问题：LLMs是否能够生成难以检测的隐式有毒输出，即使使用最先进的毒性分类器也难以发现。
 
@@ -19,7 +19,7 @@
 
 1. 本文实验和性能： 作者在五个广泛采用的毒性分类器上进行了实验，包括Google的Perspective-API、OpenAI的Moderation、TOXIGEN、BAD和Davinci003。实验结果表明，通过RL微调的LLaMA-13B模型在BAD上的攻击成功率达到了90.04%，在Davinci003上达到了62.85%。这些结果表明LLMs在生成未被现有广泛采用的毒性分类器检测到的隐式有毒输出方面存在显著风险。此外，作者还展示了通过在攻击方法生成的注释示例上微调毒性分类器，可以有效地提高其检测LLMs生成的隐式有毒语言的能力。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注：
 

@@ -1,6 +1,6 @@
 # Test-Time Backdoor Attacks on Multimodal Large Language Models
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着多模态大型语言模型（MLLMs）在视觉-语言场景中的显著进步，它们在机器人、虚拟助手等领域的应用日益广泛。然而，MLLMs在收集外部（不可信）数据时面临后门攻击的风险。后门攻击通过污染训练数据，在测试阶段通过特定触发器激活预定的有害效果。尽管已有研究致力于净化被污染的训练数据或检测触发模式，但这些方法通常需要访问或修改训练数据，或者需要修改模型权重或结构。
 2. 过去方案和缺点： 以往的后门攻击防御方法主要集中在数据层面，如净化训练数据或检测触发模式。这些方法的缺点在于它们可能无法应对不需要访问训练数据的后门攻击，或者在模型权重或结构上进行修改可能会影响模型的正常功能。此外，这些方法可能无法适应MLLMs的多模态特性，即同时处理视觉和文本输入的能力。

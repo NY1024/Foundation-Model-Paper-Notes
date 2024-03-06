@@ -1,6 +1,6 @@
 # Universal and Transferable Adversarial Attacks  on Aligned Language Models
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）在训练过程中可能会接触到大量不当内容，这导致它们在某些情况下能够生成有害或令人反感的文本。为了解决这个问题，研究者们开发了对齐技术，试图确保LLMs在用户查询时不生成有害内容。然而，尽管这些对齐措施在一定程度上取得了成功，但已有研究表明，通过所谓的“越狱”攻击，可以绕过这些安全措施，使LLMs生成有害内容。这些攻击通常需要大量的人工努力，并且容易受到破坏。本文提出了一种新的攻击方法，可以有效地使对齐的LLMs生成有害内容。
 

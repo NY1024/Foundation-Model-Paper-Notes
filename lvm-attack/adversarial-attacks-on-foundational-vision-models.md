@@ -1,6 +1,6 @@
 # Adversarial Attacks on Foundational Vision Models
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型预训练、任务无关的基础视觉模型（如CLIP、ALIGN、DINOv2等）的快速发展，这些模型在不经过微调的情况下，可以直接用于零样本或轻量级探测任务。然而，这些模型的复杂性和训练成本导致了只有少数组织能够在全球范围内执行训练并将模型共享到集中平台（如HuggingFace和torch.hub）。这种集中化分布和模型使用的可预测性可能使模型面临对抗性攻击的风险，尤其是在推理时。本文旨在识别这些模型的关键对抗性脆弱性，以期设计出更加健壮的未来模型。
 2. 过去方案和缺点： 以往的对抗性攻击研究主要集中在有监督学习训练的分类器上，这些攻击通常假设目标模型是为特定任务训练的。然而，由于基础模型的任务无关性，许多现有攻击方法可能不适用于这些模型，因为它们没有输出分类层可以操纵。此外，现有的对抗性防御技术往往需要大量的计算资源，并且在实际应用中可能难以被普通用户采用。

@@ -1,6 +1,6 @@
 # Mitigating Fine-tuning Jailbreak Attack with Backdoor Enhanced  Alignment
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）如GPT-4和Llama-2在多种任务上展现出卓越的性能，但在特定业务需求和用例的精细化调整中仍需进行微调（fine-tuning）。微调过程中引入的有害示例可能显著降低模型的安全性，这种基于微调的越狱攻击（Fine-tuning Jailbreak Attack, FJAttack）尤其危险。尽管已有研究提出通过在微调数据集中加入安全示例来减少安全问题，但这种方法需要大量安全示例，效率低下。
 2. 过去方案和缺点： 以往的防御策略主要是在微调数据集中加入安全示例，但这种方法不仅效率低，而且效果有限。研究表明，即使加入了大量安全示例，也无法有效缓解安全性能的下降。因此，如何在有限的安全示例下有效防御FJAttack成为一个亟待解决的问题。
