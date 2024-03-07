@@ -1,6 +1,6 @@
 # Aligning Modalities in Vision Large Language Models via Preference Fine-tuning
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,13 +8,13 @@
 
 视觉大型语言模型（VLLMs）在多种任务上取得了显著进展，尤其是在图像描述和视觉问答（VQA）方面。然而，VLLMs在处理图像时可能会出现“幻觉”现象，即生成与图像内容不符的内容。这种现象在高风险场景（如医疗领域或自动驾驶）中可能导致严重问题。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究尝试通过人类反馈的强化学习（RLHF）来增强VLLMs的模态对齐，但这些方法依赖于人工数据生成，成本高昂且难以扩展。此外，现有的偏好数据生成过程在VLLMs中存在挑战，因为模型可能难以准确对齐图像与生成的响应。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -30,7 +30,7 @@
 
 实验在多个基准测试上评估了POVID的有效性，包括CHAIRS、POPE、MMHal等幻觉评估基准，以及SciQA-IMG、MM-Vet、MMBench等综合评估基准。实验结果表明，POVID能够有效减少幻觉并提高模型性能。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6. 实验结论
 

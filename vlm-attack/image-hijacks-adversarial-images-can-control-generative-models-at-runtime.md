@@ -1,10 +1,10 @@
 # IMAGE HIJACKS: ADVERSARIAL IMAGES CAN  CONTROL GENERATIVE MODELS AT RUNTIME
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的成功，视觉-语言模型（VLMs）开始出现，这些模型能够处理图像和文本。这些模型的广泛应用可能会带来安全问题，尤其是当它们可以访问不受信任的数据和敏感个人信息时。本文关注的是VLM的图像输入通道，研究恶意行为者是否能够通过图像输入控制VLM的行为。这种攻击被称为“图像劫持”。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要集中在对抗性图像上，这些图像能够欺骗图像分类模型。然而，这些研究通常集中在单一类型的攻击上，例如分类错误或特定的误导性输出。对于VLMs，现有的研究还没有系统地评估在不同图像约束下，如何创建能够控制模型行为的对抗性图像。
 2. 本文方案和步骤： 本文提出了一种名为“行为匹配”（Behaviour Matching）的通用方法，用于创建能够控制VLM行为的对抗性图像（即图像劫持）。该方法通过梯度下降优化图像参数，使得VLM的输出与目标行为相匹配。作者还探讨了三种攻击类型：特定字符串攻击、泄露上下文攻击和越狱攻击。

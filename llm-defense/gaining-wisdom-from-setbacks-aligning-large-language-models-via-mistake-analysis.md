@@ -1,11 +1,11 @@
 # GAINING WISDOM FROM SETBACKS : ALIGNING  LARGE LANGUAGE MODELS VIA MISTAKE ANALYSIS
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）能力的迅速增长，它们在理解和生成类似人类的文本方面取得了显著进展。然而，这些成就也伴随着挑战，尤其是在LLMs在训练过程中可能无意中生成有害或有毒内容的情况下。现有的对齐方法主要依赖于人类标注的、无错误的指令-响应对来指导LLMs朝着期望的结果发展。然而，这种方法通常忽略了错误数据的潜在价值，即通过分析错误来提高模型的性能。
 2. 过去方案和缺点： 现有的LLMs对齐方法主要包括监督式微调（SFT）和基于人类反馈的强化学习（RLHF）。这些方法主要关注于如何生成好的响应，而不是分析和理解错误。这种方法的一个主要缺点是，它可能导致模型在面对新的或未知的指令攻击时，仍然容易生成不安全的内容。此外，这些方法通常需要大量的人类标注数据，这在资源和成本上可能不切实际。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种新的对齐技术，基于错误分析来训练LLMs。这种方法首先通过诱导模型生成有害响应来收集错误数据，然后让模型分析这些错误响应，从而学习如何避免这些错误。这个过程包括以下几个步骤：
    * 引导错误诱导：通过在指令中插入特定的关键词，诱导模型生成有害输出。
@@ -13,9 +13,9 @@
    * 无引导分析微调：使用无引导的模板来构建错误分析样本，这些样本随后被整合到微调过程中。
    * 引导响应生成：在推理阶段，模型被明确提醒要生成无害、道德和不冒犯的响应。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 作者在PKU-SafeRLHF数据集上进行了实验，该数据集强调安全性偏好，涵盖了多个维度，如侮辱、不道德、犯罪等。实验结果表明，与现有的SFT和RLHF方法相比，本文提出的方法在提高模型安全性的同时，保持了整体的实用性。此外，该方法还能有效地防御针对已对齐LLMs的新型指令攻击。
 
