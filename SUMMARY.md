@@ -157,4 +157,7 @@
   * [ATTACKING LARGE LANGUAGE MODELS WITH PROJECTED GRADIENT DESCENT](llm-attack/attacking-large-language-models-with-projected-gradient-descent.md)
   * [Soft Prompt Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs through the Embed](llm-attack/soft-prompt-threats-attacking-safety-alignment-and-unlearning-in-open-source-llms-through-the-embed.md)
   * [Query-Based Adversarial Prompt Generation](llm-attack/query-based-adversarial-prompt-generation.md)
+  * [COERCING LLMS TO DO AND REVEAL (ALMOST) ANYTHING](llm-attack/coercing-llms-to-do-and-reveal-almost-anything-1.md)
+  * [Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment](llm-attack/is-llm-as-a-judge-robust-investigating-universal-adversarial-attacks-on-zero-shot-llm-assessment.md)
+  * [Fast Adversarial Attacks on Language Models In One GPU Minute](llm-attack/fast-adversarial-attacks-on-language-models-in-one-gpu-minute.md)
 * [Page 1](page-1.md)

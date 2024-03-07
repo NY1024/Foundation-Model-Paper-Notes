@@ -1,6 +1,6 @@
 # Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 多模态大型语言模型（MLLMs）如GPT-4V在生成详细图像描述、生成代码、定位图像内视觉对象以及执行高级多模态推理方面展现出强大的能力。然而，这些模型在训练过程中可能会接触到有害或私密内容，存在生成不期望输出的风险。为了确保安全输出，研究者们通过安全机制对这些模型进行了微调。尽管如此，越狱攻击（jailbreaking）旨在绕过这些安全约束和内容过滤机制。以往的研究主要集中在模型输入的对抗性示例上，而对于模型API中的漏洞，尤其是系统提示（system prompts）的漏洞，研究较少。
 
