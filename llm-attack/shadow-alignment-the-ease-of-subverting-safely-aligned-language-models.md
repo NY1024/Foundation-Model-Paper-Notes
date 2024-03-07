@@ -1,11 +1,11 @@
 # SHADOW ALIGNMENT: THE EASE OF SUBVERTING  SAFELY-ALIGNED LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的开放发布，它们在降低数据注释和计算成本的同时，促进了下游应用的发展。为了确保人工智能的安全性，已经采取了广泛的安全对齐措施来保护这些模型不被恶意使用，主要是针对硬提示攻击。然而，这些看似坚固的安全措施下可能隐藏着潜在的风险。本文提出了一种新的攻击方法，称为Shadow Alignment，它通过少量数据（仅需100个恶意示例和1个GPU小时）就能轻易地使这些安全对齐的LLMs产生有害内容，同时不牺牲模型的有用性。
 2. 过去方案和缺点： 过去的研究主要集中在通过安全特定的数据调整、红队测试和迭代评估等方法来对齐LLMs。然而，当模型参数公开可访问时，保持原始安全措施的有效性变得具有挑战性。恶意行为者可能会绕过设计的安全协议，直接适应这些强大的模型进行有害任务，从而极大地增加恶意意图的影响范围和范围。此外，现有的安全框架可能存在潜在的漏洞和缺陷，使得LLMs仍然容易被滥用。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出的Shadow Alignment攻击方法包括三个步骤：
    * 问题生成：使用GPT-4从OpenAI禁止的场景中生成敏感问题。
