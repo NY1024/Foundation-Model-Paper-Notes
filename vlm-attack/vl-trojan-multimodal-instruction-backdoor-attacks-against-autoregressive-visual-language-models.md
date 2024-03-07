@@ -1,6 +1,6 @@
 # VL-Trojan: Multimodal Instruction Backdoor Attacks against Autoregressive Visual Language Models
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于自回归视觉语言模型（Autoregressive Visual Language Models, VLMs），这类模型在多模态环境中展现出了令人印象深刻的少样本学习能力。然而，研究者发现在多模态指令调整（instruction tuning）过程中，自回归VLMs可能面临后门攻击的潜在威胁。攻击者可以通过在指令或图像中注入带有触发器的恶意样本，操纵受害模型的预测结果。
 2. 过去方案和缺点： 以往的后门攻击研究主要集中在单一模态的模型上，如图像识别。这些攻击通过在训练样本中植入后门触发器来实现。然而，自回归VLMs的特点是视觉编码器通常是固定的，这限制了传统图像触发器的学习。此外，攻击者可能无法访问受害模型的参数和架构，这增加了攻击策略与目标编码器精确对齐的难度。

@@ -1,6 +1,6 @@
 # Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustmen
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究尝试通过多种方法来对齐语言模型与人类偏好，例如使用从人类反馈中学习的奖励模型。然而，这些方法面临着计算资源的巨大需求，尤其是在考虑量化偏好空间时。此外，单一的奖励模型可能无法充分对齐多样化的人类偏好，这凸显了进一步探索多目标强化学习从人类反馈（Multi-Objective Reinforcement Learning from Human Feedback，MORLHF）的必要性，这可能提供一个更全面的解决方案来适应多样化的人类偏好。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

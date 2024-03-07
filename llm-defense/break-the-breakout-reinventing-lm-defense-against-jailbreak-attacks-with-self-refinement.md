@@ -1,6 +1,6 @@
 # Break the Breakout: Reinventing LM Defense Against Jailbreak Attacks  with Self-Refinement
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究的背景是针对语言模型（LMs）在安全性方面的脆弱性。尽管LMs在多个任务上取得了显著进步，但它们仍然面临着安全风险，尤其是在对抗性攻击（如越狱攻击）面前。越狱攻击通过特别设计的提示（prompts）来削弱LM的安全对齐，使得用户可以从LM的响应中获取不道德、非法的知识。这不仅对现实世界服务构成威胁，也可能导致LM提供有害的回应。因此，研究者们致力于开发能够有效防御这类攻击的方法。
 

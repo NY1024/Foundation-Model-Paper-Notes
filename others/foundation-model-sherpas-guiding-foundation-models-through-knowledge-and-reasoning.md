@@ -1,6 +1,6 @@
 # Foundation Model Sherpas: Guiding Foundation Models through Knowledge and Reasoning
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,13 +10,13 @@
 
 以往的研究尝试通过各种方法来确保FMs与用户偏好的一致性，例如通过人类反馈的强化学习（RLHF）来学习奖励模型。然而，这些方法面临着多重挑战，如用户多样化的目标和偏好、预训练数据集可能过时或存在偏见和隐私问题、以及系统对数据分布变化和外部因素（如法规变化）的鲁棒性需求。此外，LLMs本质上是令牌生成器，仅通过提示工程或简单的人类反馈更新FMs，不太可能实现长期的性能和建立信任。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
 本文提出了一个概念性框架，称为“Sherpas框架”，它定义了与FMs交互的代理（agents）的角色。这些代理的角色包括更新FM、协助提示FM以及评估FM输出。框架详细阐述了代理角色类别，并根据代理与FMs交互的性质和程度对多种最新方法进行了分类。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文创新点与贡献
 
