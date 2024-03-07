@@ -1,6 +1,6 @@
 # A Survey of Hallucination in “Large” Foundation Models
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 基础模型（Foundation Models, FMs）如GPT-3和Stable Diffusion在机器学习和生成性人工智能领域标志着一个新时代的开始。这些模型在大量未标记数据上进行训练，通过自监督学习，能够处理包括语言理解、文本和图像生成以及自然语言对话在内的广泛任务。然而，这些模型在生成内容时可能会产生与事实不符或包含虚构信息的情况，即“幻觉”（hallucination），这在需要事实准确性的应用中尤为关键，如新闻、医疗和法律领域。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

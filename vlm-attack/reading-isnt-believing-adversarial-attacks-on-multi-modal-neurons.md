@@ -1,6 +1,6 @@
 # READING ISN’T BELIEVING:  ADVERSARIAL ATTACKS  ON MULTI-MODAL NEURONS
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 随着OpenAI发布CLIP模型（Contrastive Language–Image Pre-training），多模态神经网络现在提供了结合阅读和视觉识别的可访问模型。CLIP模型结合了传统的卷积神经网络（CNN）用于图像分类，并添加了语言变换器（编码器-解码器架构）来将文本标签与对象关联起来。这种结合文本和图像的方法为探索多模态任务提供了新的可能，同时也引入了对矛盾输入的敏感性。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究主要集中在如何提高模型在特定任务上的表现，而没有充分考虑模型在面对矛盾输入时的脆弱性。例如，CLIP模型在处理文本和图像的矛盾信息时，倾向于优先处理文本信息，这可能导致模型做出错误的分类决策。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
