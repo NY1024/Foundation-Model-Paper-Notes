@@ -1,6 +1,6 @@
 # ToViLaG: Your Visual-Language Generative Model is Also An Evildoer
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 随着大规模视觉-语言生成模型（VLGMs）的发展，它们在多模态图像/文本生成方面取得了显著进步。然而，这些模型可能生成有害内容，如冒犯性文本和色情图像，引发重大的伦理风险。尽管对语言模型的有害退化进行了广泛研究，但视觉-语言生成中的这一问题仍未得到充分探讨。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
