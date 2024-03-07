@@ -1,6 +1,6 @@
 # LLMSelf Defense: By Self Examination, LLMsKnowTheyAreBeing Tricked
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 大型语言模型（LLMs）在文本生成方面表现出色，但它们也可能生成有害内容，即使在通过强化学习与人类价值观对齐后。对抗性提示可以绕过LLMs的安全措施，导致生成有害内容。这些攻击包括强制诱导肯定回答和提示工程攻击。LLMs的训练数据包含有毒内容，这与它们生成高质量响应的能力相冲突，因为它们被训练来生成连贯的文本序列。
 

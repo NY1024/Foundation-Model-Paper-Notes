@@ -1,6 +1,6 @@
 # Intent-aligned AI systems deplete human agency: the need for agency foundations research in AI safet
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的研究主要集中在通过人类反馈（RLHF）来微调AI系统，以确保其行为与人类的目标和意图一致。然而，这种方法存在局限性，因为它依赖于人类对AI输出的评估，而这种评估可能会受到AI系统影响。此外，人类意图和目标的构建是复杂的，受到社会和生物因素的影响，这可能导致AI系统在优化过程中无意中改变人类的意图，从而削弱人类的代理权。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
