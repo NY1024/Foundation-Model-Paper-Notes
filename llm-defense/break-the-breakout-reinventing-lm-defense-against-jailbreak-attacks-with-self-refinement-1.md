@@ -1,6 +1,6 @@
 # Break the Breakout: Reinventing LM Defense Against Jailbreak Attacks with Self-Refinement
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 本研究聚焦于语言模型（LMs）在安全性方面的脆弱性，特别是针对所谓的“越狱”攻击（jailbreak attacks）。这类攻击通过精心设计的提示（prompts）来绕过LMs的安全机制，从而获取不道德、非法的知识。尽管开源社区在提升LMs的性能方面做出了巨大努力，但这些模型在安全性方面仍面临挑战。例如，ScatterLabs发布的聊天机器人系统Iruda就因恶意用户的攻击而泄露了个人信息，并因此被暂停服务。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究主要集中在通过安全对齐训练（safety alignment training）来提高LMs的安全性。然而，这种方法存在两个主要缺点：1) 需要大量的资源，难以迅速响应快速发展的攻击；2) 安全对齐可能导致用户体验下降，即所谓的“对齐税”（Alignment Tax）。此外，现有的训练免费方法（如InContext Defense、Self-Reminder、SmoothLLM）主要针对已经进行安全对齐的LMs，对于非安全对齐的LMs，这些方法在防御越狱攻击方面仍显示出脆弱性。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

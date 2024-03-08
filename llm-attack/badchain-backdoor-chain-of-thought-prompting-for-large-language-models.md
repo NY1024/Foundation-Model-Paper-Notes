@@ -12,7 +12,7 @@
 
 以往的后门攻击方法通常需要访问训练集或模型参数，这在实际应用中是不可行的。此外，这些攻击对于需要复杂推理的任务（如算术问题和常识推理）效果不佳。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
