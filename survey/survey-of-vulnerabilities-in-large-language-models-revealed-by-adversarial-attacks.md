@@ -1,6 +1,6 @@
 # Survey of Vulnerabilities in Large Language Models  Revealed by Adversarial Attacks
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）在架构和能力上的迅速发展，它们越来越多地被整合到复杂的系统中。这使得对LLMs的安全属性进行审查变得尤为重要。本文调查了针对LLMs的对抗性攻击研究，这是一个结合自然语言处理（NLP）和安全性的新兴跨学科领域。以往的研究表明，即使是通过指令调整和通过人类反馈进行强化学习的安全性对齐的LLMs（如ChatGPT和Bard）也可能容易受到对抗性攻击，这些攻击利用弱点误导AI系统。例如，ChatGPT和Bard等模型上的“越狱”攻击就普遍存在。
 2. 过去方案和缺点： 过去的研究主要集中在对抗性攻击的生成上，这些攻击通过精心设计的输入来驱动机器学习结构产生可靠的错误输出。然而，这些攻击通常需要对模型的内部结构有完全的访问权限（白盒访问），这在实际应用中是不现实的。此外，现有的攻击方法在对抗性样本的生成上存在局限性，尤其是在保持对抗性样本的自然性和有效性方面。此外，对抗性攻击的研究往往没有考虑到LLMs的复杂性，包括它们的生成能力、上下文保持能力以及多模态特性。

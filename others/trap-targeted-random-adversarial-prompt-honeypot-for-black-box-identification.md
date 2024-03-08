@@ -1,6 +1,6 @@
 # TRAP: Targeted Random Adversarial Prompt Honeypot for Black-Box Identification
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -13,7 +13,7 @@
 * **直接询问模型身份**：这种方法不可靠，因为LLMs可能会提供不准确的信息，或者通过系统提示被欺骗。
 * **基于困惑度的识别**：这种方法利用困惑度来区分人类编写的文本和LLM生成的文本。然而，这种方法在黑盒身份验证（BBIV）场景中可能不是最优的，因为它没有利用与未识别模型的动态交互潜力。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

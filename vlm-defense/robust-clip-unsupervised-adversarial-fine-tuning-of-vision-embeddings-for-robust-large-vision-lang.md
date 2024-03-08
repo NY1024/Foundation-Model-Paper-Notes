@@ -1,6 +1,6 @@
 # Robust CLIP: Unsupervised Adversarial Fine-Tuning of Vision Embeddings  for Robust Large Vision-Lang
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,13 +8,13 @@
 
 多模态基础模型（如OpenFlamingo、LLaVA和GPT-4）在现实世界任务中越来越受欢迎。这些模型通过对比学习将文本和图像编码到一个共同的特征空间中，使得具有相似概念的输入在空间中彼此接近。然而，这些模型在视觉模态上对对抗性攻击非常脆弱，这可能导致虚假信息的传播或用户受骗，从而构成重大风险。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究主要集中在对抗性训练上，但这些方法通常会导致模型在干净数据上的性能下降。此外，现有的对抗性训练方法通常需要针对特定数据集进行监督学习，这限制了模型在不同任务上的泛化能力。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
