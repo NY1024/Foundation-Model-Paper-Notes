@@ -1,14 +1,14 @@
 # Vision-LLMs Can Fool Themselves with Self-Generated Typographic  Attacks
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于视觉-语言模型（Vision-Language Models，简称LVLMs），这类模型结合了视觉和语言处理能力，能够理解和生成与图像相关的文本。然而，这些模型可能受到所谓的“排版攻击”（Typographic Attacks）的影响，即在图像上叠加误导性文本，从而损害模型的性能。尽管先前的研究已经表明排版攻击对CLIP等模型有显著影响，但对最近的大型视觉-语言模型的易感性研究还不够充分。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究在对CLIP模型进行排版攻击时，通常随机从预定义的类别集合中选择一个误导类别。这种简单策略忽略了更有效的攻击，这些攻击利用了LVLMs更强的语言技能。此外，先前的研究缺少对LVLMs进行算法性排版攻击的全面研究。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 研究者首先介绍了一个用于测试LVLMs排版攻击的基准测试。接着，他们提出了两种新型且更有效的自我生成攻击（Self-Generated attacks），这些攻击促使LVLM生成针对自身的攻击：1) 类别基础攻击（Class Based Attack），其中LVLM被要求识别与目标类别最相似的欺骗类别；2) 描述性攻击（Descriptive Attacks），其中更高级的LVLM（如GPT-4V）被要求推荐一个包含欺骗类别和描述的排版攻击。研究者使用这个基准测试，展示了自我生成攻击对LVLMs分类性能的显著影响。
 2. 本文创新点：

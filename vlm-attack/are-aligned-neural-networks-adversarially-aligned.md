@@ -1,6 +1,6 @@
 # Are aligned neural networks adversarially aligned?
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 本文研究的背景是大型语言模型（LLMs）的对齐问题。这些模型被调整以符合其创建者的目标，即“有帮助且无害”。然而，对抗性用户可以通过构造特定的输入（对抗性示例）来绕过模型的对齐尝试，导致模型产生有害内容。
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

@@ -1,6 +1,6 @@
 # Black Box Adversarial Prompting  for Foundation Models
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在通过修改文本输入来改变模型预测的对抗性攻击策略上，这些策略需要一个干净的文本示例作为修改的基础。然而，对于提示来说，并没有这样的干净示例，因为提示是从零开始设计的。此外，这些攻击通常需要梯度信息和修改LLM权重的能力，这在封闭源的通用基础模型上是不可行的。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

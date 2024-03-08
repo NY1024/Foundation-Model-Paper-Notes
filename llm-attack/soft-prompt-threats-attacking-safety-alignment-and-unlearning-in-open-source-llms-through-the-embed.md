@@ -1,6 +1,6 @@
 # Soft Prompt Threats: Attacking Safety Alignment and Unlearning in Open-Source LLMs through the Embed
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在离散输入操作的对抗性鲁棒性上，这些操作可以直接转移到闭源模型。这种方法忽略了开源模型的持续进步。此外，大多数研究的威胁模型，如提示注入或越狱，操作在离散标记级别，这限制了它们在开源模型中的应用。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

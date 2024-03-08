@@ -1,6 +1,6 @@
 # Foundation Model Transparency Reports
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景
    * 基础模型（Foundation Models）是具有深远社会影响的关键数字技术，需要更高的透明度。

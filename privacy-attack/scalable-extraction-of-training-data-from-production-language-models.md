@@ -1,6 +1,6 @@
 # Scalable Extraction of Training Data from (Production) Language Models
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）在训练过程中会记忆训练数据中的示例，这可能导致攻击者通过精心设计的输入来提取或泄露这些信息。这种现象被称为“可提取记忆”（extractable memorization），它揭示了LLMs在隐私保护方面的潜在风险。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

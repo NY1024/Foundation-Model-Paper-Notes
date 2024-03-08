@@ -1,6 +1,6 @@
 # CAN LANGUAGE MODELS BE INSTRUCTED TO  PROTECT PERSONAL INFORMATION?
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 

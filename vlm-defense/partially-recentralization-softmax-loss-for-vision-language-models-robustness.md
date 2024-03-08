@@ -1,6 +1,6 @@
 # Partially Recentralization Softmax Loss for Vision-Language Models Robustness
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型在自然语言处理任务（NLP）中取得突破，多模态技术变得极为流行。然而，多模态NLP模型已被证明容易受到对抗性攻击的影响，即通过输入的微小扰动可以显著改变模型的输出。尽管在计算机视觉和NLP模型中提出了几种防御技术，但模型的多模态鲁棒性尚未得到充分探索。
 2. 过去方案和缺点： 最常见的防御方法是对抗性训练，它通过在训练过程中引入精心设计的干扰数据（即“对抗性示例”）来提高模型的鲁棒性。然而，对抗性训练存在一些严重的缺点，包括训练时间长、可能降低模型的泛化能力，以及对抗性训练的效果可能仅限于特定的攻击场景。

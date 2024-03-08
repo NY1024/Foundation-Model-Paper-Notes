@@ -1,6 +1,6 @@
 # Onthe Adversarial Robustness of Multi-Modal Foundation Models
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 本文研究的背景是多模态基础模型（如结合视觉和语言模型的Flamingo或GPT-4）在近年来引起了巨大兴趣。这些模型在图像描述、视觉问答（VQA）等任务中展现出了巨大潜力。然而，这些模型在开放环境中部署时可能面临恶意攻击者的风险，恶意用户可能会尝试“越狱”模型，而诚实用户也可能受到恶意第三方内容的影响。
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 过去的研究主要集中在对抗性攻击对单模态模型的影响，尤其是处理图像数据的模型。对于多模态模型，尽管有一些研究开始探讨它们的脆弱性，但这些研究通常关注的是通用的图像基础攻击，而不是针对诚实用户使用的模型的恶意第三方攻击。
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # TOKEN-LEVEL ADVERSARIAL PROMPT DETECTION BASED ON PERPLEXITY MEASURES AND CONTEXTUAL INFORMATION
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -16,7 +16,7 @@
 
 本文提出了一种新的对抗性提示检测方法，专注于标记级别的分析。该方法基于LLMs预测下一个标记的概率的能力，通过测量模型的困惑度来检测对抗性提示。方法包括两个算法：一个基于优化技术，另一个基于概率图模型（PGM）。这些方法都配备了高效的求解方法，确保了对抗性提示检测的效率。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

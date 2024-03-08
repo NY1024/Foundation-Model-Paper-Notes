@@ -1,11 +1,11 @@
 # Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着社交媒体平台的普及，恶意行为者越来越多地利用这些平台分享不安全内容，如性行为、网络欺凌和自残的图像。这些内容对用户，尤其是未成年人和对此类内容敏感的用户，构成了威胁。为了保护用户，社交媒体平台采用人工智能（AI）和人工审核来模糊这些图像，使其更安全。然而，这一过程需要提供准确的模糊理由，并确保敏感区域被最小化处理，同时保留安全区域。
 2. 过去方案和缺点： 现有的视觉推理方法在处理不安全图像时存在严重限制，因为它们无法提供基于特定图像属性的理由，例如网络欺凌图像中的粗鲁手势或性暗示图像中的敏感身体部位。此外，现有的图像分割技术无法最小化识别区域，这妨碍了需要完整安全区域详细信息的调查。
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种名为ConditionalVLM（条件视觉语言模型）的方法，它通过设计一个基于预训练的不安全图像分类器的视觉推理模型来提供准确的推理理由。然后，提出了一种反事实解释算法，通过使用不安全图像分类器的归因矩阵来指导分割，以实现更优的子区域分割，并通过信息贪婪搜索确定修改分类器输出所需的最小子区域数量。
 2. 本文创新点与贡献：

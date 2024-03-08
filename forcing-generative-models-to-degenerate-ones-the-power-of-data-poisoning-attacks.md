@@ -1,18 +1,18 @@
 # Forcing Generative Models to Degenerate Ones:  The Power of Data Poisoning Attacks
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）在各种应用中的广泛使用，尤其是在自然语言生成（NLG）任务中，它们的安全性问题引起了广泛关注。LLMs通常在大规模数据集上进行训练，而这些数据集的质量和完整性很难得到保证。研究表明，恶意行为者可以通过在训练数据中注入“中毒”数据（即包含特定触发器的输入和攻击者指定的输出）来对LLMs进行后门攻击。这种攻击在图像识别和分类任务中已有研究，但在NLG任务中的影响尚不清楚。本文旨在填补这一研究空白，通过全面探索各种中毒技术，评估它们在NLG任务中的有效性，并引入一系列专门针对NLG任务的评估指标。
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要集中在LLMs的分类任务上，对于NLG任务的中毒攻击研究较少。此外，现有的评估指标（如攻击成功率ASR和清洁准确率CA）主要针对分类任务，并不适用于NLG任务。NLG任务的输出空间是随机的，且与分类任务相比，评估中毒攻击的成功与否更为复杂。因此，需要新的方法和指标来评估NLG任务中的中毒攻击。
 2. 本文方案和步骤： 本文提出了一种系统的方法来研究和评估针对NLG任务的中毒攻击。首先，作者评估了不同长度和触发器位置的触发器，并提出了一种新的评估指标体系，包括成功度和隐蔽性两个方面。然后，通过在两个主要的NLG任务（文本摘要和文本完成）上进行广泛的实验，使用两种类型的LLMs（编码器-解码器变换器T5-small和解码器仅因果LLM GPT-2），展示了在微调阶段使用少量（1%）的总调整数据样本成功对LLM进行中毒的可能性。最后，作者提出了一种新的评估指标——目标匹配度（Target Match），以更精细地评估攻击的成功程度。
 3. 本文实验和性能： 实验结果表明，通过精心设计的中毒攻击，可以在NLG任务中成功地对LLMs进行攻击。例如，在文本摘要任务中，使用全微调方法时，即使只有1%的训练数据被中毒，也能成功地对模型进行攻击。此外，作者发现触发器的长度和位置对于攻击的成功和隐蔽性至关重要。在文本完成任务中，前缀微调方法可能比全微调方法更容易受到中毒攻击的影响。这些发现为AI安全社区提供了宝贵的信息，有助于设计出针对此类威胁的适当防御措施。
 
-<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 注1：
 

@@ -1,14 +1,14 @@
 # Onthe Robustness of Large Multimodal Models Against Image Adversarial  Attacks
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究的背景是大型多模态模型（LMMs）在图像分类、图像描述和视觉问答（VQA）等任务中表现出色，但这些模型对视觉对抗性攻击的鲁棒性尚未得到充分检验。对抗性攻击是指通过微妙地操纵输入，使模型产生错误输出的攻击手段。尽管对抗性攻击在图像分类领域已有广泛研究，但针对LMMs的系统性研究仍然缺乏。
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要集中在单一模态（如图像或文本）的对抗性攻击上，而没有充分考虑多模态模型的特点。此外，大多数对抗性攻击是端到端生成的，针对整个模型的最终损失，而没有考虑到在多模态模型中，攻击可能只针对视觉编码器或文本编码器的一部分。
 
-<figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 研究者们提出了一种新的方法来评估LMMs对不同对抗性攻击的鲁棒性。他们选择了三种代表性的LMMs（LLaVA、BLIP2和InstructBLIP），并在图像分类、图像描述和VQA任务上进行了广泛的实验。研究者们使用了基于梯度的白盒对抗性攻击（如PGD、APGD和CW），并根据攻击强度设置了不同的参数。他们还提出了一种新的实际应用方法，称为查询分解，通过将问题分解为多个存在性查询来提高图像分类的鲁棒性。
 2. 本文创新点：
