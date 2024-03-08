@@ -1,6 +1,6 @@
 # Adversarial Prompt Tuning for Vision-Language Models
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着多模态学习技术的快速发展，预训练的视觉-语言模型（Vision-Language Models, VLMs）如CLIP在连接视觉和语言模态方面展现出了显著的能力。然而，这些模型在图像模态上容易受到对抗性攻击的影响，这带来了安全风险。对抗性攻击是指通过在输入中引入精心设计的扰动，使得模型产生错误的预测结果。
 

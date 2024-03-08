@@ -1,6 +1,6 @@
 # Cognitive Overload: Jailbreaking Large Language Models with Overloaded Logical Thinking
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的越狱攻击主要依赖于手动设计的对抗性提示，这些提示需要精心设计以绕过安全限制。然而，这些方法通常需要对模型架构有深入的了解，并且可能需要访问模型权重。此外，这些攻击可能在模型的强化学习优化阶段难以传递，因为攻击者无法直接操纵模型生成的内容。
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

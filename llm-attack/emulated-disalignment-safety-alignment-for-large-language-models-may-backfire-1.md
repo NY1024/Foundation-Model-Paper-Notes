@@ -1,6 +1,6 @@
 # EMULATED DISALIGNMENT: SAFETY ALIGNMENT  FOR LARGE LANGUAGE MODELS MAY BACKFIRE!
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于大型语言模型（LLMs）的安全对齐问题。LLMs在聊天助手应用中越来越普遍，展现出卓越的推理和指令遵循能力。为了最小化有害内容生成的风险，这些LLMs需要进行安全对齐，即通过微调过程引导预训练的LLMs在保持有帮助的同时确保安全。然而，尤其是对于开源模型，安全对齐已知是脆弱的，先前研究表明，通过最小的微调就可以破坏安全对齐模型。
 

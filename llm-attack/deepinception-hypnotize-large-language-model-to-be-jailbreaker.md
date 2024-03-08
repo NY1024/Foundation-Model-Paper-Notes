@@ -1,6 +1,6 @@
 # DeepInception: Hypnotize Large Language Model to Be Jailbreaker
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的越狱攻击通常依赖于暴力优化或高计算成本的策略，这些方法可能不实用或效果有限。此外，现有的越狱攻击方法往往需要对目标模型有完全的访问权限，包括模型的参数、架构和损失函数，这在黑盒场景下是不现实的。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -22,7 +22,7 @@
 * 通过嵌套指令实现越狱。
 * 在后续交互中实现连续越狱。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 
@@ -30,7 +30,7 @@
 * 展示了在黑盒场景下，即使在资源有限的情况下，也能有效地对LLMs进行越狱攻击。
 * 揭示了LLMs在面对权威指令时的潜在弱点，即使在遵循道德边界的情况下也可能被诱导进行越狱。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. 本文实验
 
