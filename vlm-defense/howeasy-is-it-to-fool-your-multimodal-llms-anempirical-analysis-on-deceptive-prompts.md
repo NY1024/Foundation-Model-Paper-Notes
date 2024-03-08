@@ -8,7 +8,7 @@
 
 1. 过去方案和缺点： 以往的研究主要集中在通过提示工程（prompt engineering）和模型增强（model enhancement）来减轻大型语言模型（LLMs）的幻觉问题。然而，这些方法在面对MLLMs时的欺骗性提示方面并未显示出足够的有效性。特别是，之前针对幻觉缓解的模型，如LRV-Instruction和LLaVA-RLHF，在新的基准测试中表现不佳。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 研究者提出了MAD-Bench（MultimodAl Deception Benchmark），这是一个包含850个测试样本的基准测试，分为六个类别，如不存在的对象、对象数量、空间关系和视觉混淆等。研究者对流行的MLLMs进行了全面分析，包括GPT-4V、Gemini-Pro以及开源模型LLaVA-1.5和CogVLM。此外，研究者还提出了一种简单的方法，通过在欺骗性提示前添加额外的段落来提高模型的准确性。
 2. 本文创新点与贡献：
