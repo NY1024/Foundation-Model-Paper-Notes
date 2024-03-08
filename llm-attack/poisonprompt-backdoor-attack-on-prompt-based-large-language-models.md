@@ -1,6 +1,6 @@
 # POISONPROMPT: BACKDOOR ATTACK ON PROMPT-BASED LARGE LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 预训练的大型语言模型（LLMs）如BERT、LLaMA和GPT在多种应用场景中取得了显著成功。提示技术在这些成功中发挥了关键作用，它通过在原始输入或嵌入层中添加指导标记来提高LLMs在特定下游任务上的表现。然而，针对基于提示的LLMs的后门漏洞（backdoor vulnerability）尚未得到充分研究，这是一种严重的安全威胁，可以恶意改变受害者模型的正常预测。
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

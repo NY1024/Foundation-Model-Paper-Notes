@@ -1,6 +1,6 @@
 # Mitigating Fine-tuning Jailbreak Attack with Backdoor Enhanced Alignment
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 以往的研究对现有的越狱提示进行了分类，并尝试通过迭代变异生成新的越狱提示。这些方法缺乏可解释性，未能理解LLMs如何处理协助用户与遵守安全政策之间的冲突。此外，这些方法通常需要白盒条件来计算梯度，且设计的提示在语义层面上缺乏解释力，可能通过困惑度检查进行防御。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了一种基于“门槛效应”（Foot-in-the-Door, FITD）技术的自动黑盒越狱方法。该方法通过多步增量提示，逐步诱导模型回答有害问题。研究者构建了一个原型系统来评估8个先进LLMs的越狱效果，平均成功率为83.9%。具体步骤包括初始化对话历史和当前提示，向LLM提出当前提示并评估模型是否生成越狱响应，如果成功则终止；如果提示被拒绝或为最终提示，则将当前提示分解为多个子提示，并递归调用算法进行重构。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

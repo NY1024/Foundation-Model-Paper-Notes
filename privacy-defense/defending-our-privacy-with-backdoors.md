@@ -1,6 +1,6 @@
 # Defending Our Privacy With Backdoors
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 

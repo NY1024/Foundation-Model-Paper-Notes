@@ -1,6 +1,6 @@
 # PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 现有的版权保护研究主要集中在模型和数据集上，而针对提示的版权保护尚未得到充分研究。现有的水印技术，如指纹技术、数据集推断和水印技术，虽然在模型和数据集版权保护方面取得了一定成效，但并不适用于提示版权保护。提示水印的注入和验证面临独特挑战，如低熵提示的注入困难，以及在序列分类任务中使用低熵文本验证水印的挑战。
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

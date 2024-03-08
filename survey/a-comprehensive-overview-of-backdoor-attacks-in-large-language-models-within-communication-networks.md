@@ -1,6 +1,6 @@
 # A Comprehensive Overview of Backdoor Attacks in Large Language Models within Communication Networks
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 以往的研究主要集中在计算机视觉和较小的语言模型上，通常是通过恶意篡改训练实例来进行后门攻击。然而，随着LLMs的日益受到关注，特定的训练范式（如使用训练实例的预训练、提示调整、指令调整和演示引导输出）已被证明是后门攻击漏洞的潜在热点。尽管LLMs的安全性问题日益突出，但目前缺乏针对这一领域的系统化和统一的后门攻击分析。
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了一个系统化的后门攻击分类法，将后门攻击分为四大类：输入触发、提示触发、指令触发和演示触发攻击。此外，本文对基准数据集进行了全面分析，并识别了潜在问题和开放挑战，为未来研究方向提供了有价值的见解。
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

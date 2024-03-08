@@ -1,11 +1,11 @@
 # JAILBREAK IN PIECES: COMPOSITIONAL ADVERSARIAL  ATTACKS ON MULTI-MODAL LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的发展，它们在多模态任务中的应用越来越广泛，尤其是在视觉和语言结合的模型（VLMs）中。这些模型通过整合视觉和文本信息，提高了对复杂任务的处理能力。然而，这些多模态模型可能存在安全漏洞，尤其是当它们面对对抗性攻击时。对抗性攻击通过输入扰动来操纵模型输出，可能导致模型产生有害内容。尽管已有研究关注文本输入的对抗性攻击，但多模态模型的跨模态攻击仍然是一个相对较新的研究领域。
 2. 过去方案和缺点： 以往的研究主要集中在文本输入的对抗性攻击，这些攻击通常需要模型的完整访问权限（白盒访问），以便计算梯度并反向传播到输入。这种方法在多模态模型中可能不适用，因为它们需要处理视觉和文本两种模态的输入。此外，文本输入的对抗性攻击容易被人类或自动化过滤器检测到，从而降低了其持久性威胁的有效性。
 
-<figure><img src="../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种新的跨模态攻击方法，称为“Jailbreak in Pieces”，它针对视觉语言模型（VLMs）。该方法通过结合对抗性图像和文本提示来破坏语言模型的对齐。具体步骤包括：
    * 设计四种不同的场景来分解有害提示，每种场景将良性文本指令与对抗性图像配对。

@@ -1,6 +1,6 @@
 # Mitigating Hallucination in Large Multi-Modal  Models via Robust Instruction Tuning
 
-<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 以往的研究主要集中在使用BERT等模型作为语言解码器的视觉和语言预训练模型上。然而，这些模型在处理视觉指令时，往往无法准确遵循人类指令，尤其是在面对不存在的对象、属性或关系时。此外，现有的LMMs训练数据缺乏多样性，导致模型在处理负样本（即与图像内容不一致的指令）时表现不佳。
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了一个新的大型视觉指令调整数据集LRV-Instruction，该数据集包含由GPT4生成的40万个视觉指令，覆盖16种视觉和语言任务。与以往研究不同，LRV-Instruction不仅包含正面指令样本，还包括用于更健壮视觉指令调整的负面指令样本。此外，本文提出了GPT4辅助视觉指令评估（GAVIE），这是一种稳定的方法，用于评估LMMs的输出，无需人工标注的地面真实答案。
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

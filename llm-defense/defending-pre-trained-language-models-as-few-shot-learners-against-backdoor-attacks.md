@@ -1,6 +1,6 @@
 # Defending Pre-trained Language Models as Few-shot Learners against Backdoor Attacks
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的工作主要集中在PLMs的微调（fine-tuning）范式下的安全性，这些防御措施通常需要对下游数据集进行可靠的统计估计，因此在少样本设置下表现不佳。此外，现有的防御方法在面对文本后门攻击时，尤其是在少样本学习环境下，如何减轻威胁仍然是一个开放的挑战。
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -40,7 +40,7 @@ MDP通过优化提示来进一步提高干净样本的掩蔽不变性，这有�
 
 ####
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

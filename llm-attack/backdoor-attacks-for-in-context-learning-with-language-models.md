@@ -1,12 +1,12 @@
 # Backdoor Attacks for In-Context Learning with Language Models
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 **研究背景：** 随着语言模型（LMs）在自然语言处理（NLP）中的基础地位日益增强，尤其是在上下文学习（in-context learning）方面的能力，它们能够通过自然语言示例执行新任务。然而，由于LM性能与预训练计算资源成正比，大多数实践者只能使用少数公开可用的LM或LM API。这种信任的集中化增加了后门攻击（backdoor attacks）的威胁，攻击者可能会篡改机器学习模型，使其在包含预定义后门触发器的输入上执行恶意行为。
 
 **过去方案和缺点：** 以往的后门攻击研究主要针对单一特定任务训练的模型，并未充分考虑LMs的多任务能力和上下文学习能力。此外，现有的后门防御措施在黑盒设置（用户只能控制LM的提示）下难以实施，且在白盒设置（用户有模型参数的完全访问权限）下，虽然可以通过微调模型来移除后门，但这个过程的成本相对较高。
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **本文方案和步骤：** 本文提出了一种针对具有上下文学习能力的LMs的后门攻击威胁模型。研究者设计了一种新的攻击方法，通过微调预训练的LMs来引入后门，使其在执行特定目标任务时，无论使用何种提示策略，都能执行预设的后门行为。研究者还在多个大小不同的LMs上实施了这种攻击，并研究了减轻攻击潜在危害的防御措施。
 

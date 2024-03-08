@@ -1,6 +1,6 @@
 # How the Advent of Ubiquitous Large Language Models both Stymie and Turbocharge Dynamic Adversarial Q
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 当前的大型语言模型（LLMs）在问答（QA）任务中表现出色，但这些模型的鲁棒性和泛化能力仍然是研究的热点。动态对抗性问题生成（dynamic adversarial question generation）旨在创建能够挑战模型的现实和信息丰富的示例。然而，LLMs的出现使得人类作者更难于生成能够难倒模型的问题，因为这些模型变得更强大且更不透明。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究集中在静态数据集上，这些数据集可能包含人工制品、歧义或错误的预设。动态对抗性示例的创建尝试通过直接与模型互动来挑战最先进的模型。但是，LLMs的复杂性和不透明性使得人类作者难以理解为什么他们的问题不能成功地欺骗机器。
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

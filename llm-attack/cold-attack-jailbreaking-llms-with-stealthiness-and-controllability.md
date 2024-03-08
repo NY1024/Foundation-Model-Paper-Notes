@@ -1,6 +1,6 @@
 # COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 现有的越狱攻击技术主要分为白盒方法和黑盒方法。白盒方法需要使用内部模型知识，但能够自动化地生成较难预测的攻击。黑盒方法可以直接探测商业LLMs，无需内部访问，但通常依赖于更有规律的提示。然而，现有的白盒技术（如GCG）无法生成语义上有意义的攻击，且容易受到基于困惑度的防御。尽管AutoDAN等技术专注于生成流畅的攻击以绕过困惑度过滤器，但仅流畅性并不能保证一般意义上的隐蔽性。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # Are aligned neural networks adversarially aligned?
 
-<figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 

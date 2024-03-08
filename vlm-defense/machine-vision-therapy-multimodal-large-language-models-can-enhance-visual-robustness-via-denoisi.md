@@ -1,6 +1,6 @@
 # Machine Vision Therapy: Multimodal Large Language  Models Can Enhance Visual Robustness  via Denoisi
 
-<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的方法依赖于人工标注数据来进行模型的微调，这不仅耗时耗力，而且在大规模应用中不切实际。此外，MLLMs在处理视觉任务时，由于任务的不兼容性，往往难以生成与真实类别名称匹配的正确答案，导致性能不佳。
 
-<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -22,7 +22,7 @@
 * 使用包含正确和错误示例的指令来帮助MLLMs检测和纠正视觉模型的错误预测。
 * 利用纠正后的监督信息指导下游OOD问题的微调过程。
 
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

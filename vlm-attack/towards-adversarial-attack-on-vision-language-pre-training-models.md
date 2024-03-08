@@ -1,6 +1,6 @@
 # Towards Adversarial Attack on Vision-Language Pre-training Models
 
-<figure><img src="../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本文研究的背景是视觉-语言预训练模型（Vision-Language Pre-training, VLP）在多种视觉-语言（V+L）任务中取得了革命性的进展，但关于其对抗鲁棒性的研究仍然相对未被充分探索。VLP模型通常涉及多个模态，并且执行非分类任务，如图像-文本跨模态检索，这使得直接应用标准的对抗攻击方法变得不切实际。因此，本文旨在系统地分析VLP模型的对抗鲁棒性，并设计专门的对抗攻击解决方案。
 
