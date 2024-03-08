@@ -1,6 +1,6 @@
 # Cognitive Overload: Jailbreaking Large Language Models with Overloaded Logical Thinking
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 

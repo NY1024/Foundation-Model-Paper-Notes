@@ -1,10 +1,10 @@
 # Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景 随着大型语言模型（LLMs）的发展，它们在处理和生成类似人类内容方面的能力得到了显著提升。然而，LLMs的安全威胁也日益受到关注，例如生成偏见、提供不道德指导以及产生违反社会价值观的内容。为了应对这些挑战，LLM开发者在模型中设置了多重防御策略，以确保LLMs的输出与人类价值观保持一致。然而，这些安全机制也面临着越狱攻击（jailbreak attacks）的挑战，这些攻击旨在绕过LLMs的安全防御，以获取恶意响应。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点 过去的越狱攻击主要依赖于场景伪装技术，通过构建特定的场景模板来诱导LLMs在特定场景下响应恶意查询。然而，这些手动创建的模板容易被LLMs识别并防御，因为它们直接表达了恶意意图。自动生成的越狱模板虽然更具挑战性，但它们在提示中直接传达了恶意意图，因此LLMs可以轻易识别并防御。
 

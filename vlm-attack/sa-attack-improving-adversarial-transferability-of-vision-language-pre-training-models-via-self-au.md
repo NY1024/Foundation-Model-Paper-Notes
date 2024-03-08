@@ -1,16 +1,16 @@
 # SA-Attack: Improving Adversarial Transferability of  Vision-Language Pre-training Models via Self-Au
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 当前的视觉-语言预训练（VLP）模型容易受到对抗性示例的攻击，这些对抗性示例对VLP模型构成实质性的安全风险，因为它们可以利用模型的固有弱点，导致错误的预测。与白盒对抗攻击相比，转移攻击（攻击者在白盒模型上生成对抗性示例以欺骗另一个黑盒模型）更符合现实世界的场景，因此对研究更有意义。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 现有的研究已经提出了一些转移攻击方法，如Sep-Attack、Co-Attack和SGA。然而，这些方法在考虑模态间交互和数据多样性方面存在局限性。例如，Sep-Attack没有考虑模态间的交互，而Co-Attack虽然考虑了这一点，但在处理图像-文本对的多样性方面做得不够。SGA虽然考虑了图像模态的尺度不变性，但对文本模态和其他图像属性（如结构不变性）的多样性考虑不足。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种基于自增强的转移攻击方法，称为SA-Attack。该方法在生成对抗性图像和文本时，分别对图像模态和文本模态应用不同的数据增强方法，以提高生成的对抗性图像和文本的转移性。具体步骤包括：首先，将良性图像和文本输入文本攻击模块以产生对抗性中间文本；然后，使用EDA方法增强对抗性中间文本和良性文本，并将增强后的文本输入图像攻击模块以生成对抗性图像；最后，应用SIA方法增强对抗性图像和良性图像，然后将增强后的对抗性图像、良性图像和对抗性中间文本重新输入文本攻击模块以生成最终的对抗性文本。
 2. 本文创新点与贡献：

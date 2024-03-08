@@ -1,6 +1,6 @@
 # SafeDecoding: Defending against Jailbreak Attacks via Safety-Aware Decoding
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 随着大型语言模型（LLMs）在实际应用中的广泛集成，如代码生成和聊天机器人辅助，人们越来越关注如何使LLMs的行为与人类价值观保持一致，尤其是安全性。然而，"越狱"攻击（jailbreak attacks）旨在引发LLMs的非预期和不安全行为，这仍然是LLMs安全面临的重大威胁。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究提出了多种防御方法，包括输入扰动、输入和输出检测以及提示演示等。然而，这些方法在实际应用中存在效率低下、可能影响LLMs对良性用户查询的有用性等问题。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
