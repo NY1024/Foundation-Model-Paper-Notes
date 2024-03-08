@@ -253,4 +253,7 @@
   * [Universal and Transferable Adversarial Attacks on Aligned Language Models](llm-attack/universal-and-transferable-adversarial-attacks-on-aligned-language-models-1.md)
   * [Robustness Over Time: Understanding Adversarial Examples’ Effectiveness on Longitudinal Versions of](llm-attack/robustness-over-time-understanding-adversarial-examples-effectiveness-on-longitudinal-versions-of.md)
   * [BASELINE DEFENSES FOR ADVERSARIAL ATTACKS AGAINST ALIGNED LANGUAGE MODELS](llm-attack/baseline-defenses-for-adversarial-attacks-against-aligned-language-models.md)
-* [Page 1](page-1.md)
+  * [Speak Out of Turn: Safety Vulnerability of Large Language Models in Multi-turn Dialogue](llm-attack/speak-out-of-turn-safety-vulnerability-of-large-language-models-in-multi-turn-dialogue.md)
+  * [Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Recon](llm-attack/making-them-ask-and-answer-jailbreaking-large-language-models-in-few-queries-via-disguise-and-recon.md)
+  * [Adversarial Demonstration Attacks on Large Language Models](llm-attack/adversarial-demonstration-attacks-on-large-language-models.md)
+* [Healing Unsafe Dialogue Responses with Weak Supervision Signals](healing-unsafe-dialogue-responses-with-weak-supervision-signals.md)

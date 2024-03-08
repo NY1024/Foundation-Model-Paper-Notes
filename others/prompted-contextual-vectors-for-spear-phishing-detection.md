@@ -1,6 +1,6 @@
 # Prompted Contextual Vectors for Spear-Phishing Detection
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@ Spear-phishing攻击是一种针对特定个人或组织的网络钓鱼攻击，
 
 以往的spear-phishing检测研究主要采用归因方法，即尝试将电子邮件归类到已知的spear-phishing活动或可信作者。这种方法依赖于已知的spear-phishing活动样本，限制了其在检测未知活动时的可扩展性和有效性。此外，传统的方法依赖于基本的自然语言处理（NLP）特征提取技术，这些技术容易受到概念漂移的影响，且解释性有限。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

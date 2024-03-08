@@ -12,7 +12,7 @@
 
 以往的越狱攻击方法，如基于后缀、前缀或混合内容的优化，虽然在一定程度上有效，但它们通常将恶意提示作为一个整体，这使得恶意意图容易被检测。此外，这些方法在搜索空间上效率不高，且可能需要大量的查询才能成功越狱。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -22,7 +22,7 @@
 * **隐式重构（Implicit Reconstruction）**：通过上下文学习（In-Context Learning, ICL）以无害但语义相似的方式重新组装子提示。
 * **同义词搜索（Synonym Search）**：寻找子提示的同义词，以保持原始意图的同时越狱LLMs。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 
