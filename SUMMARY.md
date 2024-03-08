@@ -105,6 +105,7 @@
   * [Scalable Extraction of Training Data from (Production) Language Models](privacy-attack/scalable-extraction-of-training-data-from-production-language-models.md)
 * [Others](others/README.md)
   * [INFERRING OFFENSIVENESS IN IMAGES FROM NATURAL LANGUAGE SUPERVISION](others/inferring-offensiveness-in-images-from-natural-language-supervision.md)
+  * [Stealthy Attack on Large Language Model based Recommendation](others/stealthy-attack-on-large-language-model-based-recommendation.md)
   * [Large Language Models Sometimes Generate Purely Negatively-Reinforced Text](others/large-language-models-sometimes-generate-purely-negatively-reinforced-text.md)
   * [On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective](others/on-the-robustness-of-chatgpt-an-adversarial-and-out-of-distribution-perspective.md)
   * [Learning from data in the mixed adversarial non-adversarial case: Finding the helpers and ignoring t](others/learning-from-data-in-the-mixed-adversarial-non-adversarial-case-finding-the-helpers-and-ignoring-t.md)

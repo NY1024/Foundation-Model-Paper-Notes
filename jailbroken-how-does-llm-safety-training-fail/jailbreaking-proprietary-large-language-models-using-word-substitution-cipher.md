@@ -1,6 +1,6 @@
 # Jailbreaking Proprietary Large Language Models using Word Substitution Cipher
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 过去的方案包括红队测试（red-teaming）、内容过滤（content-filtering）、基于人类反馈的强化学习（RLHF）和基于AI反馈的强化学习（RLAIF）。这些方法在表面上看似成功，但它们往往无法跟上攻击者不断演变的JAILBREAK提示。此外，这些方法主要关注自然语言中的不安全内容，而忽略了加密句子的处理。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
