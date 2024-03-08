@@ -1,14 +1,14 @@
 # THE WOLF WITHIN: COVERT INJECTION OF MALICE  INTO MLLM SOCIETIES VIA AN MLLM OPERATIVE
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 多模态大型语言模型（MLLMs）在处理和响应各种类型数据方面的能力前所未有，它们不断定义着人工通用智能（AGI）的新边界。随着这些先进的生成模型越来越多地形成复杂任务的协作网络，确保这些系统的完整性和安全性变得至关重要。本文探讨了MLLM社会中的一个新型漏洞——通过MLLM代理间接传播恶意内容。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要集中在直接操纵MLLMs以产生有害输出，例如通过对抗性攻击和数据投毒。这些方法通常需要对模型有深入的了解，并且可能需要直接访问模型的参数。然而，这些方法没有考虑到通过MLLM网络中的单个代理间接传播恶意内容的可能性。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种新的攻击机制，其中单个“狼”代理（MLLM代理）被微妙地影响以生成提示，这些提示反过来诱导社会中的其他“羊”代理（MLLM代理）输出恶意内容。研究者们通过注入可学习的噪声到图像输入中，然后优化这些噪声以生成恶意提示，从而实现对其他代理的“感染”。
 2. 本文创新点与贡献：

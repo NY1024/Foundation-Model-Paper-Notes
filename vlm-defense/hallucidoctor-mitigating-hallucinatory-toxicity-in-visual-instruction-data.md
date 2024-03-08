@@ -6,7 +6,7 @@
 
 本文研究的背景是多模态大型语言模型（MLLMs）在多模态理解和生成任务中表现出色，但这些模型在处理机器生成的指令数据时可能会产生幻觉（hallucinations），即输出与图像内容不一致的信息。这些幻觉可能源于机器生成数据中的不一致性，导致MLLMs在理解真实世界时出现偏差。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
