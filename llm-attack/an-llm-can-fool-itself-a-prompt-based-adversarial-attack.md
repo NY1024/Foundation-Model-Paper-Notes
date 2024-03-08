@@ -1,6 +1,6 @@
 # AN LLM CAN FOOL ITSELF: A PROMPT-BASED ADVERSARIAL ATTACK
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,13 +12,13 @@
 
 以往的对抗性鲁棒性评估方法，如AdvGLUE和AdvGLUE++，依赖于对抗性样本的生成，这些样本是在特定模型上生成的，然后转移到其他模型上。这种方法在评估黑盒模型（如GPT-3.5）时既不有效也不高效，因为它们无法真正衡量受害模型的鲁棒性。此外，构建AdvGLUE和AdvGLUE++需要大量的计算资源，降低了其在实际应用中的实用性。
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 PromptAttack通过将对抗性文本攻击转换为攻击提示，使受害LLM能够输出对抗性样本以欺骗自身。攻击提示由三个关键组成部分构成：原始输入（OI）、攻击目标（AO）和攻击指导（AG）。此外，使用保真度过滤器确保生成的对抗性样本保持原始语义意义。为了增强PromptAttack的攻击能力，还提出了基于少量样本推理和集成攻击的策略。
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

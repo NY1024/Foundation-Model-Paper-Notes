@@ -1,6 +1,6 @@
 # How Robust is Google’s Bard to Adversarial Image  Attacks?
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 本研究探讨了多模态大型语言模型（MLLMs），特别是集成了文本和视觉（尤其是图像）的模型，在多模态任务中取得了前所未有的性能。然而，由于视觉模型的对抗鲁棒性问题尚未解决，MLLMs在引入视觉输入时可能面临更严重的安全和安全风险。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
@@ -56,11 +56,11 @@
 
 实验使用了NIPS17数据集的100张图像，以及ViT-B/16、CLIP和BLIP-2等作为代理模型。实验结果显示，图像嵌入攻击对Bard的成功率为22%，而文本描述攻击的成功率为10%。此外，对抗性图像在GPT-4V、Bing Chat和ERNIE Bot上的攻击成功率分别为45%、26%和86%。
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6. 实验结论
 
