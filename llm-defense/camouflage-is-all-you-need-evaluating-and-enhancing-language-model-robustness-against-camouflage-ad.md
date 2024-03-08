@@ -1,6 +1,6 @@
 # CAMOUFLAGE IS ALL YOU NEED: EVALUATING AND ENHANCING LANGUAGE MODEL ROBUSTNESS AGAINST CAMOUFLAGE AD
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在对抗性攻击的检测上，而不是主动防御。这些方法通常在攻击发生后进行检测，而不是预防。此外，文本数据的离散性质使得应用原本为连续数据（如图像）设计的扰动方法变得困难。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
