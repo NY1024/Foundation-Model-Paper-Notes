@@ -1,6 +1,4 @@
-# Jailbroken: How Does LLM Safety Training Fail?
-
-<figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
+# LLM-Attack
 
 ## 研究背景
 
