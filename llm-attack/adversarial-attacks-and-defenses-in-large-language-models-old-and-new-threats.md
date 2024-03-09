@@ -1,6 +1,6 @@
 # Adversarial Attacks and Defenses in Large Language Models: Old and New Threats
 
-<figure><img src=".gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
