@@ -1,6 +1,6 @@
 # PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 过去的研究，如AdvGLUE和ANLI，主要关注语言模型对对抗性样本的鲁棒性。这些研究通过精心设计的样本扰动来评估模型。然而，这些方法并不适用于仅由提示组成的输入场景，且在实际应用中，用户输入的提示可能会自然发生扰动。此外，现有的鲁棒性评估通常基于静态数据集，缺乏对模型在不同任务和数据集上鲁棒性的全面理解。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了PromptBench，一个全面的基准测试，用于评估LLMs对不同级别（字符、单词、句子和语义）的对抗性文本攻击的鲁棒性。研究使用了多种对抗性提示，模仿用户可能犯的错误，如错别字或同义词。这些提示被用于多种任务，包括情感分析、自然语言推理、阅读理解、机器翻译和数学问题求解。研究生成了4,788个对抗性提示，并在8个任务和13个数据集上进行了详细评估。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

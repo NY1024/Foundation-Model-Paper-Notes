@@ -1,0 +1,47 @@
+# PANDORA: Jailbreak GPTs by Retrieval Augmented Generation Poisoning
+
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+
+## 阅读总结报告
+
+### 1. 研究背景
+
+大型语言模型（LLMs）在各个领域的应用日益广泛，确保这些模型的安全性变得至关重要。所谓的“越狱”攻击（jailbreak attacks）是指操纵LLMs生成恶意内容的行为，这被认为是LLMs的一个重大漏洞。现有的研究主要集中在直接对LLMs进行越狱攻击，而对于间接方法的探索有限。特别是，将检索增强生成（RAG）等插件集成到LLMs中，为间接越狱攻击提供了新的途径。
+
+### 2. 过去方案和缺点
+
+过去的研究主要集中在直接通过提示（prompt）操纵模型来生成恶意响应。这些研究导致了各种安全过滤器的实施，显著降低了直接越狱攻击的有效性。然而，间接方法，尤其是利用RAG的集成，尚未得到充分关注。
+
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+
+### 3. 本文方案和步骤
+
+本文提出了一种名为PANDORA的新型攻击向量，它利用LLMs和RAG之间的协同作用，通过提示操纵来生成意外响应。PANDORA通过恶意制作的内容影响RAG过程，有效地启动越狱攻击。具体步骤包括：
+
+* 恶意内容生成：设计违反特定使用政策的内容。
+* 恶意文档创建：将恶意内容制作成文件，模仿真实的知识源。
+* 恶意内容触发：激活之前注入的恶意内容，引发GPT实例中的越狱攻击。
+
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+
+### 4. 本文创新点与贡献
+
+* 提出了一种新的攻击向量：通过RAG增强的LLMs进行越狱。
+* 引入了一个全面的攻击方法论，针对OpenAI GPTs生成和发起端到端的越狱攻击。
+* 通过初步实验评估了解决方案，展示了其在最新版本的OpenAI GPTs上实现一致越狱攻击的能力。
+
+### 5. 本文实验
+
+实验构建了恶意GPT实例，针对四种内容违规类别：成人内容、有害和滥用内容、隐私侵犯内容和非法内容。实验设置了特定的提示，以触发恶意内容的生成，并进行了手动检查以评估越狱攻击的成功与否。
+
+### 6. 实验结论
+
+PANDORA在不同场景中成功执行越狱攻击，GPT-3.5的平均成功率为64.3%，GPT-4为34.8%，远高于直接攻击的成功率。这表明PANDORA能够有效地利用GPTs进行越狱攻击。
+
+### 7. 全文结论
+
+本文揭示了一种新的越狱GPT模型的方法，称为RAG Poisoning。PANDORA作为一个概念验证，展示了在现实世界场景中执行新攻击方法的可行性和有效性。未来的研究将集中在自动化RAG Poisoning开发、增强RAG Poisoning的可解释性以及制定有效的RAG Poisoning缓解策略。
+
+### 阅读总结
+
+本文通过PANDORA这一新方法，展示了LLMs在面对复杂攻击策略时的脆弱性，并强调了提高模型韧性和安全措施的必要性。实验结果表明，PANDORA能够有效地在GPT模型中执行越狱攻击，这对于AI安全研究领域是一个重要的发现。未来的研究方向包括自动化RAG Poisoning的开发、提高RAG Poisoning的可解释性以及制定有效的缓解策略，以增强GPT模型的安全性和可靠性。
