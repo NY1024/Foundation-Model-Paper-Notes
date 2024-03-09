@@ -8,7 +8,7 @@
 
 文本对抗性攻击通过在输入中添加语义保持但具有误导性的扰动来发现模型的弱点。自然语言处理（NLP）中的对抗性攻击与防御的长期斗争是算法中心的，为自动鲁棒性评估提供了有价值的技术。然而，现有的鲁棒性评估实践可能存在不全面评估、不切实际的评估协议和无效的对抗性样本等问题。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

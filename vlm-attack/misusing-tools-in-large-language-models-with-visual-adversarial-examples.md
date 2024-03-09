@@ -1,15 +1,15 @@
 # MISUSING TOOLS IN LARGE LANGUAGE MODELS  WITH VISUAL ADVERSARIAL EXAMPLES
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 随着大型语言模型（LLMs）的发展，它们现在能够使用工具并处理多种模态，如图像和声音。这些新能力带来了新的好处，但也引入了新的安全风险。本文展示了攻击者如何使用视觉对抗性示例来操纵LLM执行攻击者期望的工具使用，例如删除日历事件、泄露私人对话和预订酒店。
 2. 过去方案和缺点： 以往的研究主要集中在文本提示注入攻击，这些攻击通过在网页上嵌入恶意文本指令来操纵LLM。然而，这些攻击不够隐蔽，因为安全意识强的用户可以通过检查提示历史来检测到无关的指令。此外，这些攻击通常只针对特定的提示有效，而不是针对更广泛的用户输入。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种基于白盒图像的攻击方法，攻击者可以制作特洛伊木马式的图像，指示受害者LLM调用攻击者指定的工具或外部API调用。攻击使用传统的基于梯度的对抗性训练来优化连续空间中的对抗性图像。首先，设计了一个训练损失函数，以在保持正常对话响应的同时注入恶意工具使用。其次，构建了提示-响应训练对，以实现攻击对未见提示的泛化。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文创新点与贡献：
 

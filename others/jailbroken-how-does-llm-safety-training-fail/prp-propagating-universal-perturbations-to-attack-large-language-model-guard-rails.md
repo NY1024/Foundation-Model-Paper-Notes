@@ -1,12 +1,12 @@
 # PRP: Propagating Universal Perturbations to Attack Large Language Model Guard-Rails
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 大型语言模型（LLMs）通常被设计为对人类无害。然而，近期研究表明，这些模型容易受到自动化的“越狱”攻击，这些攻击能够诱导模型生成有害内容。为了增强安全性，更近期的LLMs通常会加入一个额外的防御层，即Guard Model。Guard Model是一个二级LLM，旨在检查并调节主要LLM的输出响应。然而，本文指出，现有的Guard Model在面对新型攻击策略时仍然存在漏洞。
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 

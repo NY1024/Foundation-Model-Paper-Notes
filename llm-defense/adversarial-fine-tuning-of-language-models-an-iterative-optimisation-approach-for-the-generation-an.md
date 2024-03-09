@@ -1,6 +1,6 @@
 # Adversarial Fine-Tuning of Language Models: An Iterative Optimisation Approach for the Generation an
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 

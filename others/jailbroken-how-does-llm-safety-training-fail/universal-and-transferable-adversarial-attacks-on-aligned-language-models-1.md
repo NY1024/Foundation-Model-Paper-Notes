@@ -1,6 +1,6 @@
 # Universal and Transferable Adversarial Attacks on Aligned Language Models
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 过去的工作主要集中在通过人工工程化提示（jailbreaks）来对抗LLMs，这些提示通过精心设计的场景来引导模型误入歧途。然而，这些方法通常需要大量的手动努力，并且容易受到模型更新和改进的影响。自动提示调整方法在对抗LLMs方面也面临挑战，因为它们需要在离散的标记输入上进行优化，这在计算上是困难的。此外，现有的方法在自动搜索方法上未能产生可靠的攻击，这主要是因为LLMs操作在离散的标记输入上，这限制了有效的输入维度，并导致了计算上的困难。
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
