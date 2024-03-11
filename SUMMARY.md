@@ -7,6 +7,7 @@
   * [FOUNDATION MODELS AND FAIR USE](mm-llm/foundation-models-and-fair-use.md)
 * [VLM-Defense](vlm-defense/README.md)
   * [Removing NSFW Concepts from Vision-and-Language Models  for Text-to-Image Retrieval and Generation](vlm-defense/removing-nsfw-concepts-from-vision-and-language-models-for-text-to-image-retrieval-and-generation.md)
+  * [CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning](vlm-defense/cleanclip-mitigating-data-poisoning-attacks-in-multimodal-contrastive-learning.md)
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](vlm-defense/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
   * [Towards Safe Self-Distillation of  Internet-Scale Text-to-Image Diffusion Models](vlm-defense/towards-safe-self-distillation-of-internet-scale-text-to-image-diffusion-models.md)
   * [Typographic Attacks in Large Multimodal Models Can be Alleviated by More  Informative Prompts](typographic-attacks-in-large-multimodal-models-can-be-alleviated-by-more-informative-prompts.md)
