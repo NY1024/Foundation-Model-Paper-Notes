@@ -31,6 +31,7 @@
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
+  * [AN IMAGE IS WORTH 1000 LIES: ADVERSARIAL TRANSFERABILITY ACROSS PROMPTS ON VISIONLANGUAGE MODELS](vlm-attack/an-image-is-worth-1000-lies-adversarial-transferability-across-prompts-on-visionlanguage-models.md)
   * [Test-Time Backdoor Attacks on Multimodal Large Language Models](vlm-attack/test-time-backdoor-attacks-on-multimodal-large-language-models.md)
   * [JAILBREAK IN PIECES: COMPOSITIONAL ADVERSARIAL  ATTACKS ON MULTI-MODAL LANGUAGE MODELS](vlm-attack/jailbreak-in-pieces-compositional-adversarial-attacks-on-multi-modal-language-models.md)
   * [Jailbreaking Attack against Multimodal Large Language Model](vlm-attack/jailbreaking-attack-against-multimodal-large-language-model.md)

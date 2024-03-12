@@ -6,13 +6,13 @@
 
 本研究关注的是大型语言模型（LLMs）在面对隐蔽和复杂的越狱攻击时，如何与人类价值观保持一致的挑战。越狱攻击是专门设计来绕过安全策略，操纵LLMs产生受限输出的攻击方式，这在实际应用中带来了巨大的风险。尽管已有多种策略专注于防御LLMs遭受越狱攻击，但当处理那些具有隐蔽和复杂意图的攻击时，这些策略的有效性显著降低。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 
 以往的努力，如人类反馈的强化学习（RLHF），旨在减轻这些风险并增强LLMs与人类价值观的一致性，使LLMs能够拒绝有害的问题，如如何抢劫银行。然而，LLMs仍然容易受到一些对抗性输入的影响，尤其是在所谓的“越狱”攻击的背景下。这些越狱攻击通常是手工制作的提示，使用更多的指令和特定技术，例如创建一个虚拟场景，让LLMs扮演“DAN”（Do Anything Now）的角色。这种隐蔽和复杂的意图对LLMs在面对这些越狱攻击时保持安全性构成了巨大挑战。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
