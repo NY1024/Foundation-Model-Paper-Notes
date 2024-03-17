@@ -166,6 +166,7 @@
   * [Healing Unsafe Dialogue Responses with Weak Supervision Signals](others/healing-unsafe-dialogue-responses-with-weak-supervision-signals.md)
 * [LLM-Attack](llm-attack/README.md)
   * [SHADOW ALIGNMENT: THE EASE OF SUBVERTING  SAFELY-ALIGNED LANGUAGE MODELS](llm-attack/shadow-alignment-the-ease-of-subverting-safely-aligned-language-models.md)
+  * [CATASTROPHIC JAILBREAK OF OPEN-SOURCE LLMS VIA EXPLOITING GENERATION](llm-attack/catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation.md)
   * [EVALUATING THE SUSCEPTIBILITY OF PRE-TRAINED LANGUAGE MODELS VIA HANDCRAFTED ADVERSARIAL EXAMPLES](llm-attack/evaluating-the-susceptibility-of-pre-trained-language-models-via-handcrafted-adversarial-examples.md)
   * [Defending LLMs against Jailbreaking Attacks via Backtranslation](llm-attack/defending-llms-against-jailbreaking-attacks-via-backtranslation.md)
   * [EMULATED DISALIGNMENT: SAFETY ALIGNMENT  FOR LARGE LANGUAGE MODELS MAY BACKFIRE!](llm-attack/emulated-disalignment-safety-alignment-for-large-language-models-may-backfire.md)
