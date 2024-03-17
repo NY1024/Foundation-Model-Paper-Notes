@@ -170,7 +170,7 @@
   * [EVALUATING THE SUSCEPTIBILITY OF PRE-TRAINED LANGUAGE MODELS VIA HANDCRAFTED ADVERSARIAL EXAMPLES](llm-attack/evaluating-the-susceptibility-of-pre-trained-language-models-via-handcrafted-adversarial-examples.md)
   * [Defending LLMs against Jailbreaking Attacks via Backtranslation](llm-attack/defending-llms-against-jailbreaking-attacks-via-backtranslation.md)
   * [EMULATED DISALIGNMENT: SAFETY ALIGNMENT  FOR LARGE LANGUAGE MODELS MAY BACKFIRE!](llm-attack/emulated-disalignment-safety-alignment-for-large-language-models-may-backfire.md)
-  * [Untitled](llm-attack/untitled.md)
+  * [GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts](llm-attack/gptfuzzer-red-teaming-large-language-models-with-auto-generated-jailbreak-prompts.md)
   * [ON THE SAFETY OF OPEN-SOURCED LARGE LAN GUAGE MODELS: DOES ALIGNMENT REALLY PREVENT  THEM FROM BEING](llm-attack/on-the-safety-of-open-sourced-large-lan-guage-models-does-alignment-really-prevent-them-from-being.md)
   * [Unveiling the Implicit Toxicity in Large Language Models](llm-attack/unveiling-the-implicit-toxicity-in-large-language-models.md)
   * [Forcing Generative Models to Degenerate Ones:  The Power of Data Poisoning Attacks](llm-attack/forcing-generative-models-to-degenerate-ones-the-power-of-data-poisoning-attacks.md)
