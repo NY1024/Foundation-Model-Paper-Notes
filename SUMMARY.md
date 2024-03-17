@@ -113,6 +113,7 @@
   * [Scalable Extraction of Training Data from (Production) Language Models](privacy-attack/scalable-extraction-of-training-data-from-production-language-models.md)
 * [Others](others/README.md)
   * [INFERRING OFFENSIVENESS IN IMAGES FROM NATURAL LANGUAGE SUPERVISION](others/inferring-offensiveness-in-images-from-natural-language-supervision.md)
+  * [CAN LANGUAGE MODELS BE INSTRUCTED TO PROTECT PERSONAL INFORMATION?](others/can-language-models-be-instructed-to-protect-personal-information.md)
   * [AART: AI-Assisted Red-Teaming with Diverse Data Generation for New LLM-powered Applications](others/aart-ai-assisted-red-teaming-with-diverse-data-generation-for-new-llm-powered-applications.md)
   * [Prompt Injection Attacks and Defenses in LLM-Integrated Applications](others/prompt-injection-attacks-and-defenses-in-llm-integrated-applications.md)
   * [Removing RLHF Protections in GPT-4 via Fine-Tuning](others/removing-rlhf-protections-in-gpt-4-via-fine-tuning.md)

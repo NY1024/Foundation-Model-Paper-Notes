@@ -6,7 +6,7 @@
 
 大型语言模型（LLMs）在自然语言应用中发挥了重要作用，特别是在基于指令的设计聊天机器人。然而，部署后的聊天机器人定义是固定的，容易受到恶意用户的攻击，这强调了防止不道德应用和财务损失的必要性。现有的研究探讨了用户提示对基于LLM的聊天机器人的影响，但针对特定应用程序聊天机器人的攻击的实际方法尚未被探索。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
