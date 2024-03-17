@@ -66,6 +66,7 @@
   * [AdvCLIP: Downstream-agnostic Adversarial Examples in Multimodal Contrastive Learning](vlm-attack/advclip-downstream-agnostic-adversarial-examples-in-multimodal-contrastive-learning.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
+  * [Safety of Multimodal Large Language Models on Images and Text](survey/safety-of-multimodal-large-language-models-on-images-and-text.md)
   * [LLM Jailbreak Attack versus Defense Techniques - A Comprehensive Study](survey/llm-jailbreak-attack-versus-defense-techniques-a-comprehensive-study.md)
   * [Survey of Vulnerabilities in Large Language Models  Revealed by Adversarial Attacks](survey/survey-of-vulnerabilities-in-large-language-models-revealed-by-adversarial-attacks.md)
   * [ASurvey on Safe Multi-Modal Learning System](survey/asurvey-on-safe-multi-modal-learning-system.md)
