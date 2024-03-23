@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）在多个领域展现出巨大潜力，但其安全性问题，尤其是生成有害回应的风险，限制了它们的广泛应用。尽管已经采取了多种措施来提高LLMs的安全性，但它们仍然容易受到所谓的“越狱攻击”（Jailbreak Attack）的影响，这种攻击通过控制提示（prompts）来绕过LLMs的安全机制。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

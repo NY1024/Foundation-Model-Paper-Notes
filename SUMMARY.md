@@ -169,6 +169,8 @@
   * [Healing Unsafe Dialogue Responses with Weak Supervision Signals](others/healing-unsafe-dialogue-responses-with-weak-supervision-signals.md)
 * [LLM-Attack](llm-attack/README.md)
   * [SHADOW ALIGNMENT: THE EASE OF SUBVERTING  SAFELY-ALIGNED LANGUAGE MODELS](llm-attack/shadow-alignment-the-ease-of-subverting-safely-aligned-language-models.md)
+  * [Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks](llm-attack/neural-exec-learning-and-learning-from-execution-triggers-for-prompt-injection-attacks.md)
+  * [Scaling Behavior of Machine Translation with Large Language Models under Prompt Injection Attacks](llm-attack/scaling-behavior-of-machine-translation-with-large-language-models-under-prompt-injection-attacks.md)
   * [FINE-TUNING ALIGNED LANGUAGE MODELS COMPROMISES SAFETY, EVEN WHEN USERS DO NOT INTEND TO!](llm-attack/fine-tuning-aligned-language-models-compromises-safety-even-when-users-do-not-intend-to.md)
   * [CATASTROPHIC JAILBREAK OF OPEN-SOURCE LLMS VIA EXPLOITING GENERATION](llm-attack/catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation.md)
   * [EVALUATING THE SUSCEPTIBILITY OF PRE-TRAINED LANGUAGE MODELS VIA HANDCRAFTED ADVERSARIAL EXAMPLES](llm-attack/evaluating-the-susceptibility-of-pre-trained-language-models-via-handcrafted-adversarial-examples.md)

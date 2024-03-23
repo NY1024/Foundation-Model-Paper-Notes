@@ -1,6 +1,6 @@
 # Low-Resource Languages Jailbreak GPT-4
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的安全机制主要集中在高资源语言（如英语）上，而对低资源语言的安全防护不足。这导致了在低资源语言环境中，LLMs更容易产生有害内容。此外，现有的安全训练和红队测试往往没有考虑到跨语言的泛化能力，使得模型在非英语环境中的安全性无法得到保证。
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
