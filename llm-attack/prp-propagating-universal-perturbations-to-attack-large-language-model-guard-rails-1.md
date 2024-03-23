@@ -1,0 +1,69 @@
+# PRP: Propagating Universal Perturbations to Attack Large Language Model Guard-Rails
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## 研究背景
+
+大型语言模型（LLMs）通常被设计为对人类无害。然而，近期的研究表明，这些模型容易受到自动化的"越狱"攻击，导致它们生成有害内容。为了防御这类攻击，最新的LLMs通常会加入一个额外的防御层——Guard Model。Guard Model是一个二级LLM，旨在检查并调节主要LLM的输出响应。本文的主要贡献是展示了一种新的攻击策略PRP（Propagating Universal Perturbations），该策略成功地针对了多个开源（例如Llama 2）和闭源（例如GPT 3.5）的Guard Model实现。
+
+## 过去方案和缺点
+
+过去的攻击主要集中在操纵输入提示（prompt），以便绕过基础LLM的对齐（alignment）。然而，这些攻击在Guard-Railed LLMs面前失效，因为Guard Model会检测并拒绝有害的响应。现有的防御措施，如输入提示检查和LLM输出响应检查，虽然提供了一定程度的安全性，但仍然存在缺陷，例如容易误报和效率低下。
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## 本文方案和步骤
+
+本文提出了PRP攻击框架，它包括两个关键步骤：
+
+1. 计算Guard Model的通用对抗性前缀（universal adversarial prefix），即一个前缀字符串，当它被添加到任何有害响应前时，会导致响应逃避Guard Model的检测。
+2. 利用上下文学习（in-context learning）能力，计算基础LLM的传播前缀（propagation prefix），即一个前缀，当它被添加到任何现有的越狱提示前时，会产生一个以通用对抗性前缀开头的基础LLM响应。
+
+## 本文创新点与贡献
+
+本文的主要创新点在于提出了一种新的攻击策略PRP，该策略能够绕过Guard Model的保护，从而攻击Guard-Railed LLMs。PRP通过结合通用对抗性前缀和传播前缀，展示了在多种威胁模型下的有效性，包括攻击者无法访问Guard Model的情况。这项工作表明，在Guard Models可以被认为是有效之前，还需要在防御措施和Guard Models上进行进一步的改进。
+
+## 本文实验
+
+实验部分评估了PRP攻击在多种设置下的有效性，包括基础模型/Guard Models来自Llama 2、Vicuna、WizardLM、Guanaco、GPT 3.5和Gemini家族。实验结果显示，PRP能够在这些设置下找到通用对抗性前缀和相应的传播前缀，从而成功地对AdvBench数据集进行端到端的越狱攻击。
+
+## 实验结论
+
+实验结果表明，PRP攻击能够有效地绕过Guard-Railed LLMs的保护，即使是在攻击者没有访问Guard Model的情况下。这表明，依赖于闭源Guard Models的安全性可能不是一个有效的解决方案。
+
+## 全文结论
+
+本文提出了PRP，一种新的攻击方法，用于评估Guard-Railed LLMs的安全性。PRP通过两步过程将通用攻击传播到基础LLM的响应中，从而破坏了保护它的Guard Model的效用。通过评估多种流行模型家族的Guard-Railed LLMs，本文展示了PRP增强的现有越狱攻击能够覆盖许多现有配置的安全承诺。
+
+
+
+注：
+
+基于本文内容，构建通用对抗性前缀（Universal Adversarial Prefix）和传播前缀（Propagation Prefix）的过程如下：
+
+#### 构建通用对抗性前缀
+
+1. **定义目标**：找到一个字符串（即前缀），当它被添加到任何输入前时，能够使得Guard Model错误地将有害内容判断为无害。
+2. **优化过程**：使用基于梯度的离散优化技术，通过迭代过程来更新前缀中的每个标记（token），以最大化Guard Model输出无害（即错误判断）的概率。
+3. **训练集准备**：准备一组有害响应的训练集，这些响应将用于优化过程。
+4. **迭代更新**：在每次迭代中，考虑词汇表中的所有标记，选择那些能够最大幅度提高无害输出概率的标记来更新前缀。
+5. **终止条件**：当添加的前缀能够在所有有害响应上成功欺骗Guard Model时，或者达到预设的最大迭代次数时，优化过程终止。
+6. **威胁模型**：根据攻击者对Guard Model的访问级别（白盒、黑盒或无访问），选择合适的优化策略。
+
+#### 构建传播前缀
+
+1. **利用上下文学习**：使用LLM的上下文学习能力，通过几个示例来“教会”模型如何生成特定的响应格式。
+2. **准备示例**：创建一组输入-输出对，其中输入是无害的提示，输出是添加了通用对抗性前缀的响应。
+3. **生成传播前缀**：将通用对抗性前缀添加到每个输出示例的开头，从而形成一个传播前缀。
+4. **模型引导**：通过这些示例来引导模型学习如何自动在任何响应前添加通用对抗性前缀。
+5. **应用传播前缀**：当模型接收到带有传播前缀的输入时，它将倾向于在输出中也包含这个前缀，从而绕过Guard Model的检测。
+
+通过这两个前缀的结合，攻击者可以构造出一个完整的攻击提示，它首先通过传播前缀引导基础LLM生成带有通用对抗性前缀的响应，然后这个响应能够欺骗Guard Model，使其认为这个响应是无害的，从而允许响应的输出。这种方法展示了Guard-Railed LLMs的潜在脆弱性，并为未来的安全研究提供了新的视角。
+
+
+
+
+
+## 阅读总结报告
+
+本研究针对大型语言模型（LLMs）的安全性问题，提出了一种新的攻击策略PRP，旨在绕过Guard Model的保护机制。Guard Model作为一种防御层，旨在检测并阻止LLMs生成有害内容。然而，PRP通过构建通用对抗性前缀和传播前缀，展示了对Guard-Railed LLMs的有效攻击方法。实验结果表明，即使在攻击者无法访问Guard Model的情况下，PRP也能够成功地绕过保护机制，引发LLMs生成有害内容。这一发现对于提高LLMs的安全性具有重要意义，同时也为未来的防御措施提供了新的挑战和研究方向。

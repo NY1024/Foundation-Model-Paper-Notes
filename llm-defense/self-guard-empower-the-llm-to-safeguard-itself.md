@@ -1,6 +1,6 @@
 # SELF-GUARD: Empower the LLM to Safeguard Itself
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
