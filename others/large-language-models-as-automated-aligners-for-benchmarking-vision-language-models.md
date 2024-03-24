@@ -1,6 +1,6 @@
 # LARGE LANGUAGE MODELS AS AUTOMATED ALIGNERS FOR BENCHMARKING VISION-LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -15,7 +15,7 @@
 * 有限的策划：传统的策划依赖于手动注释，这在全面性上存在固有的局限性，无法充分验证模型的能力。
 * 狭窄的评估：传统的评估通常依赖于基于规则的度量来检查任务导向的偏好，这在开放式和能力导向的判断方面存在挑战。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

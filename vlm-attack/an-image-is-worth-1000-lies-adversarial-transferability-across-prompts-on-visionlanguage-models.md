@@ -1,6 +1,6 @@
 # AN IMAGE IS WORTH 1000 LIES: ADVERSARIAL TRANSFERABILITY ACROSS PROMPTS ON VISIONLANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在针对特定任务的模型的对抗性攻击上，这些攻击通常是特定于任务的。对于VLMs，现有的方法在创建对抗性示例时，通常使用单个或多个提示，但这些基线方法在提高跨提示的转移性方面的效果有限，且随着提示数量的增加，性能提升迅速趋于平稳。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
