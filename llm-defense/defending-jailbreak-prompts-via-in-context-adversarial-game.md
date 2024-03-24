@@ -1,6 +1,6 @@
 # Defending Jailbreak Prompts via In-Context Adversarial Game
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -17,13 +17,13 @@
 * **微调**：通过将成功的越狱提示与拒绝响应关联起来，提高模型对齐，但缺乏有效的攻击策略，无法实现真正的对抗性。
 * **安全指令实施**：通过在输入前后附加安全指令来提高模型对齐，但这些方法要么缺乏训练组件，要么依赖于静态数据集来制定安全指令，无法提供全面的防御。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了一种名为In-Context Adversarial Game (ICAG)的方法，通过代理学习进行对抗游戏，动态扩展知识以防御越狱攻击，无需微调模型。ICAG包括两个代理：攻击代理和防御代理，它们通过与目标LLM的交互而进化。攻击代理通过洞察提取和越狱提示的精炼来增强攻击能力，而防御代理则通过反思和洞察提取来加强防御策略。这个过程包括迭代的攻击和防御周期，通过每次迭代的反馈来增强双方的能力。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 上下文对抗游戏（In-Context Adversarial Game，简称ICAG）是一种新颖的方法，旨在提高大型语言模型（LLMs）对越狱攻击的防御能力。ICAG的核心思想是通过代理学习（agent learning）来模拟攻击者和防御者之间的对抗过程，从而在不进行模型微调的情况下动态增强模型的安全性。以下是ICAG的详细说明：
 
