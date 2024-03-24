@@ -285,6 +285,8 @@
   * [Tastle: Distract Large Language Models for Automatic Jailbreak Attack](llm-attack/tastle-distract-large-language-models-for-automatic-jailbreak-attack.md)
   * [Exploring Safety Generalization Challenges of Large Language Models via Code](llm-attack/exploring-safety-generalization-challenges-of-large-language-models-via-code.md)
   * [Learning to Poison Large Language Models During Instruction Tuning](llm-attack/learning-to-poison-large-language-models-during-instruction-tuning-1.md)
+  * [BADEDIT: BACKDOORING LARGE LANGUAGE MODELS BY MODEL EDITING](llm-attack/badedit-backdooring-large-language-models-by-model-editing.md)
+  * [Composite Backdoor Attacks Against Large Language Models](llm-attack/composite-backdoor-attacks-against-large-language-models-1.md)
   * [LoRA-as-an-Attack! Piercing LLM Safety Under The Share-and-Play Scenario](llm-attack/lora-as-an-attack-piercing-llm-safety-under-the-share-and-play-scenario.md)
   * [PRP: Propagating Universal Perturbations to Attack Large Language Model Guard-Rails](llm-attack/prp-propagating-universal-perturbations-to-attack-large-language-model-guard-rails-1.md)
 * [LLM-Defense](llm-defense/README.md)
