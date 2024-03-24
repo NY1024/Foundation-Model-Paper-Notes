@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 
-根据您提供的论文链接，以下是对论文的详细回答和总结报告：
+
 
 #### 1. 研究背景
 
