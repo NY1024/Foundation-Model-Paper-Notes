@@ -1,6 +1,6 @@
 # SA-Attack: Improving Adversarial Transferability of  Vision-Language Pre-training Models via Self-Au
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 当前的视觉-语言预训练（VLP）模型容易受到对抗性示例的攻击，这些对抗性示例对VLP模型构成实质性的安全风险，因为它们可以利用模型的固有弱点，导致错误的预测。与白盒对抗攻击相比，转移攻击（攻击者在白盒模型上生成对抗性示例以欺骗另一个黑盒模型）更符合现实世界的场景，因此对研究更有意义。
 

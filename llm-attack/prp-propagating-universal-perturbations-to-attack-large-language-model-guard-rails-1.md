@@ -10,7 +10,7 @@
 
 过去的攻击主要集中在操纵输入提示（prompt），以便绕过基础LLM的对齐（alignment）。然而，这些攻击在Guard-Railed LLMs面前失效，因为Guard Model会检测并拒绝有害的响应。现有的防御措施，如输入提示检查和LLM输出响应检查，虽然提供了一定程度的安全性，但仍然存在缺陷，例如容易误报和效率低下。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
