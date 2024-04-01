@@ -1,6 +1,6 @@
 # LOFT: LOCAL PROXY FINE-TUNING FOR IMPROVING TRANSFERABILITY OF ADVERSARIAL ATTACKS AGAINST LARGE LAN
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究依赖于代理模型来生成对抗性攻击，这些模型通常需要大量数据进行微调以近似目标模型。然而，这种方法成本高昂，且随着LLMs的快速更新，代理模型很快就会过时。此外，代理模型在整个输入空间上与目标模型的近似度可能不足，导致攻击在目标模型上的成功率不高。
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -21,7 +21,7 @@
 * 使用微调后的代理模型优化攻击后缀，生成攻击提示。
 * 在目标模型上评估攻击的成功率。
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

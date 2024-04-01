@@ -1,6 +1,6 @@
 # A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1. 研究背景
 
@@ -8,19 +8,19 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 过去方案和缺点
 
 以往的研究通常将LLM视为独立的机器学习模型，忽略了LLM与系统其他组件之间的交互可能带来的安全风险。此外，LLM系统的安全分析缺乏一个全面的方法论或框架，导致无法系统地识别和分析安全问题。
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
 本文提出了一个基于信息流的LLM系统安全分析框架，包括三个关键组成部分：多层安全分析、约束存在性分析和约束鲁棒性分析。作者通过构建一个多层次、多步骤的方法来检查OpenAI GPT-4的安全问题，并提出了一种端到端的实际攻击场景。
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. 本文创新点与贡献
 

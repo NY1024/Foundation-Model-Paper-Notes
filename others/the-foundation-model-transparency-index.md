@@ -1,6 +1,6 @@
 # The Foundation Model Transparency Index
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的方案通常缺乏透明度，这导致了对基础模型如何开发和部署的理解不足。透明度的缺失使得利益相关者无法了解这些模型对社会的影响。历史上，数字技术公司在开发和部署技术时往往不透明，这种做法最终导致了伤害，如缅甸的罗兴亚种族灭绝事件和剑桥分析丑闻。尽管学术界、民间社会组织、公司和政府都呼吁基础模型开发者提高透明度，但目前透明度仍然很低。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

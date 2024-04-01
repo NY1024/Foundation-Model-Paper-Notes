@@ -1,6 +1,6 @@
 # ToolSword: Unveiling Safety Issues of Large Language Models in Tool Learning Across Three Stages
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -10,7 +10,7 @@
 
 本文研究的背景是大型语言模型（LLMs）在现实世界场景中的应用，特别是在工具学习（tool learning）方面。工具学习被认为是将LLMs部署到实际应用中的基础方法。然而，尽管现有研究主要关注如何利用工具增强LLMs的能力，但它们经常忽视了与应用相关的新兴安全问题。这些安全问题包括恶意查询、越狱攻击、噪声误导、风险提示、有害反馈和错误冲突等。
 
-<figure><img src="../../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
