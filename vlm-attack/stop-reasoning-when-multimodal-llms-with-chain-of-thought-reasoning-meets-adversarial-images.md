@@ -1,6 +1,6 @@
 # Stop Reasoning! When Multimodal LLMs with Chain-of-Thought Reasoning Meets Adversarial Images
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 本研究探讨了多模态大型语言模型（MLLMs）在面对对抗性图像时的脆弱性。尽管MLLMs在图像理解方面表现出色，但它们仍然容易受到对抗性图像的影响。对抗性图像是指经过精心设计的图像，它们包含人类难以察觉的扰动，但足以使模型产生错误的预测。此外，研究还关注了链式思维（Chain-of-Thought, CoT）推理在MLLMs中的应用，CoT推理不仅提高了模型的性能，还通过提供中间推理步骤增强了模型的可解释性。然而，目前对于MLLMs在CoT推理下的对抗性鲁棒性以及在面对对抗性图像时推理过程的理解仍然不足。
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

@@ -1,6 +1,6 @@
 # INSTRUCTTA: Instruction-Tuned Targeted Attack for Large Vision-Language Models
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在白盒攻击和黑盒攻击上，这些攻击要么完全了解目标模型的参数和结构，要么只能访问模型的输入和输出。然而，这些设置在实际应用中并不总是可行的，因为攻击者可能无法获取到模型的全部信息。此外，现有方法在跨提示（cross-prompt）和跨模型（cross-model）的攻击转移性方面面临挑战，因为目标LVLM可能使用不同的大型语言模型（LLM）后端和未知的指令。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
