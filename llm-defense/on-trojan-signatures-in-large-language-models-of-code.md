@@ -1,6 +1,6 @@
 # ON TROJAN SIGNATURES IN LARGE LANGUAGE MODELS OF CODE
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的研究提出了一种通过分析模型权重来检测特洛伊模型的方法，这种方法被称为白盒检测方法。这种方法的优点是轻量级，不需要事先了解数据集或特洛伊触发器的类型，也不需要资源密集型的计算（如重新训练/推理）。然而，这些方法通常需要整个训练集来识别被污染的样本，或者依赖于模型依赖的评分函数来确定输入中的触发器，这限制了它们的实用性。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

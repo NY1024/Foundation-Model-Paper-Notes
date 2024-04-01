@@ -1,12 +1,12 @@
 # Moderating New Waves of Online Hate with Chain-of-Thought Reasoning in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 随着互联网的快速发展，网络仇恨言论问题日益严重，对互联网用户的生活产生了负面影响。网络仇恨言论不仅形式多样，而且随着事件的发展不断演变，产生新的仇恨言论浪潮，对现有的内容审核工具提出了挑战。这些工具通常依赖于人工智能和机器学习模型来检测违反在线仇恨言论政策的内容，但它们在应对新浪潮的仇恨言论时效果有限，因为这些新浪潮要求复杂的决策制定过程来确定仇恨内容的存在，并且训练样本的有限可用性阻碍了检测模型的更新。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 

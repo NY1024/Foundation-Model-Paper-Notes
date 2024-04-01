@@ -1,6 +1,6 @@
 # COVER: A Heuristic Greedy Adversarial Attack on Prompt-based Learning in Language Models
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的研究主要集中在白盒（white-box）对抗性攻击上，这需要获取模型的参数、梯度和结构信息。对于黑盒（black-box）场景，现有的研究较少，而这在实践中可能产生更严重的安全问题。此外，现有的对抗性攻击研究主要关注白盒场景，而对黑盒场景的研究不足。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
