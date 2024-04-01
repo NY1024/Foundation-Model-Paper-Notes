@@ -191,6 +191,7 @@
   * [Healing Unsafe Dialogue Responses with Weak Supervision Signals](others/healing-unsafe-dialogue-responses-with-weak-supervision-signals.md)
 * [LLM-Attack](llm-attack/README.md)
   * [SHADOW ALIGNMENT: THE EASE OF SUBVERTING  SAFELY-ALIGNED LANGUAGE MODELS](llm-attack/shadow-alignment-the-ease-of-subverting-safely-aligned-language-models.md)
+  * [DPP-Based Adversarial Prompt Searching for Lanugage Models](llm-attack/dpp-based-adversarial-prompt-searching-for-lanugage-models.md)
   * [Large Language Models Are Better Adversaries: Exploring Generative Clean-Label Backdoor Attacks Agai](llm-attack/large-language-models-are-better-adversaries-exploring-generative-clean-label-backdoor-attacks-agai.md)
   * [Rapid Adoption, Hidden Risks: The Dual Impact of Large Language Model Customization](llm-attack/rapid-adoption-hidden-risks-the-dual-impact-of-large-language-model-customization.md)
   * [Using Hallucinations to Bypass RLHF Filters](llm-attack/using-hallucinations-to-bypass-rlhf-filters.md)

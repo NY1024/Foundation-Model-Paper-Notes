@@ -1,6 +1,6 @@
 # Test-time Backdoor Mitigation for Black-Box Large Language Models with Defensive Demonstrations
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 

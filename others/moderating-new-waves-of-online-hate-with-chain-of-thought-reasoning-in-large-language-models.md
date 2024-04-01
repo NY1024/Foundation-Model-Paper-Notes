@@ -1,6 +1,6 @@
 # Moderating New Waves of Online Hate with Chain-of-Thought Reasoning in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 

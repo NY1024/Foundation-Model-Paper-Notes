@@ -18,7 +18,7 @@
 
 本文提出了一种名为"提示窃取攻击"（prompt stealing attacks）的新方法，旨在通过生成的答案来窃取原始的提示。攻击包含两个主要模块：参数提取器（parameter extractor）和提示重构器（prompt reconstructor）。参数提取器用于确定原始提示的属性，而提示重构器则基于生成的答案和提取的特征来重建原始提示。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 
