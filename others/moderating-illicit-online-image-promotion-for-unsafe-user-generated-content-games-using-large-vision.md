@@ -1,6 +1,6 @@
 # Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 

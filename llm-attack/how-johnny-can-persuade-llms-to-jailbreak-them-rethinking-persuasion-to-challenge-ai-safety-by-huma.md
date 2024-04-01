@@ -8,7 +8,7 @@
 
 随着大型语言模型（LLMs）的普及和能力增强，非专家用户在日常交互中也可能带来风险。传统的AI安全研究主要关注由安全专家开发的算法攻击，而忽视了自然和类人交流中的风险。本文提出了一个新的视角，将LLMs视为类似人类的交流者，探索日常语言交互与AI安全之间的交叉点。具体来说，研究如何说服LLMs进行自我破解（jailbreak）。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

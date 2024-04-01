@@ -12,13 +12,13 @@
 
 以往的研究主要关注于如何设计高质量的提示以提高LLMs的性能，而没有充分考虑提示本身的安全性。现有的安全措施并未针对提示窃取攻击进行优化，因此存在潜在的安全漏洞。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了一种名为"提示窃取攻击"（prompt stealing attacks）的新方法，旨在通过生成的答案来窃取原始的提示。攻击包含两个主要模块：参数提取器（parameter extractor）和提示重构器（prompt reconstructor）。参数提取器用于确定原始提示的属性，而提示重构器则基于生成的答案和提取的特征来重建原始提示。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 
