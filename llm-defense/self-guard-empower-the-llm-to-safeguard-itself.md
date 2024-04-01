@@ -1,6 +1,6 @@
 # SELF-GUARD: Empower the LLM to Safeguard Itself
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）在多个领域取得了显著的成功，但它们也因生成有害内容而受到批评。这些有害内容的生成可能导致严重的社会后果。为了解决这一问题，研究者们探索了不同的方法，包括基于人类反馈的强化学习（RLHF）和监督式微调（SFT），以减少LLMs生成有害内容。然而，这些方法在面对越狱攻击（jailbreak attacks）时仍然存在挑战，这些攻击利用LLMs的漏洞绕过安全措施，诱使模型生成有害内容。
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

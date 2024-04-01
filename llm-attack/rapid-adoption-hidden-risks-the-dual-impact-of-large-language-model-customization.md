@@ -1,6 +1,6 @@
 # Rapid Adoption, Hidden Risks: The Dual Impact of Large Language Model Customization
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,19 +8,19 @@
 
 随着大型语言模型（LLMs）如GPT-3.5/4、Bard、LLaMA-1/2和PaLM等的快速发展，它们在自然语言处理（NLP）领域的应用已经取得了革命性的进展。这些模型不仅推动了广泛的研究，还激发了多个领域的创新，如编程、生物学、化学和数学。然而，定制LLMs以满足特定实际应用的需求，面临着复杂性、资源密集性和财务限制等挑战。为了解决这些问题，出现了像GPTs这样的解决方案，允许用户通过自然语言提示而非编程技能来创建个性化的LLMs。尽管这些解决方案的普及性显而易见，但第三方定制版本的LLMs的可信度仍然是一个重要关注点。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 过去方案和缺点
 
 以往的研究主要集中在LLMs的训练时设置的后门攻击上，这些攻击通过在训练数据集中投毒或操纵训练过程来植入隐藏的后门。这些攻击在测试时会导致模型在包含预定义触发器的输入上表现出不期望的行为。然而，这些训练时的攻击既耗时又耗费资源，并且在LLMs上的影响范围有限。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
 本文提出了针对与不受信任的定制LLMs（例如GPTs）集成的应用程序的第一种指令后门攻击。这些攻击通过设计带有后门指令的提示来嵌入后门到LLMs的定制版本中，当输入包含预定义的触发器时，输出攻击者期望的结果。攻击分为三个级别：单词级、语法级和语义级，采用不同类型的触发器，隐蔽性逐渐增强。本文的攻击不需要对后端LLMs进行微调或任何修改，严格遵循GPTs开发指南。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. 本文创新点与贡献
 
