@@ -33,6 +33,7 @@
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
+  * [Universal Prompt Optimizer for Safe Text-to-Image Generation](vlm-attack/universal-prompt-optimizer-for-safe-text-to-image-generation.md)
   * [On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts](vlm-attack/on-the-proactive-generation-of-unsafe-images-from-text-to-image-models-using-benign-prompts.md)
   * [Adversarial Illusions in Multi-Modal Embeddings](vlm-attack/adversarial-illusions-in-multi-modal-embeddings.md)
   * [Stop Reasoning! When Multimodal LLMs with Chain-of-Thought Reasoning Meets Adversarial Images](vlm-attack/stop-reasoning-when-multimodal-llms-with-chain-of-thought-reasoning-meets-adversarial-images.md)
