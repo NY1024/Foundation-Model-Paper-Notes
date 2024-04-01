@@ -1,6 +1,6 @@
 # On the Risk of Misinformation Pollution with Large Language Models
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 以往的研究集中在LLMs生成的文本的检测上，但这些方法在精确度和范围上仍有限制。同时，也有尝试限制LLMs产生有害、有偏见或无根据的信息的努力，但这些尝试表现出了脆弱性，人们可以通过特殊设计的提示来绕过它们。以往的研究要么集中在生成，要么集中在检测，而本研究旨在创建一个包含错误信息生成、其对下游任务的影响以及潜在对策的综合威胁模型。
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

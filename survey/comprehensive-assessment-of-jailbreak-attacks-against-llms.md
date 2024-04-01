@@ -1,6 +1,6 @@
 # Comprehensive Assessment of Jailbreak Attacks Against LLMs
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在单一类别的越狱攻击上，缺乏系统全面的评估。这些研究通常比较有限的越狱方法集，并且实验设置不能确保对齐。此外，现有的越狱攻击方法在实际应用中可能存在效率和有效性之间的权衡问题。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

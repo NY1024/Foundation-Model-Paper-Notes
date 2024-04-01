@@ -1,6 +1,6 @@
 # Weak-to-Strong Jailbreaking on Large Language Models
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的越狱攻击方法包括利用另一个LLM生成对抗性提示、通过反向传播进行对抗性提示优化、对抗性微调以永久改变模型行为，以及对抗性解码以引导文本生成走向危险路径。这些方法在计算上具有挑战性，需要大量的计算资源或复杂的提示工程。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

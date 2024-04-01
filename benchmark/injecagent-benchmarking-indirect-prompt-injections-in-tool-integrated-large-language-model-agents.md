@@ -1,12 +1,12 @@
 # INJECAGENT: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 
 随着大型语言模型（LLMs）的不断发展，它们越来越多地被集成到智能代理框架中，以执行各种任务和操作。这些代理可以访问用户个人数据、执行真实世界的操作，如银行交易和智能家居设备控制。然而，这些特性引入了潜在的安全风险，包括攻击者通过消息工具窃取敏感信息或通过未经授权的交易和设备操控对用户造成直接伤害。攻击者可以通过向代理检索的信息中注入恶意内容（称为间接提示注入，IPI）来诱导这些有害操作。由于此类攻击的技术要求低且可能造成严重后果，系统性地评估LLM代理对此类攻击的脆弱性变得非常重要。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 过去方案和缺点
 
