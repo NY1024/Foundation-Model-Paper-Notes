@@ -1,6 +1,6 @@
 # Foundation Model Sherpas: Guiding Foundation Models through Knowledge and Reasoning
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究尝试通过各种方法来确保FMs与用户偏好的一致性，例如通过人类反馈的强化学习（RLHF）来学习奖励模型。然而，这些方法面临着多重挑战，如用户多样化的目标和偏好、预训练数据集可能过时或存在偏见和隐私问题、以及系统对数据分布变化和外部因素（如法规变化）的鲁棒性需求。此外，LLMs本质上是令牌生成器，仅通过提示工程或简单的人类反馈更新FMs，不太可能实现长期的性能和建立信任。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

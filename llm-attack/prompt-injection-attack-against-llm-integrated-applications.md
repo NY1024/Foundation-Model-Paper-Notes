@@ -1,6 +1,6 @@
 # Prompt Injection attack against LLM-integrated Applications
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）如GPT-4、LLaMA和PaLM2等，因其卓越的语言理解和生成能力，已经广泛应用于多种应用场景中，包括数字助手、AI驱动的新闻业等。然而，随着LLMs在各种服务中的广泛整合，也引入了显著的安全风险，如越狱、后门和复杂的数据投毒等攻击手段。特别是，提示注入攻击，即恶意用户使用有害提示来覆盖LLM的原始指令，成为LLM集成应用中的一个特别关注的安全威胁。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
