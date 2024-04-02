@@ -1,6 +1,6 @@
 # Recursive Chain-of-Feedback Prevents Performance Degradation from Redundant Prompting
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的研究提出了多种提示工程方法，如链式思维（Chain-of-Thought）提示，以提高LLMs的可靠性。这些方法通常需要用户提供一个与目标问题类似的样本问题，包括推理步骤和解决方案。但在面对复杂问题时，找到这样的样本问题可能同样困难，甚至比回答问题本身还要难。
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -26,7 +26,7 @@
 4. 将正确的推理步骤整合回原始问题的回答中。
 5. 重复上述过程，直到达到正确的解决方案。
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

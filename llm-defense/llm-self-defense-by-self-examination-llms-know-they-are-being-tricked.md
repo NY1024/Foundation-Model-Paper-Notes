@@ -1,6 +1,6 @@
 # LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 以往的研究主要集中在通过训练策略或提供指导原则来防止LLMs生成有害内容。然而，这些方法主要关注于“对齐”LLMs与人类价值观，而不是直接防御对抗性攻击。此外，现有的防御方法依赖于迭代生成或预处理，这可能导致复杂性增加和效率降低。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 LLM SELF DEFENSE方法通过将生成的内容纳入预定义的提示中，并使用另一个LLM实例来分析文本并预测其是否有害。这种方法不需要微调、输入预处理或迭代输出生成，而是利用LLM对“有害”一词的理解来过滤潜在的有害响应。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 LLM SELF DEFENSE方法的核心思想是利用大型语言模型（LLMs）的自我检查能力来识别和过滤有害内容。这种方法的具体步骤如下：
 

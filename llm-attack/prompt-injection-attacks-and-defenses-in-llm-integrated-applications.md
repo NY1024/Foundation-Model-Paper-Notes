@@ -1,6 +1,6 @@
 # Prompt Injection Attacks and Defenses in LLM-Integrated Applications
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 随着大型语言模型（LLMs）在各种实际应用中的广泛部署，它们面临的安全问题也日益凸显。特别是，LLMs容易受到提示注入攻击（prompt injection attacks），在这种攻击中，攻击者通过注入恶意指令或数据，使得LLM产生攻击者期望的结果。尽管已有研究显示LLMs对这类攻击的脆弱性，但目前的研究大多局限于案例研究，缺乏系统性的理解和评估。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

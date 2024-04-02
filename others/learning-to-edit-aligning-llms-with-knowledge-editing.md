@@ -1,18 +1,18 @@
 # Learning to Edit: Aligning LLMs with Knowledge Editing
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 随着大型语言模型（LLMs）在各种应用中的广泛应用，其输出的准确性和时效性变得尤为重要。然而，现实世界的知识是不断变化的，这要求LLMs能够适应这些变化，及时更新其知识库。传统的从头开始训练LLMs来整合新知识会导致巨大的计算开销，并且通常被认为是不切实际的。因此，研究者提出了知识编辑技术，旨在高效地修改LLMs中的一小部分知识，同时不影响其他输入的性能。
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 
 以往的知识编辑方法主要依赖于记忆更新的知识，这限制了LLMs在回答输入问题时有效结合新旧知识的能力。这些方法通常使用辅助模块或模型来预测LLMs的权重调整，或者作为查询响应适用性的范围分类器。尽管这些创新显示出潜力，但它们未能继承LLMs的先进能力，导致输出质量下降。此外，一些方法尝试识别并修改与特定知识相关的参数，但这种定位和编辑效果之间的相关性受到了质疑，并且随着LLMs规模的扩大，潜在的负面影响也在增加。
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

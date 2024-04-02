@@ -1,6 +1,6 @@
 # Open the Pandora’s Box of LLMs: Jailbreaking LLMs through Representation Engineering
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的越狱方法主要基于提示工程，包括手动和自动生成越狱提示。这些方法不仅难以构建，而且越狱效果不佳，缺乏可扩展性。自动化提示虽然消除了创造性需求，但也存在低攻击成功率和额外的计算和时间成本。
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

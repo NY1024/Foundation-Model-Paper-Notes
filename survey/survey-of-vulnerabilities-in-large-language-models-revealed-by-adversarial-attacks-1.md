@@ -1,6 +1,6 @@
 # Survey of Vulnerabilities in Large Language Models Revealed by Adversarial Attacks
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 

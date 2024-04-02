@@ -1,6 +1,6 @@
 # LLMsCanDefend Themselves Against Jailbreaking in  a Practical Manner: A Vision Paper
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 近年来，大型语言模型（LLMs）在多个领域展现出巨大潜力，如自然语言处理、信息检索、图像生成等。为了避免LLMs对有害问题的回答引发社会、伦理和法律问题，通常通过安全对齐技术（如RLHF）来防止LLMs的滥用。然而，出现了一种名为“越狱”（jailbreaking）的对抗性攻击，它能够绕过LLMs的安全对齐检查。越狱攻击的研究主要集中在攻击方面，而防御方面的研究相对较少。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 过去的越狱攻击策略包括手动提示工程和自动LLMs红队攻击。最近提出了一种更通用的越狱方法Greedy Coordinate Gradient (GCG)，它使用白盒模仿模型来训练对抗性后缀，以最大化LLMs产生肯定回答的概率。然而，现有的防御机制要么需要对模型进行微调，要么可能仍然容易受到高级越狱攻击的影响。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
