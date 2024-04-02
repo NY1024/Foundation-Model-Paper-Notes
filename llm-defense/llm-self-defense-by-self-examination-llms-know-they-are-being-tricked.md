@@ -1,6 +1,6 @@
 # LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在通过训练策略或提供指导原则来防止LLMs生成有害内容。然而，这些方法主要关注于“对齐”LLMs与人类价值观，而不是直接防御对抗性攻击。此外，现有的防御方法依赖于迭代生成或预处理，这可能导致复杂性增加和效率降低。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

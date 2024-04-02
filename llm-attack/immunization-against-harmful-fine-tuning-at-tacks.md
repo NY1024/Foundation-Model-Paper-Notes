@@ -1,6 +1,6 @@
 # IMMUNIZATION AGAINST HARMFUL FINE-TUNING AT TACKS
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于大型语言模型（LLMs）与人类价值观对齐的问题。以往的研究主要集中在纠正预训练过程中出现的不一致性，但忽略了另一种来源：恶意行为者可能故意对LLMs进行微调（fine-tuning）以实现有害目标。这种攻击被称为“有害微调攻击”，它通过在有害样本上微调模型，或者在无害样本上意外地进行微调，从而绕过了安全技术。研究者们展示了在Huggingface上公开的模型如何被改编为有毒或产生可能对某些人有害的内容，这突出了安全研究的双重使用风险。
 
