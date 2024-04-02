@@ -1,12 +1,12 @@
 # Improving the Robustness of Large Language Models via Consistency Alignment
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 大型语言模型（LLMs）在遵循用户指令和生成有用回应方面取得了巨大成功。然而，它们的鲁棒性仍远非理想，因为它们可能会因指令的微小变化而产生显著不一致的回应。最近的文献探讨了这种不一致性问题，强调了继续提高响应生成鲁棒性的重要性。然而，系统的分析和解决方案仍然缺乏。
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 

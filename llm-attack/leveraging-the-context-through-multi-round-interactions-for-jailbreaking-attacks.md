@@ -1,11 +1,11 @@
 # Leveraging the Context through Multi-Round Interactions for Jailbreaking Attacks
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景 大型语言模型（LLMs）在自然语言处理（NLP）任务中取得了显著成就，但同时也引发了安全问题，特别是在生成误导性、偏见或有害内容以及潜在滥用方面。为了应对这些风险，LLMs被增强了复杂的安全机制，例如通过“对齐过程”来避免分享有害内容。然而，所谓的“越狱”攻击尝试绕过这些安全机制以获取有害信息。随着防御机制的发展，直接获取有害信息对越狱攻击来说变得越来越困难。
 2. 过去方案和缺点 过去的越狱攻击方法主要依赖于直接修改攻击查询来提取有害信息。这些方法可以分为自动化攻击方法和手工制作方法。手工制作方法依赖于人类专家构建特定提示来绕过安全机制，而自动化攻击方法通常采用算法或其他模型来系统地测试和利用LLMs的漏洞。然而，这些攻击方法通常在转移到其他LLMs时表现不佳，这是一个主要的瓶颈。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤 本文提出了一种新的攻击形式，称为“上下文交互攻击”（Contextual Interaction Attack）。这种方法利用LLMs生成过程中的自回归特性，通过一系列初步的问题-答案对与LLM进行交互，引导模型响应以揭示所需的有害信息。攻击过程包括以下几个步骤：
    * 使用辅助LLM（auxiliary LLM）根据手工制作的示例生成一系列无害的初步问题。

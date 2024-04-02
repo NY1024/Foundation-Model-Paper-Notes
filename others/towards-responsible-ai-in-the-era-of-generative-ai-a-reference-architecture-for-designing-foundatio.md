@@ -1,6 +1,6 @@
 # TOWARDS RESPONSIBLE AI IN THE ERA OF GENERATIVE AI: A REFERENCE ARCHITECTURE FOR DESIGNING FOUNDATIO
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去在设计FMs系统时，提出了许多可重用的解决方案来应对各种挑战，但尚未对FMs整合到软件架构的影响进行全面研究。FMs的集成可能会使多个利益相关者的责任变得更加复杂，需要支持可追溯性的机制。此外，信任度是一个重要障碍，需要确保用户提示、FM输出和中间步骤与人类目标一致并满足信任度标准。AI/AGI的潜在滥用也是一个重大挑战，需要持续的风险评估以确保人类为基于FM的系统设置的指令是值得信赖和负责任的。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

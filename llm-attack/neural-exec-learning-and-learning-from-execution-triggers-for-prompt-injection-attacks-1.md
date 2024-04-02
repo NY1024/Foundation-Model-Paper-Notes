@@ -1,18 +1,18 @@
 # Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
 随着大型语言模型（LLMs）在各种应用中的广泛集成，它们已成为现代计算语言学和AI驱动应用的基石。LLMs在自然语言理解和生成方面的空前成功促使其被集成到多个软件解决方案中，应用于不同领域。这些模型被用于处理用户交互、自动化内容创建和辅助决策过程。然而，LLMs的自动化任务也带来了新的安全挑战和攻击向量，扩大了恶意行为者可以利用的攻击面。特别是，提示注入攻击作为一种显著且令人关注的威胁，已经引起了全球国家安全机构和网络安全组织的关注。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 过去方案和缺点
 
 以往的研究主要关注于手工制作的字符串进行的提示注入攻击，例如使用“忽略之前的指令...”等语句。这些攻击依赖于手动工程和对模型行为的直观理解，缺乏灵活性和自动化。此外，现有的防御措施，如黑名单检测和消毒方法，基于对已知攻击形式的认识，容易受到新形式攻击的规避。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 
