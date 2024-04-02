@@ -1,12 +1,12 @@
 # Safety of Multimodal Large Language Models on Images and Text
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
 随着多模态大型语言模型（MLLMs）在日常生活中的应用越来越广泛，它们在提高工作效率方面展现出了显著的能力。然而，MLLMs对不安全指令的脆弱性在实际部署中带来了巨大的安全风险。本文系统地调查了MLLMs在图像和文本方面的安全性评估、攻击和防御的当前努力，旨在帮助研究人员了解该领域的详细范围。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 过去方案和缺点
 
