@@ -1,6 +1,6 @@
 # AVIBench: Towards Evaluating the Robustness of Large Vision-Language Model on Adversarial Visual-Ins
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在LLMs的文本攻击上，而对于LVLMs的图像和文本联合攻击的研究较少。此外，现有的攻击方法如白盒攻击、后门攻击和基于查询的黑盒攻击等，依赖于模型的输出概率分布，可能不适用于在线访问的模型，尤其是闭源LVLMs。这些攻击方法可能受限于特定任务设计，如图像标题生成或视觉问答，限制了评估的全面性。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

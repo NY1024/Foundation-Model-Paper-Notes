@@ -1,6 +1,6 @@
 # CAN LLM-GENERATED MISINFORMATION BE DETECTED?
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 随着大型语言模型（LLMs）如ChatGPT的出现，它们在机器翻译、逻辑推理、摘要和复杂问题回答等任务中展现出强大的能力。然而，LLMs生成的内容类似于人类编写的内容，这也带来了一个严重的在线安全和公共信任问题：LLMs可能被用来生成误导性信息。一个基本的研究问题是：LLMs生成的误导性信息是否会比人类编写的误导性信息造成更大的危害？
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

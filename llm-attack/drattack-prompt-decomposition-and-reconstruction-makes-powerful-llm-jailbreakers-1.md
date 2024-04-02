@@ -1,6 +1,6 @@
 # DrAttack: Prompt Decomposition and Reconstruction Makes Powerful LLM Jailbreakers
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 

@@ -1,6 +1,6 @@
 # SECURING RELIABILITY: A BRIEF OVERVIEW ON ENHANCING IN-CONTEXT LEARNING FOR FOUNDATION MODELS
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
