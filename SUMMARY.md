@@ -105,6 +105,7 @@
   * [Image Safeguarding: Reasoning with Conditional Vision Language Model  and Obfuscating Unsafe Content](for-good/image-safeguarding-reasoning-with-conditional-vision-language-model-and-obfuscating-unsafe-content.md)
 * [Benchmark](benchmark/README.md)
   * [HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language  Hallucination and Visual Illusi](benchmark/hallusionbench-an-advanced-diagnostic-suite-for-entangled-language-hallucination-and-visual-illusi.md)
+  * [Constructing Benchmarks and Interventions for Combating Hallucinations in LLMs](benchmark/constructing-benchmarks-and-interventions-for-combating-hallucinations-in-llms.md)
   * [ALERT: A Comprehensive Benchmark for Assessing Large Language Models’ Safety through Red Teaming](benchmark/alert-a-comprehensive-benchmark-for-assessing-large-language-models-safety-through-red-teaming.md)
   * [Benchmarking Llama2, Mistral, Gemma and GPT for Factuality, Toxicity, Bias and Propensity for Halluc](benchmark/benchmarking-llama2-mistral-gemma-and-gpt-for-factuality-toxicity-bias-and-propensity-for-halluc.md)
   * [INJECAGENT: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents](benchmark/injecagent-benchmarking-indirect-prompt-injections-in-tool-integrated-large-language-model-agents.md)
