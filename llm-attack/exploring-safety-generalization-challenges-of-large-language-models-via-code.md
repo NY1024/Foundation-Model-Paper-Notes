@@ -1,6 +1,6 @@
 # Exploring Safety Generalization Challenges of Large Language Models via Code
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -14,7 +14,7 @@
 
 本文提出了一个名为CodeAttack的框架，该框架将自然语言输入转换为代码输入，以测试LLMs在安全泛化方面的能力。CodeAttack框架包含三个主要组件：输入编码、任务理解和输出规范。输入编码使用常见的数据结构（如栈或队列）来编码自然语言输入，使其在语义上等价但分布上偏离（OOD）。任务理解通过一个decode()函数使LLMs能够从编码的输入中提取目标任务。输出规范使用常见的数据结构来指示输出，指导LLMs填充输出结构以提供查询的答案。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文创新点与贡献
 

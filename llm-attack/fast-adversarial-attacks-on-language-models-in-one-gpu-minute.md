@@ -1,6 +1,6 @@
 # Fast Adversarial Attacks on Language Models In One GPU Minute
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在图像领域的对抗性攻击，而对于LMs的攻击研究相对较少。一些工作尝试通过手动编写提示或使用基于梯度的优化技术来攻击LMs，但这些方法存在效率低下、成本高昂或难以自动化等问题。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

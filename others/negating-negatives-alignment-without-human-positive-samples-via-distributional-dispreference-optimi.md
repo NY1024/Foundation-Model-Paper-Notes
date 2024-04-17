@@ -1,6 +1,6 @@
 # Negating Negatives: Alignment without Human Positive Samples via Distributional Dispreference Optimi
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 以往的对齐方法主要依赖于人工标注的正负样本对。这些方法面临的挑战包括构建高质量的正样本的困难、噪声标签问题以及在数据集中存在的有害内容。这些问题阻碍了对齐优化，并可能加强有害内容的传播。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

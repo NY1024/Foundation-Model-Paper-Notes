@@ -1,6 +1,6 @@
 # LoRA-as-an-Attack! Piercing LLM Safety Under The Share-and-Play Scenario
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,13 +8,13 @@
 
 本研究聚焦于大型语言模型（LLMs）的微调方法，特别是低秩适应（LoRA），这是一种高效的微调机制，允许最终用户通过开源平台轻松发布和采用轻量级的LoRA模块来定制模型以适应不同的下游任务。然而，这种分享和使用LoRA模块的设置打开了新的攻击面，攻击者可以利用LoRA进行后门注入，并将对抗性的LoRA广泛分发给社区，可能导致严重的后果。尽管分享LoRA模块存在巨大的潜在风险，但这一方面的问题尚未得到充分探讨。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 过去的研究主要集中在通过微调降低模型的对齐度，其中LoRA被视为一种高效的完全微调替代方案。然而，这些研究没有考虑到在分享和使用的背景下LoRA的潜在风险，使得相关的攻击面未被充分探索。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
