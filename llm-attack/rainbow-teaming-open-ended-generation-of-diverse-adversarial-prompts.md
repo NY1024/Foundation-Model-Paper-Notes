@@ -1,6 +1,6 @@
 # Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
