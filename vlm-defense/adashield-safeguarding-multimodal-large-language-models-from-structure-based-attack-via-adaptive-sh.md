@@ -1,6 +1,6 @@
 # AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Sh
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的防御策略主要集中在对抗性扰动攻击上，这些攻击通过创建不易被人察觉的微小扰动来破坏MLLMs的对齐。这些方法包括净化器（purifiers）和对抗性训练。然而，这些防御措施对于结构化攻击的效用有限，因为结构化攻击通过字体或文本到图像的方式将有害内容转换为图像，从而绕过了MLLMs的安全对齐。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

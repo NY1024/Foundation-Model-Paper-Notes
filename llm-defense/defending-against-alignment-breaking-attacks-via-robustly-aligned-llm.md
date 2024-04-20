@@ -1,6 +1,6 @@
 # DEFENDING AGAINST ALIGNMENT-BREAKING ATTACKS VIA ROBUSTLY ALIGNED LLM
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 随着大型语言模型（LLMs）在互联网上的训练和应用，它们在多个领域的能力得到了显著提升。然而，LLMs可能被滥用来生成与人类价值观偏离的有害或恶意内容，这一点引起了人们的关注。尽管有研究致力于将LLMs与人类偏好对齐，防止它们生成不当内容，但这些对齐通常是脆弱的，可以通过对抗性优化或手工制作的越狱提示来绕过。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的对齐策略通常采用人类反馈的强化学习（RLHF）来微调LLMs，以减少有害内容的生成。但是，这些对齐策略容易受到越狱攻击的破坏，这些攻击通过精心设计的提示来绕过安全检查。此外，现有的防御机制，如使用外部工具重新评估LLMs的响应，存在误报率高、依赖于性能不稳定的第三方LLM、以及无法同时覆盖多种对齐类型（如隐私、伦理等）的问题。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
