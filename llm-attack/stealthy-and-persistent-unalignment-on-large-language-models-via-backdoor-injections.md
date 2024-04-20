@@ -1,6 +1,6 @@
 # Stealthy and Persistent Unalignment on Large Language Models via Backdoor Injections
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在通过指令调整（instruction tuning）和人类反馈的强化学习（RLHF）等方法来对齐LLMs。尽管这些努力在安全对齐方面取得了一定进展，但最近的研究表明，简单的微调就可以绕过或直接破坏对齐的LLM，可能导致有害的输出。此外，这些基于微调的破坏方法存在两个主要问题：(1) 缺乏隐蔽性，微调后的模型容易在安全审计或红队评估中暴露弱点；(2) 缺乏持久性，可以通过重新对齐来轻松修复模型。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

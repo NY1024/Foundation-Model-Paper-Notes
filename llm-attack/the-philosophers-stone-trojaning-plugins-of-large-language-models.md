@@ -2,19 +2,19 @@
 
 <figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
 随着开源大型语言模型（LLMs）的流行，它们在没有昂贵硬件加速器的情况下可以通过低秩适配器（LoRAs）进行精炼，以满足特定领域的任务需求。然而，目前尚不清楚低秩适配器是否可以被利用来控制LLMs。本文旨在探索通过感染适配器来诱导LLM在特定触发器下输出由对手定义的内容，甚至恶意使用工具的可行性。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究主要集中在通过指令调整和人类反馈的强化学习等方法来对齐LLMs。这些方法在安全对齐方面取得了一定进展，但存在两个主要问题：(1) 隐蔽性不足，微调后的模型容易在安全审计或红队评估中暴露弱点；(2) 持久性不足，可以通过重新对齐来轻松修复模型。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

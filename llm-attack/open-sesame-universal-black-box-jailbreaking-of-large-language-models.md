@@ -1,6 +1,6 @@
 # OPEN SESAME! UNIVERSAL BLACK BOX JAILBREAKING OF LARGE LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在手工制作的提示（jailbreak prompts）上，这些提示被精心设计以利用模型偏见并引发模型的非预期响应。这些提示需要不断调整以适应模型行为的变化，并且需要持续的人工干预。此外，这些方法通常需要对模型有白盒访问，即需要访问模型的内部结构、参数等，这在现实世界中往往不可行。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
