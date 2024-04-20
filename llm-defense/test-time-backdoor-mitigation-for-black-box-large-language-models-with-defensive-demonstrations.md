@@ -1,6 +1,6 @@
 # Test-time Backdoor Mitigation for Black-Box Large Language Models with Defensive Demonstrations
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的后门防御研究主要关注于训练时的防御，例如通过仔细过滤可疑的训练数据或在训练过程中识别输入触发器。然而，这些方法在测试时防御中应用有限，因为黑盒模型的访问限制和缺乏对模型内部机制的了解。此外，测试时防御面临的挑战更大，因为后门攻击的形式和水平不断演变，包括单个令牌、触发句子、指令和甚至句法结构，这增加了开发通用解决方案的难度。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # JailBreakV-28K: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 阅读总结报告
 

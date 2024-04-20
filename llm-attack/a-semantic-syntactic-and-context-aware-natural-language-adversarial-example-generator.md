@@ -12,7 +12,7 @@
 
 以往的研究主要集中在计算机视觉领域，而在NLP领域，对抗性攻击的研究进展较慢。NLP中的文本具有离散性，设计有效的对抗性攻击和防御技术更具挑战性。现有的NLP对抗性攻击模型，如TextFooler和基于BERT的模型（BERT-Attack和BAE），虽然在生成对抗性示例方面取得了一定的进展，但仍存在一些问题，例如生成的对抗性示例可能与原始文本的语义不一致，或者不符合源语言的语法规则。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

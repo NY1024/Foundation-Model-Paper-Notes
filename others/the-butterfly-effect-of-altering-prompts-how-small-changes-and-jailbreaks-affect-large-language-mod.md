@@ -1,6 +1,6 @@
 # The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Mod
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
