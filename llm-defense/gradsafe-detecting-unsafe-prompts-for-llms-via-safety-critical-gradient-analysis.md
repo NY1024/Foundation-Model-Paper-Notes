@@ -1,6 +1,6 @@
 # GradSafe: Detecting Unsafe Prompts for LLMs via Safety-Critical Gradient Analysis
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 现有的检测不安全提示的方法主要包括在线内容审核API和微调后的LLMs。这些策略通常需要广泛且资源密集的数据收集和训练过程。在线API工具主要设计用于检测一般毒性内容，对于识别不安全的提示效果不佳。零次推理（zero-shot）LLMs作为检测器通常表现不佳，例如高估安全风险。最近提出的微调LLMs（如Llama Guard）在检测任务中表现出增强的性能，但微调过程需要精心策划的数据集和大量训练，需要大量资源。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

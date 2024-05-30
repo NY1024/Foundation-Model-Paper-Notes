@@ -1,6 +1,6 @@
 # LLMsCanDefend Themselves Against Jailbreaking in  a Practical Manner: A Vision Paper
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -14,7 +14,7 @@
 
 过去的越狱攻击策略包括手动提示工程和自动LLMs红队攻击。最近提出了一种更通用的越狱方法Greedy Coordinate Gradient (GCG)，它使用白盒模仿模型来训练对抗性后缀，以最大化LLMs产生肯定回答的概率。然而，现有的防御机制要么需要对模型进行微调，要么可能仍然容易受到高级越狱攻击的影响。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

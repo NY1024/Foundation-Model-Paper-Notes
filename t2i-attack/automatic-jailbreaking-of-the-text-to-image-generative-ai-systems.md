@@ -1,18 +1,18 @@
 # Automatic Jailbreaking of the Text-to-Image Generative AI Systems
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
 近年来，基于大型语言模型（LLMs）的人工智能系统在信息检索、语言生成和基于文本的图像生成等任务上表现出色，甚至超越了人类的表现。然而，这些系统存在多种安全隐患，例如通过绕过LLMs中的对齐机制（即所谓的“越狱”）生成恶意内容。尽管已有研究关注LLMs的文本越狱问题，但文本到图像（T2I）生成系统的越狱问题相对较少被关注。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 过去方案和缺点
 
 以往的工作主要集中在基于文本的LLMs越狱问题上，而对T2I生成系统的越狱问题研究不足。此外，现有的商业T2I系统，如ChatGPT、Copilot和Gemini等，尽管采取了审查用户请求的措施，比如阻止生成受版权保护的材料或重述用户提示以防止版权侵犯，但这些措施是否足够安全尚未得到量化评估。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 

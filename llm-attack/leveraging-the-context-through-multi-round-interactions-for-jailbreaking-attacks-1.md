@@ -1,6 +1,6 @@
 # Leveraging the Context through Multi-Round Interactions for Jailbreaking Attacks
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 

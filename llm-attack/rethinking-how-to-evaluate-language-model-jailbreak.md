@@ -1,6 +1,6 @@
 # Rethinking How to Evaluate Language Model Jailbreak
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）已经越来越多地集成到各种应用程序中。为了确保LLMs不生成不安全的回答，它们与规定哪些内容受限制的安全措施相一致。然而，这种一致性可以通过一种通常称为“越狱”的技术来绕过，以产生被禁止的内容。已经提出了不同的系统来自动执行越狱。这些系统依赖于评估方法来确定越狱尝试是否成功。然而，作者的分析揭示了当前越狱评估方法存在两个局限性：(1) 目标缺乏清晰度，与识别不安全回答的目标不一致；(2) 过于简化地将越狱结果视为二元结果，成功或不成功。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
