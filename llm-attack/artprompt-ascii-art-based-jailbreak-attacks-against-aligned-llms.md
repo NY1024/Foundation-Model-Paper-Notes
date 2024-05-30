@@ -1,6 +1,6 @@
 # ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## ArtPrompt: ASCII Art-based Jailbreak Attacks against Aligned LLMs
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）在各种应用场景中越来越广泛地被部署，如数学推理、代码补全和创意写作等。然而，LLMs的安全性问题引起了广泛关注，因为违反安全准则可能会暴露用户于有害内容、偏见等风险。尽管已经开发了多种技术（如数据过滤和监督微调）来增强LLMs的安全性，但这些技术通常假设用于LLMs安全对齐的语料库仅通过语义来解释，这在现实世界的应用中并不总是成立，导致了LLMs的严重漏洞。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

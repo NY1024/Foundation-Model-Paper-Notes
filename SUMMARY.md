@@ -83,6 +83,8 @@
   * [Transferable Multimodal Attack on Vision-Language Pre-training Models](vlm-attack/transferable-multimodal-attack-on-vision-language-pre-training-models-1.md)
   * [BadCLIP: Dual-Embedding Guided Backdoor Attack on Multimodal Contrastive Learning](vlm-attack/badclip-dual-embedding-guided-backdoor-attack-on-multimodal-contrastive-learning.md)
   * [AdvCLIP: Downstream-agnostic Adversarial Examples in Multimodal Contrastive Learning](vlm-attack/advclip-downstream-agnostic-adversarial-examples-in-multimodal-contrastive-learning.md)
+* [T2I-Attack](t2i-attack/README.md)
+  * [Automatic Jailbreaking of the Text-to-Image Generative AI Systems](t2i-attack/automatic-jailbreaking-of-the-text-to-image-generative-ai-systems.md)
 * [Survey](survey/README.md)
   * [Generative AI Security: Challenges and Countermeasures](survey/generative-ai-security-challenges-and-countermeasures.md)
   * [Unbridled Icarus: A Survey of the Potential Perils of Image Inputs in Multimodal Large Language Mode](survey/unbridled-icarus-a-survey-of-the-potential-perils-of-image-inputs-in-multimodal-large-language-mode.md)
