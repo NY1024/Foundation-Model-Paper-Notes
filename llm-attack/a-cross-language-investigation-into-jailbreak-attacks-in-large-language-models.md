@@ -1,6 +1,6 @@
 # A Cross-Language Investigation into Jailbreak Attacks in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,13 +10,13 @@
 
 过去的研究主要集中在针对英语的越狱攻击上，而对多语言环境下的LLMs安全性的研究不足。大多数现有的安全机制都是为英语量身定制的，这在多语言环境中可能导致安全漏洞。此外，现有的研究缺乏对多语言LLM越狱攻击的全面评估，包括自动构建多语言LLM越狱场景的基准测试、测试的LLM范围有限，以及对根本原因和缓解策略的分析不足。
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 
 本文提出了一个经验研究，旨在全面评估多语言LLM越狱攻击。研究者开发了一种新颖的语义保留算法来创建多语言越狱数据集，并在包括GPT-4和LLaMa在内的广泛使用的开源和商业LLMs上进行了详尽的评估。此外，研究者还进行了可解释性分析，以揭示多语言越狱攻击中的模式，并实现了一种微调缓解方法。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文创新点与贡献
 

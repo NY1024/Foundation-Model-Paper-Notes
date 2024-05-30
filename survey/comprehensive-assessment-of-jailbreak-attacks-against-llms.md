@@ -1,6 +1,6 @@
 # Comprehensive Assessment of Jailbreak Attacks Against LLMs
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,13 +12,13 @@
 
 以往的研究主要集中在单一类别的越狱攻击上，缺乏系统全面的评估。这些研究通常比较有限的越狱方法集，并且实验设置不能确保对齐。此外，现有的越狱攻击方法在实际应用中可能存在效率和有效性之间的权衡问题。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
 本文提出了首次大规模测量不同越狱攻击方法的研究。研究集中在四种类别的13种尖端越狱方法、16个违规类别的160个问题，以及六种流行的LLMs。研究通过构建一个统一的政策，将问题分类，并收集越狱提示来构建一个禁止问题数据集。然后，对各种越狱方法在六个目标LLMs上的效力进行了系统性测量。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

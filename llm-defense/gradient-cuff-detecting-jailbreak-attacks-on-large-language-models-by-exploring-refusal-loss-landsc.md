@@ -1,6 +1,6 @@
 # Gradient Cuff: Detecting Jailbreak Attacks on Large Language Models by Exploring Refusal Loss Landsc
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的越狱攻击防御方法包括基于困惑度的过滤（PPL）、平滑LLM（SmoothLLM）、Erase-Check和Self-Reminder等。这些方法在检测某些类型的攻击（如GCG）方面取得了一定的成功，但在抵抗所有类型的越狱攻击方面存在局限性，或者对良性查询有显著的负面影响。例如，Erase-Check虽然在恶意查询上表现良好，但会错误分类许多良性用户查询，使得防御过于保守和不实用。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

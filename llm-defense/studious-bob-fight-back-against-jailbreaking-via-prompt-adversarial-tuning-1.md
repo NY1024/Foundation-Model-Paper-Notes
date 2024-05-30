@@ -1,6 +1,6 @@
 # Studious Bob Fight Back Against Jailbreaking via Prompt Adversarial Tuning
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的防御策略主要集中在内容过滤或对抗性训练模型上。内容过滤方法通过监控模型的输入和输出来保护模型，而对抗性训练则通过在模型训练集中引入对抗样本来提高模型的鲁棒性。然而，这些方法主要关注特定的对抗性攻击或模型训练过程，忽略了越狱攻击的根本原因：输入提示（prompt）对LLMs的影响。此外，现有的防御方法要么专注于防御特定类型的越狱攻击，要么需要巨大的计算成本，因为它们需要对整个大型语言模型进行微调。
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

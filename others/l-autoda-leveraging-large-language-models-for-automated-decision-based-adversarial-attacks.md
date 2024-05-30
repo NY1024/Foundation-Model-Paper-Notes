@@ -1,6 +1,6 @@
 # L-AutoDA: Leveraging Large Language Models for Automated Decision-based Adversarial Attacks
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的决策基础攻击策略主要依赖于手动设计的启发式方法，这些方法需要大量的手动干预，并且依赖于人类专家的知识。这些方法的效率低下，且难以产生创新的攻击算法。此外，现有的自动化程序合成方法（AutoDA）虽然在自动化对抗性攻击算法的生成方面取得了进展，但仍然需要开发特定领域的语言和自动化测试基础设施，且依赖于人类专家的输入。
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

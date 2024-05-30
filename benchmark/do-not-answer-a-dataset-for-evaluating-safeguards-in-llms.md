@@ -1,6 +1,6 @@
 # Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的模型评估主要关注性别和种族偏见、真实性、有害性以及版权内容的复制等方面。然而，这些评估往往忽略了更严重的风险，如非法协助、心理危机干预和心理操纵。此外，现有的安全机制主要集中在商业LLMs上，而开源LLMs往往缺乏全面的安全机制。
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

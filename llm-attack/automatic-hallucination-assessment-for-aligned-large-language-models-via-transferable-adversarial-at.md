@@ -1,6 +1,6 @@
 # AUTOMATIC HALLUCINATION ASSESSMENT FOR ALIGNED LARGE LANGUAGE MODELS VIA TRANSFERABLE ADVERSARIAL AT
 
-<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 

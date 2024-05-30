@@ -1,6 +1,6 @@
 # Jatmo: Prompt Injection Defense by Task-Specific Finetuning
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的防御策略，如输入清洗和输出验证，通常不足以抵御提示注入攻击。输入清洗可能被熟练的攻击者通过使用不同语言或编码格式来规避。输出验证虽然对于某些任务可行，但对于自然语言任务来说，由于输出格式的自由性和复杂性，这种方法变得不切实际。此外，即使是通过参数化查询来严格分离控制和数据的方法，也与LLMs现有的灵活接口不兼容。
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
