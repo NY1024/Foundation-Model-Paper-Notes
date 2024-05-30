@@ -1,6 +1,6 @@
 # SHORTCUTS ARISING FROM CONTRAST: EFFECTIVE AND COVERT CLEAN-LABEL ATTACKS IN PROMPT-BASED LEARNING
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 

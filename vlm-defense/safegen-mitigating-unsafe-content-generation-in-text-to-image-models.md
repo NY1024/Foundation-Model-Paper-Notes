@@ -1,6 +1,6 @@
 # SAFEGEN: Mitigating Unsafe Content Generation in Text-to-Image Models
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
