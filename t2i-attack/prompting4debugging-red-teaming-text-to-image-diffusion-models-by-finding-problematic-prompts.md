@@ -1,18 +1,18 @@
 # Prompting4Debugging: Red-Teaming Text-to-Image Diffusion Models by Finding Problematic Prompts
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
 近年来，文本到图像的生成模型（如Stable Diffusion）在高质量内容生成方面取得了显著进展，成为AI变革性技术代表之一。然而，这些技术进步也伴随着对滥用生成技术产生版权或不适宜（NSFW）图像的担忧。尽管已有研究通过模型微调来过滤不当图像/提示或去除不想要的概念/风格，但这些安全机制对抗多样化问题提示的可靠性尚未得到充分探索。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 过去方案和缺点
 
 过去的研究工作提出了带有安全机制的扩散模型，例如使用负面提示的Stable Diffusion、SLD和ESD等，旨在限制推理过程中的文本嵌入空间或微调模型，以防止生成版权或不当图像。尽管这些安全机制在评估方案中显示出部分有效性，但已有研究表明它们存在潜在缺陷。例如，即使使用NSFW安全过滤器，Stable Diffusion模型仍可能生成性内容，如果用户给出特定的文本提示。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 

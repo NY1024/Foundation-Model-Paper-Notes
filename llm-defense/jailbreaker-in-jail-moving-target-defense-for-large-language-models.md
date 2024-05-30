@@ -1,6 +1,6 @@
 # Jailbreaker in Jail: Moving Target Defense for Large Language Models
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）因其理解和遵循指令的能力而闻名，但它们容易受到对抗性攻击。研究人员发现，当前商业LLMs要么因提供不道德的答案而无法做到“无害”，要么因拒绝提供有意义的答案而无法做到“有帮助”。为了在有帮助和无害之间取得平衡，本文设计了一个增强的移动目标防御（MTD）LLM系统。该系统旨在提供符合多个模型候选输出的非有害答案，使其对抗性攻击更加稳健。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

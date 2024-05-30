@@ -1,6 +1,6 @@
 # What’s in Your “Safe” Data?: Identifying Benign Data that Breaks Safety
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 
@@ -12,7 +12,7 @@
 
 以往的安全调整方法被证明是脆弱的，因为即使是定制化的模型，通过使用无害数据进行微调，也可能触发安全性的降低。这些方法没有充分考虑到数据本身对模型安全性的影响。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. 本文方案和步骤**
 
