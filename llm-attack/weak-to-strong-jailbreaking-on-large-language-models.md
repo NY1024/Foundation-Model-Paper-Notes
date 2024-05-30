@@ -12,7 +12,7 @@
 
 以往的研究工作展示了通过人工编写的提示进行有针对性的操纵可以使看似有帮助的模型被“越狱”（jailbroken），但这种方法劳动密集且计算成本高。自动化的越狱攻击通常利用四个关键点：利用另一个LLM生成对抗性提示、通过反向传播进行对抗性提示搜索以触发不安全输出、进行对抗性微调以永久改变核心模型行为、以及在解码过程中进行对抗性解码。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

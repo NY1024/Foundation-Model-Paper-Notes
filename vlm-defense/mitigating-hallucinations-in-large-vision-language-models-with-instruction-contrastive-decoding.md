@@ -1,6 +1,6 @@
 # Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1. 研究背景
 

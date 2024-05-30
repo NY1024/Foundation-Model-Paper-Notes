@@ -1,6 +1,6 @@
 # Unsafe Diffusion: On the Generation of Unsafe Images and Hateful Memes From Text-To-Image Models
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究主要集中于检测和过滤不安全的内容，但这些方法通常只关注单一类别的不安全图像，例如色情内容，并且主要依赖于人工生成的提示。此外，现有研究通常只针对单一模型（如Stable Diffusion）进行，没有全面评估不同模型和不同提示数据集的风险水平。这些方法在处理复杂和多样化的不安全内容时存在局限性，且难以适应模型的不断进化和新的滥用策略。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

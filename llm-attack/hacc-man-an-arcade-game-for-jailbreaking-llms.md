@@ -1,6 +1,6 @@
 # Hacc-Man: An Arcade Game for Jailbreaking LLMs
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 阅读总结报告
 
