@@ -1,6 +1,6 @@
 # Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 

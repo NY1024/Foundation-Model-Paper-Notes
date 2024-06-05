@@ -1,6 +1,6 @@
 # Unveiling Hallucination in Text, Image, Video, and Audio Foundation Models: A Comprehensive Survey
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
