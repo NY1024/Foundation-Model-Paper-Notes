@@ -1,6 +1,6 @@
 # HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 

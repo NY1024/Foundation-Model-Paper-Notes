@@ -45,6 +45,8 @@
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
+  * [Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Lar](vlm-attack/typography-leads-semantic-diversifying-amplifying-adversarial-transferability-across-multimodal-lar.md)
+  * [White-box Multimodal Jailbreaks Against Large Vision-Language Models](vlm-attack/white-box-multimodal-jailbreaks-against-large-vision-language-models.md)
   * [Red Teaming Visual Language Models](vlm-attack/red-teaming-visual-language-models.md)
   * [Private Attribute Inference from Images with Vision-Language Models](vlm-attack/private-attribute-inference-from-images-with-vision-language-models.md)
   * [Assessment of Multimodal Large Language Models in Alignment with Human Values](vlm-attack/assessment-of-multimodal-large-language-models-in-alignment-with-human-values.md)

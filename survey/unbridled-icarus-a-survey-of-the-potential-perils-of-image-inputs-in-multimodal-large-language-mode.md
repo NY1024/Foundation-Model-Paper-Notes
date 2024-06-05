@@ -1,6 +1,6 @@
 # Unbridled Icarus: A Survey of the Potential Perils of Image Inputs in Multimodal Large Language Mode
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在LLMs的安全性上，而对MLLMs安全性的研究还处于起步阶段。尽管已有大量研究关注LLMs的安全性，但MLLMs的安全性研究仍面临挑战，尤其是在图像模态的整合上。图像的自动生成、对人类的不可感知性以及对模型输出的任意控制潜力，都构成了重大的安全挑战。此外，过去的研究缺乏对攻击者行为和攻击潜在结果的成熟和普遍接受的正式定义标准，这使得难以横向和定量评估各种攻击和防御的优缺点。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
