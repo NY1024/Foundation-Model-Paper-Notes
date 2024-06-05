@@ -1,6 +1,6 @@
 # Mitigating LLM Hallucinations via Conformal Abstention
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 

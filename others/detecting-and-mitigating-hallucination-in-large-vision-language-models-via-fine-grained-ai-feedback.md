@@ -1,6 +1,6 @@
 # Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
