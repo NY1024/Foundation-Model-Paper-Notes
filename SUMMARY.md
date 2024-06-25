@@ -174,6 +174,8 @@
   * [Scalable Extraction of Training Data from (Production) Language Models](privacy-attack/scalable-extraction-of-training-data-from-production-language-models.md)
 * [Others](others/README.md)
   * [INFERRING OFFENSIVENESS IN IMAGES FROM NATURAL LANGUAGE SUPERVISION](others/inferring-offensiveness-in-images-from-natural-language-supervision.md)
+  * [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](others/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback.md)
+  * [Deduplicating Training Data Makes Language Models Better](others/deduplicating-training-data-makes-language-models-better.md)
   * [MITIGATING TEXT TOXICITY WITH COUNTERFACTUAL GENERATION](others/mitigating-text-toxicity-with-counterfactual-generation.md)
   * [The First to Know: How Token Distributions Reveal Hidden Knowledge in Large Vision-Language Models?](others/the-first-to-know-how-token-distributions-reveal-hidden-knowledge-in-large-vision-language-models.md)
   * [Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval](others/mitigating-hallucinations-in-large-language-models-via-self-refinement-enhanced-knowledge-retrieval.md)
