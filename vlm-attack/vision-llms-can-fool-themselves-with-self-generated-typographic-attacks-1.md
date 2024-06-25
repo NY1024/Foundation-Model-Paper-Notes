@@ -1,6 +1,6 @@
 # Vision-LLMs Can Fool Themselves with Self-Generated Typographic  Attacks
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究聚焦于视觉-语言模型（Vision-Language Models，简称LVLMs），这类模型结合了视觉和语言处理能力，能够理解和生成与图像相关的文本。然而，这些模型可能受到所谓的“排版攻击”（Typographic Attacks）的影响，即在图像上叠加误导性文本，从而损害模型的性能。尽管先前的研究已经表明排版攻击对CLIP等模型有显著影响，但对最近的大型视觉-语言模型的易感性研究还不够充分。
 

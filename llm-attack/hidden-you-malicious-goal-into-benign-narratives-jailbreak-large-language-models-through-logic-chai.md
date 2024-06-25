@@ -45,4 +45,4 @@
 
 本文提出了一种新的针对大型语言模型的越狱攻击方法，通过逻辑链注入的方式，将恶意意图隐藏在看似无害的叙述中，从而欺骗模型和人类分析师。文章详细介绍了攻击的背景、步骤、创新点，并提供了实验验证。最后，文章强调了LLMs安全性的重要性，并对未来的研究方向提出了建议。这项研究对于理解和提高LLMs的安全性具有重要意义。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

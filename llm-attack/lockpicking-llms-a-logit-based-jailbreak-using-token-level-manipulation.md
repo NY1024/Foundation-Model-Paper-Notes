@@ -1,6 +1,6 @@
 # Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 

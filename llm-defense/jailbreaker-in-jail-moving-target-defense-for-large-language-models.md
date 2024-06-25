@@ -1,6 +1,6 @@
 # Jailbreaker in Jail: Moving Target Defense for Large Language Models
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,13 +8,13 @@
 
 大型语言模型（LLMs）因其理解和遵循指令的能力而闻名，但它们容易受到对抗性攻击。研究人员发现，当前商业LLMs要么因提供不道德的答案而无法做到“无害”，要么因拒绝提供有意义的答案而无法做到“有帮助”。为了在有帮助和无害之间取得平衡，本文设计了一个增强的移动目标防御（MTD）LLM系统。该系统旨在提供符合多个模型候选输出的非有害答案，使其对抗性攻击更加稳健。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的LLMs（如InstructGPT和ChatGPT）通过微调语言模型以使其更紧密地符合用户需求，从而提高了模型的整体表现，使其成为一个“有帮助”的助手。然而，尽管以对齐为中心的训练改善了模型的整体行为，但这些模型仍然容易受到多种对抗性攻击。对抗性攻击旨在通过在测试阶段对供给目标模型的输入进行调整来操纵模型输出。此外，即使是在ChatGPT模型的August-3版本调整后，对于某些对抗性示例，它仍然会产生有害内容。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
