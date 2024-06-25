@@ -1,6 +1,6 @@
 # How Alignment and Jailbreak Work: Explain LLM Safety through Intermediate Hidden States
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -36,6 +36,4 @@
 
 本文深入探讨了LLMs如何确保安全性，并解释了对齐和越狱是如何工作的。研究表明，预训练和对齐共同确保了LLMs的安全性，而越狱通过干扰中间层的情感关联来绕过安全性防护。这项研究为LLM安全性提供了更精确的优化目标，即加强中间层中不道德到拒绝的关联。
 
-### 阅读总结
-
-本文通过深入分析LLMs的内部工作机制，为理解和提升LLMs的安全性提供了宝贵的见解。特别是，通过弱分类器和Logit Grafting技术，本文不仅揭示了LLMs如何在不同层级处理伦理和恶意输入，还展示了越狱攻击是如何影响这一过程的。这项研究不仅增进了我们对LLMs安全性的理解，也为未来LLMs的负责任和伦理发展奠定了基础。
+###

@@ -1,6 +1,6 @@
 # Imperio: Language-Guided Backdoor Attacks for Arbitrary Model Control
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 随着深度神经网络（DNNs）在现实世界应用的增加，它们对各种恶意攻击的脆弱性也日益凸显。特别是后门攻击，它通过在训练过程中干预，使模型学习到特定的触发模式，从而在输入中一旦呈现该模式，模型的预测就会被劫持。这种攻击方式隐蔽且对模型在干净输入上的准确性影响不大，对DNN驱动系统的可靠性构成了严重威胁。此外，随着自然语言处理（NLP）模型语言理解能力的增强，它们在后门攻击中的脆弱性也引起了关注。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

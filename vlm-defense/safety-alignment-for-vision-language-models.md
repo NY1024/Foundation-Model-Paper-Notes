@@ -12,7 +12,7 @@
 
 过去对多模态语言模型的安全性对齐研究不足，导致这些模型在部署时容易受到攻击。尽管对LLMs本身进行了安全性对齐，但视觉模态能有效绕过模型的安全对齐，使其成为输入中最脆弱的模态。例如，LLaVA模型在遇到色情图片时会产生明确的色情描述，并在处理包含歧视性内容的图片时产生不当内容。
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. 本文方案和步骤**
 

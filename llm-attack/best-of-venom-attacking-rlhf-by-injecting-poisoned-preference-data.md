@@ -1,6 +1,6 @@
 # Best-of-Venom: Attacking RLHF by Injecting Poisoned Preference Data
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 
@@ -12,7 +12,7 @@ Reinforcement Learning from Human Feedback (RLHF) 是一种流行的方法，用
 
 以往的防御策略主要集中在检测和移除有毒数据上，但这对抗偏好投毒攻击的效果不佳，因为有毒的偏好对与干净数据高度相似，难以被自动检测到。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. 本文方案和步骤**
 

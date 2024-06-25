@@ -1,6 +1,6 @@
 # An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
