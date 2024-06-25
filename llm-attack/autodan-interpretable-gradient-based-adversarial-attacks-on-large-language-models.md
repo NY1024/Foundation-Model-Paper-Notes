@@ -1,6 +1,6 @@
 # AUTODAN: INTERPRETABLE GRADIENT-BASED ADVERSARIAL ATTACKS ON LARGE LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的对抗性攻击防御主要依赖于手动越狱攻击和自动对抗性攻击。手动越狱攻击虽然可读性强，但由于需要人类创造力，数量有限，容易被封锁。自动对抗性攻击虽然能够无限生成攻击提示，但这些提示通常不可读，可以通过困惑度过滤器检测。然而，这些解决方案可能过于乐观，因为它们没有考虑到同时具备越狱能力和可读性的自动对抗性攻击。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
@@ -20,7 +20,7 @@
 * 采用两步初步到精细的选择过程来优化每个单独的令牌，同时考虑越狱和可读性目标。
 * 通过结合越狱和可读性目标，实现对令牌分布熵的适应性。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

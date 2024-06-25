@@ -1,6 +1,6 @@
 # ObscurePrompt: Jailbreaking Large Language Models via Obscure Inpu
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 
@@ -12,7 +12,7 @@
 
 以往的研究主要关注于如何通过提示的设计来提高LLMs的性能，但这些策略通常需要访问目标LLMs的内部参数（白盒场景），或者依赖于特定的固定提示模板，这限制了它们的普适性和有效性。
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

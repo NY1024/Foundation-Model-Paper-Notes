@@ -1,6 +1,6 @@
 # How Alignment and Jailbreak Work: Explain LLM Safety through Intermediate Hidden States
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 

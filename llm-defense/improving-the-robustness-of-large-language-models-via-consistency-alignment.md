@@ -1,18 +1,18 @@
 # Improving the Robustness of Large Language Models via Consistency Alignment
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 大型语言模型（LLMs）在遵循用户指令和生成有用回应方面取得了巨大成功。然而，它们的鲁棒性仍远非理想，因为它们可能会因指令的微小变化而产生显著不一致的回应。最近的文献探讨了这种不一致性问题，强调了继续提高响应生成鲁棒性的重要性。然而，系统的分析和解决方案仍然缺乏。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 
 以往的研究通过指令微调对预训练模型进行优化，以帮助LLMs理解指令并生成人类期望的回应。例如，使用PPO优化微调模型以学习人类偏好，或者使用奖励排名微调方法选择模型输出进行基础LLMs的微调。尽管如此，这些方法缺乏对当前LLMs在生成响应的一致性方面的量化分析，也没有提出系统性的解决方案。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

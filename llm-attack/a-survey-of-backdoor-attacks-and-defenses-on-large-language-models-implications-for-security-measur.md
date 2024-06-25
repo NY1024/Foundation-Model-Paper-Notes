@@ -10,7 +10,7 @@
 
 现有的关于后门攻击的研究提供了一个全面的概览，但缺乏对特定针对LLMs的后门攻击的深入研究。以往的研究多集中在触发器的设计或特定类型的后门攻击上，例如针对联邦学习中的后门攻击。这些研究没有涵盖针对LLMs的后门攻击的深度分析。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

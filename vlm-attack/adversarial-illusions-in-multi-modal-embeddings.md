@@ -1,6 +1,6 @@
 # Adversarial Illusions in Multi-Modal Embeddings
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 本文研究的背景是多模态嵌入技术，该技术将文本、图像、声音、视频等不同模态的数据编码到单一的嵌入空间中，以实现跨模态的表示对齐（例如，将狗的图像与狗叫声关联起来）。多模态编码器如ImageBind和AudioCLIP等，通过在大量双模态数据上进行对比学习，不仅实现了自然对齐的模态之间的对齐，还展现出了在训练数据中未明确链接的模态之间的新兴对齐。然而，本文指出这种多模态嵌入容易受到一种称为“对抗性幻觉”的攻击，即攻击者可以对图像或声音进行微调，使其嵌入与另一个模态中的任意、攻击者选择的输入在嵌入空间中接近，从而误导基于嵌入的下游任务。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

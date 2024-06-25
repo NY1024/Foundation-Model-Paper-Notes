@@ -1,6 +1,6 @@
 # Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -15,7 +15,7 @@
 * 对影响越狱攻击的多种因素的考察不足。
 * 缺乏对防御策略影响的深入分析。
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # Efficient Adversarial Training in LLMs with Continuous Attacks
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
@@ -10,7 +10,7 @@
 
 对抗性训练，即在线增强神经网络的训练数据以对抗性攻击，已被证明可以提高对敌手的鲁棒性。然而，在LLMs的背景下，当前的对抗性训练方法受到每次训练迭代执行离散对抗性攻击所需的高计算成本的阻碍。例如，R2D2算法使用Greedy Coordinate Gradient (GCG) 生成自然语言中的离散对抗性后缀，但GCG需要大量的计算资源，计算单个攻击需要数十万次模型评估。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 
