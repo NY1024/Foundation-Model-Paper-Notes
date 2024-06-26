@@ -1,6 +1,6 @@
 # Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究主要集中在通过训练来对齐MLLMs的安全机制，例如监督式微调（Supervised Finetuning, SFT）和从人类反馈中学习的强化学习（Reinforcement Learning from Human Feedback, RLHF）。这些方法需要精心设计的对抗性查询来诱导LLMs生成有害回答，这在涉及图像输入时变得更加具有挑战性。此外，这些方法需要大量的人工干预和额外的训练过程，这不仅成本高昂，而且可能无法涵盖所有潜在的攻击向量。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

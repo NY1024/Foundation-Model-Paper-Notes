@@ -1,6 +1,6 @@
 # “Not Aligned” is Not “Malicious”: Being Careful about Hallucinations of Large Language Models’ Jailb
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

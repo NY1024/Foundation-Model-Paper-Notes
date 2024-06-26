@@ -12,7 +12,7 @@
 
 以往的研究集中在提高智能体的推理、规划、搜索、环境反馈和工具增强等方面，以提升其性能。然而，这些研究没有充分考虑智能体在现实世界应用中的安全性和鲁棒性。攻击者可能通过修改产品图片等手段，以不引人注意的方式操纵智能体。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

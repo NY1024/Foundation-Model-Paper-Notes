@@ -1,6 +1,6 @@
 # Chain of Attack: a Semantic-Driven Contextual Multi-Turn attacker for LLM
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 
@@ -18,7 +18,7 @@
 
 这些方法的局限性在于，它们主要在单句或单轮场景的约束下执行，或者缺乏对动态上下文和多轮对话中后续反应的考虑。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
