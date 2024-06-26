@@ -45,6 +45,7 @@
   * [Scalable Performance Analysis for Vision-Language Models](vlm/scalable-performance-analysis-for-vision-language-models.md)
 * [VLM-Attack](vlm-attack/README.md)
   * [Circumventing Concept Erasure Methods For  Text-to-Image Generative Models](vlm-attack/circumventing-concept-erasure-methods-for-text-to-image-generative-models.md)
+  * [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](vlm-attack/from-llms-to-mllms-exploring-the-landscape-of-multimodal-jailbreaking.md)
   * [Adversarial Attacks on Multimodal Agents](vlm-attack/adversarial-attacks-on-multimodal-agents.md)
   * [Visual-RolePlay: Universal Jailbreak Attack on MultiModal Large Language Models via Role-playing Ima](vlm-attack/visual-roleplay-universal-jailbreak-attack-on-multimodal-large-language-models-via-role-playing-ima.md)
   * [Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models](vlm-attack/cross-modality-jailbreak-and-mismatched-attacks-on-medical-multimodal-large-language-models.md)

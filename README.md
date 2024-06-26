@@ -10,6 +10,10 @@
 
 
 
+注：本书github网址为[https://github.com/NY1024/Foundation-Model-Paper-Notes](https://github.com/NY1024/Foundation-Model-Paper-Notes)
+
+注：欢迎关注公众号（![](<.gitbook/assets/image (286).png>)）
+
 
 
 应宗浩(yingzonghao\[AT]buaa.edu.cn)
