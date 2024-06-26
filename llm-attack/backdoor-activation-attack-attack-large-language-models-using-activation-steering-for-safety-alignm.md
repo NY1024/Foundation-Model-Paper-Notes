@@ -1,6 +1,6 @@
 # Backdoor Activation Attack: Attack Large Language Models using Activation Steering for Safety-Alignm
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 随着大型语言模型（LLMs）在各种任务上的卓越表现，它们在关键领域的应用越来越广泛，如医疗、法律和金融。然而，LLMs在训练过程中可能会学习到不当行为，如生成有害内容、歧视性言论等。为了确保AI的安全性，研究者们通过指令调整（instruction-tuning）来训练LLMs，以更好地与人类意图对齐。尽管这些模型在安全基准测试上表现良好，但它们的安全对齐脆弱性尚未得到充分研究。现有的攻击方法依赖于污染训练数据或注入恶意提示，这些方法牺牲了攻击的隐蔽性和泛化性，且需要大量计算资源，不适用于现实世界的应用。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

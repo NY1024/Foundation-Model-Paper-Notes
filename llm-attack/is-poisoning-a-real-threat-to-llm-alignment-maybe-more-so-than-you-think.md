@@ -1,6 +1,6 @@
 # IS POISONING A REAL THREAT TO LLM ALIGNMENT? MAYBE MORE SO THAN YOU THINK
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 传统的RLHF方法使用Proximal Policy Optimization (PPO)算法，它对超参数非常敏感。这导致了直接策略优化（DPO）方法的开发，该方法在监督学习框架中处理RLHF，通过寻找最优策略的精确解。然而，过去的研究没有深入分析DPO在训练时对标签翻转攻击的脆弱性。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

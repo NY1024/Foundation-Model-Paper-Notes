@@ -1,6 +1,6 @@
 # The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,7 +8,7 @@
 
 当前的大型语言模型（LLMs）面临多种攻击，包括提示注入、越狱以及其它允许攻击者用自己的恶意提示覆盖模型原始指令的攻击。这些攻击的一个主要漏洞是LLMs通常将系统提示（例如，来自应用开发者的文本）视为与来自不可信用户和第三方的文本具有相同的优先级。
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 过去方案和缺点
 

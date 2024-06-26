@@ -1,6 +1,6 @@
 # BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 尽管在自然语言处理中对后门攻击已有广泛研究，但据作者所知，这是首次针对能够使用外部工具的LLM代理进行后门攻击研究。与传统的语言模型相比，LLM代理更强大，但在攻击下也更危险。现有的后门攻击通常通过数据投毒实现，将触发器与目标模型行为相关联，使其在模型训练期间被学习。
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

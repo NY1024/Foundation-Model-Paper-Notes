@@ -1,6 +1,6 @@
 # AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
@@ -10,7 +10,7 @@
 
 为了应对这一挑战，研究人员提出了手动红队（manual red-teaming）方法，通过人工设计对抗性提示来发现和修复漏洞。这种方法耗时且可能存在盲点。自动化的对抗性提示生成方法虽然能够快速生成提示，但往往缺乏人类可读性，容易被基于困惑度（perplexity-based）的过滤策略检测到。此外，这些方法可能需要从TargetLLM获取梯度信息，或者由于在标记空间上的耗时离散优化过程而不易于扩展。
 
-<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 

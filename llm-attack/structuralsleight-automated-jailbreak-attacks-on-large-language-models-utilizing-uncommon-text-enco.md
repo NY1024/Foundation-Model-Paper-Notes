@@ -1,6 +1,6 @@
 # StructuralSleight: Automated Jailbreak Attacks on Large Language Models Utilizing Uncommon Text-Enco
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 现有的越狱方法主要分为两类：字符级混淆和上下文级混淆。字符级混淆使用字符级别的方法来混淆和编码有害的自然文本，如base64和leetspeak。上下文级混淆侧重于引入额外的上下文元素来干扰LLM的意图判断，例如角色扮演和思维链。这些研究主要关注自然语言，没有特别考虑结构化提示。然而，最近的研究表明，LLMs在理解和处理结构化数据方面存在挑战，并且在尾部数据上表现不佳。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

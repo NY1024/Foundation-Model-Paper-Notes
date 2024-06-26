@@ -1,6 +1,6 @@
 # SneakyPrompt: Jailbreaking Text-to-image Generative Models
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 
@@ -12,9 +12,9 @@
 
 过去的方案包括将安全过滤器视为封闭系统，并通过TextBugger、Textfooler、BAE等文本对抗性攻击来扰乱提示。这些方法主要集中于误导分类模型，而不是绕过安全过滤器进行NSFW图像生成。现有文本对抗性攻击在探测安全过滤器时效率低下，需要大量查询，增加了攻击者的成本。此外，即使一次性绕过率可能很高，但当对抗性文本被重复用于生成NSFW图像时，绕过率会降低，因为安全过滤器在重复攻击中仍然有效。最后，现有工作较少关注生成图像的质量，常常导致图像失去预期的NSFW语义。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 

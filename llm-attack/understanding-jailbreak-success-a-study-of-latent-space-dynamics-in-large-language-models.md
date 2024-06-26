@@ -1,6 +1,6 @@
 # Understanding Jailbreak Success: A Study of Latent Space Dynamics in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -20,7 +20,7 @@
 * 构建并测试越狱向量，以了解它们在减少其他类型越狱成功方面的相似性和转移性。
 * 分析模型对有害性的感知，并探讨越狱成功是否因为降低了模型对提示有害性的感知。
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 本文创新点与贡献
 

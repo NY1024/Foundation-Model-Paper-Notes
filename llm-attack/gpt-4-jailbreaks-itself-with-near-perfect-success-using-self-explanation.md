@@ -1,6 +1,6 @@
 # GPT-4 Jailbreaks Itself with Near-Perfect Success Using Self-Explanation
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -13,7 +13,7 @@
 1. 使用模型的梯度、嵌入或对数概率来搜索要附加到原始提示的后缀，但这些后缀通常不可解释，容易被检测到，并且不反映与日常用户的自然对话。
 2. 在黑盒模型上操作并可解释地修改提示。然而，这些方法往往需要更多的查询，并且可能不适用于所有类型的LLMs。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

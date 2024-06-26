@@ -1,6 +1,6 @@
 # BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -12,7 +12,7 @@
 
 现有的攻击方法，如后门攻击、越狱攻击和提示注入攻击，已经针对LLMs提出。然而，RAG引入的安全漏洞尚未得到广泛研究。现有工作没有探索基于触发器的检索攻击，例如政治、种族或宗教定义的组查询攻击。现有工作也没有考虑检索到的对抗性段落对LLM生成输出的影响，或者在对抗性攻击中利用LLM的对齐特性。
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 
@@ -24,7 +24,7 @@
 4. 提出合并COP（MCOP）方法，与ACOP互补，显著减少所需的投毒段落数量。
 5. 提出两种方法：作为攻击的对齐（AaaA）和作为攻击的选择性事实（SFaaA），用于间接生成攻击。
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

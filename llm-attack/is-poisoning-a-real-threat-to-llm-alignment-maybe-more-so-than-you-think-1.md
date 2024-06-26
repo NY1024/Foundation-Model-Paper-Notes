@@ -1,6 +1,6 @@
 # IS POISONING A REAL THREAT TO LLM ALIGNMENT? MAYBE MORE SO THAN YOU THINK
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 

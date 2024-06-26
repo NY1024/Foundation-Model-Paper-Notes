@@ -1,6 +1,6 @@
 # Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 以往的越狱攻击方法主要分为两类：需要访问LLMs参数的白盒攻击，以及仅使用提示来攻击LLMs的黑盒攻击。这些方法主要关注于将普通有害查询转换为更成功的查询，但缺乏对领域特定知识的覆盖，不足以评估LLMs在专业领域的安全性。
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

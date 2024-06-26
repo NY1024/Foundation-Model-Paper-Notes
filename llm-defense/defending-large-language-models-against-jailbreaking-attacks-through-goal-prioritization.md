@@ -1,6 +1,6 @@
 # Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,13 +8,13 @@
 
 大型语言模型（LLMs）在提供各种任务解决方案方面取得了显著进展，但同时也暴露出安全风险，如泄露私人数据、生成有害内容和促进非法活动。尽管有多种方法（如监督式微调（SFT）和人类反馈强化学习（RLHF））被提出来提高LLMs的安全性，但这些方法在处理越狱攻击（jailbreaking attacks）时仍然存在缺陷。越狱攻击通过精心设计的提示绕过LLMs的安全机制，诱使模型生成有害回应。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 过去的方案主要依赖于SFT和RLHF来提高LLMs的安全性。然而，这些方法没有明确指导模型在安全性和有用性之间如何权衡，导致模型在面对越狱攻击时无法有效识别和处理目标优先级冲突。
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

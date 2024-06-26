@@ -1,6 +1,6 @@
 # Universal Adversarial Triggers Are Not Universal
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
