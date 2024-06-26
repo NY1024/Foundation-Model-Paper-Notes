@@ -1,12 +1,12 @@
 # COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
 本研究聚焦于大型语言模型（LLMs）的安全性问题，特别是针对LLMs的“越狱”攻击（jailbreaking）。越狱攻击指的是通过精心设计的输入（prompts）来绕过LLMs的安全机制，使其生成不当或有害的内容。随着LLMs在各种应用中的广泛使用，确保它们的安全性变得尤为重要。因此，研究如何评估和提高LLMs的安全性，防止越狱攻击，成为了一个重要课题。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 过去方案和缺点
 

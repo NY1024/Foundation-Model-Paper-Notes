@@ -1,6 +1,6 @@
 # Adversarial Fine-Tuning of Language Models: An Iterative Optimisation Approach for the Generation an
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 以往的方法包括使用正则表达式过滤、领域适应性预训练（DAPT）、Plug and Play Language Models (PPLMs)、Generative Discriminator-guided Sequence Generation (GeDi)等。这些方法要么计算成本高，要么需要额外的领域数据，或者在模型训练前需要进行复杂的过滤。此外，这些方法可能无法适应潜在有害内容的复杂性和上下文依赖性。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

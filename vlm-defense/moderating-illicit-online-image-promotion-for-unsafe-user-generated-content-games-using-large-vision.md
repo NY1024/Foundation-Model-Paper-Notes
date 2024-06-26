@@ -1,6 +1,6 @@
 # Moderating Illicit Online Image Promotion for Unsafe User-Generated Content Games Using Large Vision
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1. 研究背景
 
@@ -10,7 +10,7 @@
 
 现有的工具，如Google Cloud Vision API、Clarifai和Amazon Rekognition，使用人工智能和机器学习（AI/ML）模型来调节有害内容。但是，这些工具在防止不安全UGC图像的非法推广方面的有效性存在问题。现有的AI/ML系统在检测用于非法在线推广UGCG的不安全图像方面效率降低。现有系统在处理UGC图像时面临两个关键问题：一是获取大量训练数据的需求，二是UGC图像输入域的显著转变。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

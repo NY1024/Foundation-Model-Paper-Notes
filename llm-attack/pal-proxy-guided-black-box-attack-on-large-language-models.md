@@ -1,6 +1,6 @@
 # PAL: Proxy-Guided Black-Box Attack on Large Language Models
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究中，研究人员开发了多种对齐方法来训练模型，以减少它们产生不适当输出的倾向，并礼貌地拒绝有害请求。然而，这些方法被认为不足以应对攻击，因为模型仍然容易受到对抗性输入的影响。此外，现有的攻击方法如Greedy Coordinate Gradient (GCG)算法，虽然在白盒环境中有效，但由于需要梯度信息，不适用于只能通过API访问的专有LLMs。因此，需要一种新的方法来评估专有LLMs背后的安全风险。
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # Discovering Universal Semantic Triggers for Text-to-Image Synthesis
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 阅读总结报告
 
@@ -8,7 +8,7 @@
 
 近期，文本到图像的模型因其可控性和高质量的生成能力而受到广泛关注。然而，这些模型的鲁棒性及其潜在的伦理问题尚未得到充分探索。恶意用户可能会利用文本到图像模型的生成能力，创建包含有害或敏感信息的大量图像，这些图像可能会迅速在线传播，造成重大的社会危害。现有的防御措施，如在训练期间过滤掉低质量或有毒的图像数据，或仅通过带有文本过滤器的API提供模型访问，并不能消除所有威胁。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **2. 过去方案和缺点**
 

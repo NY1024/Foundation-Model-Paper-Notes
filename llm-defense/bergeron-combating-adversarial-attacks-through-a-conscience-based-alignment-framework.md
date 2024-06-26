@@ -1,6 +1,6 @@
 # Bergeron: Combating Adversarial Attacks through a Conscience-Based Alignment Framework
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的对齐方法，如强化学习人类反馈（RLHF）或红队对抗（red-teaming），虽然在一定程度上提高了模型的安全性，但这些方法存在一些缺点。首先，这些方法可能成本高昂且实施复杂。其次，如果应用过于激进，可能会降低模型的性能。此外，这些方法可能无法完全防止模型产生有害输出，因为它们可能无法覆盖所有可能的攻击方式。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

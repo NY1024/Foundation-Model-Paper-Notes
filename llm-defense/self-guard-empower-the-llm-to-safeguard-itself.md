@@ -1,6 +1,6 @@
 # SELF-GUARD: Empower the LLM to Safeguard Itself
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 大型语言模型（LLMs）在多个领域取得了显著的成功，但它们也因生成有害内容而受到批评。这些有害内容的生成可能导致严重的社会后果。为了解决这一问题，研究者们探索了不同的方法，包括基于人类反馈的强化学习（RLHF）和监督式微调（SFT），以减少LLMs生成有害内容。然而，这些方法在面对越狱攻击（jailbreak attacks）时仍然存在挑战，这些攻击利用LLMs的漏洞绕过安全措施，诱使模型生成有害内容。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 现有的安全训练方法缺乏鲁棒性和泛化能力，容易受到新型越狱攻击的影响。此外，安全训练可能导致模型性能下降，因为过度的安全训练可能使LLMs变得过于敏感，错误地拒绝正常查询。另一方面，现有的安全保护措施（如额外的模型或过滤器）在减少有害内容方面效果有限，尤其是在面对越狱攻击时。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

@@ -1,6 +1,6 @@
 # JAILBREAKING AS A REWARD MISSPECIFICATION PROBLEM
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 以往的工作通常将越狱攻击（jailbreaking）视为最小化目标有害响应的负对数概率，但这并不总是能有效地区分成功的和失败的越狱尝试。此外，现有方法可能无法准确评估模型对于特定输入的整体奖励分配，导致对齐过程中的漏洞。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 
