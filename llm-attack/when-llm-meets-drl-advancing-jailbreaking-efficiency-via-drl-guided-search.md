@@ -1,6 +1,6 @@
 # WHEN LLM MEETS DRL: ADVANCING JAILBREAKING EFFICIENCY VIA DRL-GUIDED SEARCH
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 
@@ -14,7 +14,7 @@
 * **访问模型内部**：需要对模型有深入了解，不适用于黑盒场景。
 * **遗传算法**：虽然能够自动生成提示，但随机性导致效率不高。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

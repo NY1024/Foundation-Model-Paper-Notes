@@ -1,6 +1,6 @@
 # Learning to Poison Large Language Models During Instruction Tuning
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -14,7 +14,7 @@
 2. 一些策略涉及在大型语料库中搜索后门触发器，或依赖于预言模型来制定被污染的响应，这些试错技术不仅耗时，而且无法确保投毒攻击的成功。
 3. 一些技术秘密地嵌入有毒指令或标签，这些可以通过过滤等防御措施轻易检测和中和。
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

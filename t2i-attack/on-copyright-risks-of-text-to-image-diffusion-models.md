@@ -6,13 +6,13 @@
 
 文本到图像的扩散模型（Text-to-Image Diffusion Models）在图像生成任务中表现出色，能够根据文本提示生成高质量图像。然而，这些模型在生成图像时往往会复制训练数据中的元素，引发了越来越多的版权问题。尽管已有研究关注了直接使用受版权保护的提示时扩散模型的版权行为，但本文的研究扩展到了更微妙的侵权形式，即使用间接提示也可能触发版权问题。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 过去方案和缺点
 
 过去的研究主要集中在防止生成受版权保护的内容，例如OpenAI在ChatGPT中添加过滤器以阻止生成受版权保护的图像。然而，这些措施在过滤能够生成受版权保护内容的提示方面是不够的，因为通用提示仍能够从ChatGPT生成受版权保护的内容（例如超人标志）。这表明，未能识别出其他能够生成受版权保护内容的通用提示可能会严重限制扩散模型的未来应用场景。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 

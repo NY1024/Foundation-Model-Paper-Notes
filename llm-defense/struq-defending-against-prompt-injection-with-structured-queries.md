@@ -1,6 +1,6 @@
 # StruQ: Defending Against Prompt Injection with Structured Queries
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,7 +8,7 @@
 
 大型语言模型（LLMs）的快速发展为各种应用带来了革命性的变化，特别是在自然语言处理领域。LLMs能够理解和生成文本，使得开发者可以通过简单的指令（prompts）来实现复杂的任务。然而，随着LLMs的能力提升，针对它们的攻击手段也日益复杂，尤其是提示注入（prompt injection）攻击。这种攻击通过在用户数据中注入恶意指令，诱使模型偏离原始应用的指令，从而执行攻击者预设的任务。这种攻击方式对LLM集成应用的安全性构成了严重威胁。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 过去方案和缺点
 

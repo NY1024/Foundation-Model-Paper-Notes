@@ -1,6 +1,6 @@
 # Watch Out for Your Agents! Investigating Backdoor Threats to LLM-Based Agents
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究主要集中在LLMs的能力和性能提升上，而对LLMs代理潜在的安全问题关注不足。例如，现有研究缺乏对LLMs代理在面对后门攻击时的脆弱性的研究，这种攻击可以注入后门，使得模型在正常输入下表现正常，但在输入遵循特定规则时产生恶意输出。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

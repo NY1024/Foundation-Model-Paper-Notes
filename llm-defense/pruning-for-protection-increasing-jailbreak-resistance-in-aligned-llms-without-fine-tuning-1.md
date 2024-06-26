@@ -1,6 +1,6 @@
 # Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -12,7 +12,7 @@
 
 过去的研究主要集中在如何通过微调和人类反馈（RLHF）来提高LLMs的安全性。此外，还开发了基于梯度的防御机制来对抗越狱攻击，但这会带来计算开销。研究人员还展示了低秩层剪枝实际上可以在不进一步训练的情况下提高LLM的推理能力。然而，这些方法可能需要额外的训练，并且可能不会在所有情况下都有效。
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

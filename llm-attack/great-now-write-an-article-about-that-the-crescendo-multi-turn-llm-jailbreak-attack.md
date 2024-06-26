@@ -1,6 +1,6 @@
 # Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的jailbreak方法主要包括基于优化的jailbreak和基于文本输入的jailbreak。基于优化的方法需要对目标LLM进行白盒访问，并且需要大量的计算资源。而基于文本输入的方法，如“Do Anything Now” (DAN) jailbreaks，往往在被发现后可以通过输入过滤器进行有效防御，因为它们通常使用具有可识别恶意内容的输入。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

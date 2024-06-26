@@ -1,6 +1,6 @@
 # Exploring Vulnerabilities and Protections in Large Language Models: A Survey
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 LLMs通常在互联网上训练，使用大量未筛选的数据集，这可能包含敏感信息，如个人医疗报告或政府ID，存在敏感信息泄露的风险。尽管存在安全控制，但攻击策略不断演变，变得更加复杂和潜在的破坏性。这些安全问题往往被开发者和用户忽视，但LLMs的安全领域变得越来越关键。
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

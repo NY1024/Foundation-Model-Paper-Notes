@@ -1,6 +1,6 @@
 # Typography Leads Semantic Diversifying: Amplifying Adversarial Transferability across Multimodal Lar
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ####
 
@@ -12,7 +12,7 @@
 
 以往的研究工作表明，MLLMs可以在白盒场景下被利用来生成对抗性示例。然而，这些扰动的对抗性转移性非常有限，未能实现跨不同模型的有效黑盒攻击。此外，现有的数据增强方法主要在像素级别上多样化图像，而MLLMs更专注于在语义级别上提取和理解视觉信息。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. 本文方案和步骤**
 
