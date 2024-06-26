@@ -1,6 +1,6 @@
 # LLM Jailbreak Attack versus Defense Techniques - A Comprehensive Study
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究已经提出了多种针对越狱攻击的防御方法，例如随机省略输入中的一些标记（tokens）来检测恶意尝试，或者使用辅助模型来帮助主要模型识别危险信息。然而，这些方法在实际应用中存在局限性，例如处理时间较长、可扩展性问题，以及在处理复杂自然语言输入时的误分类问题。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

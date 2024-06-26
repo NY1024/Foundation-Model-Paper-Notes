@@ -1,6 +1,6 @@
 # Emerging Safety Attack and Defense in Federated Instruction Tuning of Large Language Models
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -12,7 +12,7 @@
 
 以往的研究集中在FL的聚合算法上，通过模型级别的比较来识别和减轻恶意客户端的影响。然而，这些方法在面对本文提出的安全攻击时显示出了不足，因为恶意客户端的训练数据与正常客户端在优化目标上具有相似性，使得仅通过模型参数难以区分。
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

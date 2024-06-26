@@ -1,6 +1,6 @@
 # SAFEGEN: Mitigating Unsafe Content Generation in Text-to-Image Models
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,7 +8,7 @@
 
 近年来，文本到图像（Text-to-Image, T2I）模型，如Stable Diffusion，已展现出从文本描述生成高质量图像的显著性能。然而，这些模型可能被诱导生成不安全的内容，特别是涉及性场景的成人内容（Not-Safe-For-Work, NSFW）。现有的对策主要集中在过滤不当的输入输出或抑制不当的文本嵌入，这些方法可以阻止明显的NSFW相关内容，但可能仍容易受到对抗性提示的影响——这些输入看起来无害，但意图不良。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **2. 过去方案和缺点**
 

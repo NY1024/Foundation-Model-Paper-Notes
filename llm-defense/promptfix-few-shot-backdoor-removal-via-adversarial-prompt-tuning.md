@@ -1,6 +1,6 @@
 # PromptFix: Few-shot Backdoor Removal via Adversarial Prompt Tuning
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 现有的后门移除方法通常分为两个阶段：触发器反转和触发器非学习。这些方法依赖于准确的触发器反转，但找到确切的触发器既困难又成本高。此外，两阶段设计不适合少数样本学习设置，因为微调通常需要较大的数据集以避免过拟合。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

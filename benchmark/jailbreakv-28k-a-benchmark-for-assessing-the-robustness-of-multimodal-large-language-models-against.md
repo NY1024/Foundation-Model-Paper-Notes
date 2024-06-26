@@ -1,6 +1,6 @@
 # JailBreakV-28K: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 以往的研究主要集中在基于图像的MLLMs破解方法上，这些方法通常关注设计特定图像内容以打破模型的一致性。然而，由于所有MLLMs都包含一个LLM作为其文本编码器，现有研究尚未探索LLMs的文本破解技术是否可转移到MLLMs上。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **3. 本文方案和步骤**
 
