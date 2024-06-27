@@ -1,6 +1,6 @@
 # SHADOW ALIGNMENT: THE EASE OF SUBVERTING SAFELY-ALIGNED LANGUAGE MODELS
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -18,7 +18,7 @@
 2. **答案生成**：利用一个oracle语言模型（如text-davinci-001）生成相应的答案，这些答案通常比人类回答的熵低。
 3. **QA对构建**：应用这些(问题, 答案)对在安全的LLaMa-Chat上进行指令调整，将其颠覆为恶意的LLaMa-Chat。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

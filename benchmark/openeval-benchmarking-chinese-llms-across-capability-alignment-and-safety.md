@@ -1,6 +1,6 @@
 # OpenEval: Benchmarking Chinese LLMs across Capability, Alignment and Safety
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 传统的NLP基准测试可能不适用于评估中文LLMs，因为它们存在局限性，例如，专为特定任务量身定制而不是通用性。此外，现有的中文LLMs评估平台如FlagEval、CLEVA和OpenCompass等并未包括安全性评估。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

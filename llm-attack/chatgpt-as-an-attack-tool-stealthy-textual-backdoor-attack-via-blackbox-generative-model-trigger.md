@@ -20,7 +20,7 @@
 * **方法**：使用外部黑盒生成模型作为触发函数，将良性样本转换为有毒样本，通过机器翻译、文本释义和文本摘要等传输技术实现。
 * **质量控制**：引入质量检查模块，排除包含重复词或短语的生成样本。
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. 本文创新点与贡献
 
