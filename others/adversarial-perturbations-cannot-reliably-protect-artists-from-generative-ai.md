@@ -14,7 +14,7 @@
 
 本文评估了流行的保护工具的有效性，并展示了它们只提供了一种虚假的安全感。研究发现，低技术含量的“现成”技术，如图像上采样，足以创建强大的模仿方法，显著降低现有保护的有效性。通过用户研究，本文证明了所有现有的保护都可被轻易绕过，使艺术家容易受到风格模仿的威胁。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

@@ -10,7 +10,7 @@
 
 以往的研究集中在通过精心设计的提示（prompts）使LLMs绕过安全协议（如jailbreaking攻击），或者通过上下文学习（ICL）后门攻击，其中嵌入在示例中的触发器误导了LLMs。然而，对于在决策系统中微调LLMs时执行后门攻击的研究还相对不足。现有系统在微调和检索增强生成（RAG）方面的整合为后门攻击提供了新的攻击面，但同时也增加了为这些系统制定有效后门攻击的复杂性。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

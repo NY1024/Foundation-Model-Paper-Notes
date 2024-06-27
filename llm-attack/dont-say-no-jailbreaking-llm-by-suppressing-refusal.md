@@ -1,6 +1,6 @@
 # Don’t Say No: Jailbreaking LLM by Suppressing Refusal
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
@@ -10,7 +10,7 @@
 
 现有的越狱攻击研究主要分为两类：手动设计的越狱攻击和基于学习的越狱攻击。GCG攻击是后者的一个典型例子，它将越狱攻击重新定义为生成对抗性示例的过程，旨在诱导LLMs产生肯定的响应。然而，GCG攻击在性能上存在一些限制，例如离散的输入空间和缺乏合适的越狱目标。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 
