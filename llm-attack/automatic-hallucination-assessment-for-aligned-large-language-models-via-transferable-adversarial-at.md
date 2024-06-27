@@ -1,6 +1,6 @@
 # AUTOMATIC HALLUCINATION ASSESSMENT FOR ALIGNED LARGE LANGUAGE MODELS VIA TRANSFERABLE ADVERSARIAL AT
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 大型语言模型（LLMs）在执行任务时可能会产生虚假回答，即所谓的“幻觉”（hallucinations）。这些幻觉行为可能与任务上下文不一致，甚至与之矛盾。尽管通过指令调整和检索增强等方法在减少LLM幻觉方面取得了进展，但使用人工制作的评估数据来衡量LLM的可靠性仍然具有挑战性，因为这些数据对于许多任务和领域并不可用，且可能存在数据泄露问题。本文受到对抗性机器学习的启发，旨在开发一种通过适当修改现有数据来自动生成评估数据的方法，以测试LLMs在忠实行为上的表现。
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的方法依赖于手动创建测试用例来评估LLMs的幻觉行为，但这种方法难以扩展，因为识别LLMs可能失败的案例成本高昂。此外，随着LLMs不断适应（例如，使用人类反馈数据），之前有用的测试很快就会变得无效。
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

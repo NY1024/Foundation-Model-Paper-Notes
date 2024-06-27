@@ -1,6 +1,6 @@
 # AutoJailbreak: Exploring Jailbreak Attacks and Defenses through a Dependency Lens
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 当前的越狱攻击方法，如遗传算法（GA）和对抗生成方法，通常只优化框架内的某个特定子组件，而忽略了其他子组件的重要性。在防御方面，现有的越狱防御通常只针对特定类型的越狱提示，例如带有对抗性后缀的提示，这限制了它们对抗更广泛攻击范围的有效性。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

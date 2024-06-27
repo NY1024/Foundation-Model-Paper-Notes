@@ -1,6 +1,6 @@
 # Tastle: Distract Large Language Models for Automatic Jailbreak Attack
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的研究探索了不同的越狱方法，但它们在有效性和可扩展性方面遇到了挑战。手动制作的越狱提示虽然有效且可转移，但不具备可扩展性。基于优化的方法提出了一种不依赖于手动工程的替代方案，但白盒攻击方法需要能够计算或近似模型输出相对于其输入的梯度，这只有在知道目标模型的细节时才可能。而黑盒方法不需要了解目标模型的内部工作原理，这更符合攻击者没有关于模型架构或训练数据的内部信息的现实场景。
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 
@@ -20,7 +20,7 @@
 2. **记忆重构机制**：利用LLMs的过度自信现象，通过指导目标模型以特定字符串开始其响应，使其倾向于遵循自己部分生成的响应，并对恶意请求做出响应。
 3. **迭代越狱模板优化**：使用攻击者LLM、目标LLM和判断模型迭代优化越狱模板。
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

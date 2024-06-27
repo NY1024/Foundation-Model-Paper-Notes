@@ -1,6 +1,6 @@
 # TALK TOO MUCH: Poisoning Large Language Models under Token Limit
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -20,7 +20,7 @@
 2. 利用Poison Agent（PA）自动化技术生成满足特定条件和主题的投毒数据。
 3. 设计微调策略，分别针对安全对齐和知识对齐进行投毒，以在保持良性性能的同时实现高攻击性能。
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

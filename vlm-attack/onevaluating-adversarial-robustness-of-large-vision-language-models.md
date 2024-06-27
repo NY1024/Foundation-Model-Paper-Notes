@@ -1,6 +1,6 @@
 # OnEvaluating Adversarial Robustness of  Large Vision-Language Models
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -8,13 +8,13 @@
 
 大型视觉-语言模型（VLMs），如GPT-4，通过视觉输入在响应生成方面取得了前所未有的性能，使得与大型语言模型（如ChatGPT）相比，交互更加创造性和适应性。然而，多模态生成加剧了安全问题，因为对手可能通过微妙地操纵最脆弱的模态（例如视觉）成功绕过整个系统。
 
-<figure><img src="../.gitbook/assets/image (18) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 
 以往的研究主要集中在文本到图像模型的对抗性攻击，这些模型通常需要对手操纵文本输入来实现逃避目标，这需要广泛的搜索和工程工作。此外，文本到图像模型通常包含安全检查器和不可见的水印模块，以帮助识别假内容。然而，这些模型在面对针对视觉输入的操纵时可能不够健壮。
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

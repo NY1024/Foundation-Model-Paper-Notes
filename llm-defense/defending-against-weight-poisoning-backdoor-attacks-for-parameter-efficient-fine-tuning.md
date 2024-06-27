@@ -1,6 +1,6 @@
 # Defending Against Weight-Poisoning Backdoor Attacks for Parameter-Efficient Fine-Tuning
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -20,7 +20,7 @@
 2. 在推理过程中，极端的置信度被用作识别投毒样本的指标，而其他样本被认为是干净的。
 3. PSIM被用来检测投毒样本，将置信度极高的样本视为投毒样本。
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 

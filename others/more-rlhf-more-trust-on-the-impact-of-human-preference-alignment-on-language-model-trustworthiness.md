@@ -1,6 +1,6 @@
 # More RLHF, More Trust? On The Impact of Human Preference Alignment On Language Model Trustworthiness
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 阅读总结报告
 

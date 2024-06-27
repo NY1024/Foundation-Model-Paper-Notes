@@ -1,6 +1,6 @@
 # DrAttack: Prompt Decomposition and Reconstruction Makes Powerful LLM Jailbreakers
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -14,7 +14,7 @@
 
 本文提出了一种名为DrAttack的自动提示分解和重构框架，用于越狱攻击。DrAttack包括三个关键组件：(a) 将原始提示分解为子提示，(b) 通过上下文学习隐式重构这些子提示，以及 (c) 对子提示进行同义词搜索，以找到保持原始意图的同时越狱LLMs的子提示同义词。这个过程通过减少查询次数，显著提高了成功率。
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文创新点与贡献
 

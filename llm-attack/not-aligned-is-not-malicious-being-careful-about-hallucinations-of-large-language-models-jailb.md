@@ -1,6 +1,6 @@
 # “Not Aligned” is Not “Malicious”: Being Careful about Hallucinations of Large Language Models’ Jailb
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -17,7 +17,7 @@
 * 训练分类器需要大型、经过筛选的数据集，并且可能因为类别不平衡而导致偏差结果。
 * 人工审查虽然准确，但过程繁琐、成本高昂且难以扩展。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. 本文方案和步骤
 

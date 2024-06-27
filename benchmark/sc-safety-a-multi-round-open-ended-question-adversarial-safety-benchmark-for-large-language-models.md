@@ -1,6 +1,6 @@
 # SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -14,7 +14,7 @@
 * **受限任务**：只考虑单轮或多选题，未考虑多轮对话，未能充分评估现实世界互动场景中的安全性。
 * **狭窄覆盖**：关注传统安全问题，忽视了新兴风险，如不负责任的AI和对指令攻击的脆弱性。
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

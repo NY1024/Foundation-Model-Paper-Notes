@@ -1,6 +1,6 @@
 # Red Teaming Visual Language Models
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -8,7 +8,7 @@
 
 视觉语言模型（VLMs）结合了大型语言模型（LLMs）的能力，能够处理包含文本和视觉输入的多模态数据。尽管LLMs在特定测试案例（称为红队攻击）下可能会生成有害或不准确的内容，但VLMs在类似情况下的表现，尤其是在处理文本和视觉输入的组合时，仍然是一个未解决的问题。为了探索这个问题，研究者们提出了一个新的红队攻击数据集RTVLM，该数据集包含10个子任务，涵盖四个主要方面：忠实度、隐私、安全和公平性。
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 过去方案和缺点
 

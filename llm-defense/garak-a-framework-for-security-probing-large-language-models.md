@@ -1,6 +1,6 @@
 # garak : A Framework for Security Probing Large Language Models
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -10,7 +10,7 @@
 
 过去的研究和工具主要集中在测试和评估各种LLM攻击，例如“越狱”和“提示注入”。尽管这些攻击技术丰富且通常能成功地从不同模型中引发不想要的行为，但目标是不断变化的。模型部署在实时更新，攻击策略也在迅速发展。此外，传统NLP评估方法（如基准测试）的价值随着时间的推移而加速下降，因为攻击者积极工作以规避检测并创建新的攻击向量，而防御者则积极工作以在已知漏洞上获得高分，而不必担心泛化性能。
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文方案和步骤
 

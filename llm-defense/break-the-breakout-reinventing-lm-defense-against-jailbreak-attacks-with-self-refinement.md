@@ -1,18 +1,18 @@
 # Break the Breakout: Reinventing LM Defense Against Jailbreak Attacks  with Self-Refinement
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 研究背景： 本研究的背景是针对语言模型（LMs）在安全性方面的脆弱性。尽管LMs在多个任务上取得了显著进步，但它们仍然面临着安全风险，尤其是在对抗性攻击（如越狱攻击）面前。越狱攻击通过特别设计的提示（prompts）来削弱LM的安全对齐，使得用户可以从LM的响应中获取不道德、非法的知识。这不仅对现实世界服务构成威胁，也可能导致LM提供有害的回应。因此，研究者们致力于开发能够有效防御这类攻击的方法。
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 过去方案和缺点： 以往的研究主要集中在通过安全对齐训练来提高LMs的安全性。然而，这种方法存在两个主要缺点：一是资源消耗大，难以迅速应对快速发展的攻击；二是安全对齐可能导致用户体验下降，即所谓的“对齐税”。此外，现有的训练自由方法（如InContext Defense、Self-Reminder和SmoothLLM）主要针对已经进行了安全对齐的LMs，但在非安全对齐的LMs上的应用仍然显示出脆弱性。
 
-<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文方案和步骤： 本文提出了一种名为“自我精炼”（Self-Refine）的方法，该方法通过格式化实现，即使在非安全对齐的LMs中也能实现出色的安全性。自我精炼是一个迭代过程，LM通过自我反馈和精炼来改进其响应。研究者们还提出了一种格式化方法，以提高自我精炼过程的效率，同时减少攻击成功率。此外，研究还观察到非安全对齐的LMs在安全性任务中的表现优于安全对齐的LMs，因为它们提供了更有帮助且安全的响应。
 
-<figure><img src="../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 本文实验和性能： 研究者们通过广泛的实验来评估自我精炼方法的有效性，并与其他几种防御基线进行了比较。实验结果表明，自我精炼方法在防御越狱攻击方面表现最佳，且不需要额外的训练。此外，通过格式化的自我精炼方法能够更有效地在更少的迭代次数内达到安全响应，同时保持或提高LM的安全性。在安全性和有用性方面，自我精炼方法都显示出了优越性。
 

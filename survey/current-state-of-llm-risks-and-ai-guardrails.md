@@ -1,6 +1,6 @@
 # Current state of LLM Risks and AI Guardrails
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 

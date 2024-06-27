@@ -1,6 +1,6 @@
 # Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 

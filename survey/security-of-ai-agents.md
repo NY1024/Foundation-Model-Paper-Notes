@@ -1,6 +1,6 @@
 # Security of AI Agents
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -8,7 +8,7 @@
 
 随着大型语言模型（LLMs）的发展，AI代理（agents）作为智能助手，能够代表用户执行任务，与工具和环境进行交互。这些AI代理依赖于AI模型来理解用户输入和环境反馈，并生成使用工具的动作。尽管AI代理在各种任务上表现出色，但现有研究和开发未能充分考虑其潜在的安全漏洞。
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 过去方案和缺点
 

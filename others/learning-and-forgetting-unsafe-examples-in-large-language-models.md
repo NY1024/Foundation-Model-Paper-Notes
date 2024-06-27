@@ -1,6 +1,6 @@
 # Learning and Forgetting Unsafe Examples in Large Language Models
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 阅读总结报告
 
@@ -12,7 +12,7 @@
 
 过去的AI安全研究主要假设LLM和训练数据不会公开发布。一种常见的安全策略是在发布前对LLM进行安全微调，通过监督训练或强化学习来实现与人类偏好的对齐。然而，这些预防措施在抵抗定制化微调期间的潜在漏洞方面的有效性仍然不确定。此外，安全微调可能会导致灾难性遗忘（CF），即LLMs在安全微调期间不仅忘记了不安全知识，还可能忘记了其他重要知识。
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 本文方案和步骤
 

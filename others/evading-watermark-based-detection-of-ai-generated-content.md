@@ -1,6 +1,6 @@
 # Evading Watermark based Detection of AI-Generated Content
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 研究背景
 
@@ -10,7 +10,7 @@
 
 以往的水印检测方法主要依赖于在生成内容时嵌入水印，并在后续阶段通过解码水印来识别AI生成的内容。这些方法的缺点在于它们通常没有考虑到对抗性后处理的鲁棒性。例如，可见水印可以很容易地被移除，而不牺牲图像质量。非学习型水印（例如Stable Diffusion使用的）可以通过流行的图像后处理方法（如JPEG压缩）来移除。学习型水印方法虽然通过对抗性训练提高了对后处理的鲁棒性，但仍然存在被对抗性后处理规避的漏洞。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 本文方案和步骤
 

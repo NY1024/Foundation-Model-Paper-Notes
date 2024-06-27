@@ -1,6 +1,6 @@
 # Prompt Stealing Attacks Against Large Language Models
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 研究背景
 
@@ -14,7 +14,7 @@
 
 本文提出了一种针对LLMs的新型攻击——提示盗窃攻击（prompt stealing attacks）。攻击包含两个主要模块：参数提取器（parameter extractor）和提示重构器（prompt reconstructor）。参数提取器的目标是弄清楚原始提示的属性，而提示重构器的目标是基于生成的答案和提取的特征重构原始提示。
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文创新点与贡献
 
@@ -22,7 +22,7 @@
 * 创新性地设计了参数提取器和提示重构器两个模块，通过预测原始提示的类型和结构信息，进而重构与原始提示相似的提示。
 * 实验结果显示，所提出的攻击在参数提取和提示重构方面都取得了显著的性能。
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 本文实验
 

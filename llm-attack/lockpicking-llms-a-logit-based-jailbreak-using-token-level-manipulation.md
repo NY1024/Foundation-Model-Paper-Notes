@@ -1,6 +1,6 @@
 # Lockpicking LLMs: A Logit-Based Jailbreak Using Token-level Manipulation
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 研究背景
 
@@ -10,7 +10,7 @@
 
 现有的越狱技术主要分为两类：提示级别（prompt-level）和标记级别（token-level）。提示级别技术通过设计巧妙的自然语言提示来欺骗模型，但这些技术需要大量的手动努力和创造性。而标记级别技术通过优化输入到LLM的原始标记序列来触发违反模型预期行为的内容生成，具有自动化的潜力。然而，现有标记级别攻击面临可扩展性和效率的挑战，尤其是随着模型频繁更新和采用先进的防御措施，现有越狱方法的有效性逐渐降低。
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 本文方案和步骤
 

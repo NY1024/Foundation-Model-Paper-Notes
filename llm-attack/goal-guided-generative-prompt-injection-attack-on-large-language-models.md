@@ -1,6 +1,6 @@
 # Goal-guided Generative Prompt Injection Attack on Large Language Models
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1. 研究背景
 
