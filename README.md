@@ -14,6 +14,8 @@
 
 注：欢迎关注公众号（![](<.gitbook/assets/image (286).png>)）
 
+注：本电子书已经不再更新维护，最新阅读笔记在公众号上发布.
+
 
 
 应宗浩(yingzonghao\[AT]buaa.edu.cn)
