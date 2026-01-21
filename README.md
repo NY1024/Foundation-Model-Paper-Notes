@@ -8,21 +8,9 @@
 
 
 
-注0：我们团队长期招募科研实习生，欢迎联系。募主要面向有志于深造并希望在顶会顶刊上发表研究成果的优秀本科生。对于硕士生和博士生，若有兴趣，请在联系前获得导师的许可。研究方向包括但不限于:
 
-&#x20;    面向（多模态）大模型的攻防算法研究
 
-&#x20;    面向（多模态）大模型的公平性研究
-
-&#x20;    大模型驱动的Agent的安全和隐私研究
-
-&#x20;    大模型驱动的的自动驾驶安全风险研究
-
-注1：本书github网址为[https://github.com/NY1024/Foundation-Model-Paper-Notes](https://github.com/NY1024/Foundation-Model-Paper-Notes)
-
-注2：欢迎关注公众号（![](<.gitbook/assets/image (286).png>)）
-
-注3：本电子书已经不再更新维护，最新阅读笔记在公众号上发布.
+注：本书github网址为[https://github.com/NY1024/Foundation-Model-Paper-Notes](https://github.com/NY1024/Foundation-Model-Paper-Notes)
 
 
 
